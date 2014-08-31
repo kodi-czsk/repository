@@ -1,0 +1,3 @@
+[submodule "script.module.stream.resolver"]
+	path = script.module.stream.resolver
+	url = git@github.com:kodi-czsk/script.module.stream.resolver.git

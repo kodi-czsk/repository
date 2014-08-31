@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.xbmc.doplnky"
+  version="2.0.0"
+  name="XBMC Doplňky (CZ &amp; SK) deprecated"
+  provider-name="Libor Zoubek">
+  <requires>
+    <import addon="repository.kodi-czsk" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.addon.repository"
+    name="repozitář českých a slovenských doplňků">
+    <info compressed="false">http://lzoubek.github.io/xbmc-doplnky/repo/addons.xml</info>
+    <checksum>http://lzoubek.github.io/xbmc-doplnky/repo/addons.xml.md5</checksum>
+    <datadir zip="true">http://lzoubek.github.io/xbmc-doplnky/repo/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>XBMC Doplňky (CZ &amp; SK)</summary>
+    <description>
+      This repository contains mostly video addons for czech users. [CR] Please send feedback, patches or fire any issues on http://xbmc-doplnky.googlecode.com
+    </description>
+    <description lang="cs">
+      Tento repozitář obsahuje video doplňky pro česky a slovensky mluvící uživatele.[CR] Máte-li jakékoliv poznámky, náměty, doplňky k začlenění nebo chcete nahlásit chybu, navštivte http://xbmc-doplnky.googlecode.com.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>

@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+
+import sys,os
+import xml.etree.ElementTree as ET
+
+fileName = os.path.join (sys.argv[1],'addon.xml')
+xmldoc = ET.parse( fileName )
+root = xmldoc.getroot()
+
+# bump version
+version = root.get('version')
+parts = version.split('.')
+parts[-1] = str(int(parts[-1]) + 1)
+print 'Addon version bumped to %s' % '.'.join(parts)
+root.set('version','.'.join(parts))
+for node in root.findall('requires/import'):
+    dependency = os.path.join (node.get('addon'),'addon.xml')
+    if os.path.exists(dependency):
+        ver = ET.parse(dependency).getroot().get('version')
+        if ver != node.get('version'):
+            node.set('version',ver)
+            print 'Dependency %s to %s' % (node.get('addon'),ver) 
+xmldoc.write(fileName,xml_declaration=True,encoding='utf-8')
