@@ -1,0 +1,13 @@
+<section id="main-content">
+  <div ui-view="detail"></div>
+</section>
+
+<aside id="sidebar">
+  <ul class="nav nav-pills nav-stacked">
+    <input type="text" placeholder="Hledat:" class="form-control search-query" ng-model="addonFilter._name">
+    <li ng-repeat="a in addons | filter:addonFilter| orderBy:'_name'" ng-class="{'active':$state.is('addons.detail',{id:a._id})}">
+    <a ui-sref="addons.detail({id:a._id})">{{a._name}}</a> 
+    </li> 
+  </ul> 
+</aside>
+
