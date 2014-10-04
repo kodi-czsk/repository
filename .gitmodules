@@ -1,3 +1,6 @@
 [submodule "script.module.stream.resolver"]
 	path = script.module.stream.resolver
 	url = git@github.com:kodi-czsk/script.module.stream.resolver.git
+[submodule "befun.cz"]
+	path = plugin.video.befun.cz
+	url = git@github.com:kodi-czsk/plugin.video.befun.cz.git
