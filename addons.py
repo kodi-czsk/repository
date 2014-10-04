@@ -1,5 +1,5 @@
 # list of addons that we are releasing
-__ADDONS__ = ["script.module.stream.resolver","repository.xbmc.doplnky","repository.kodi-czsk"]
+__ADDONS__ = ["plugin.video.befun.cz","script.module.stream.resolver","repository.xbmc.doplnky","repository.kodi-czsk"]
 
 import os
 import requests
@@ -10,8 +10,11 @@ from addons import __ADDONS__
 # released
 def find():
     released_addons = requests.get('http://kodi-czsk.github.io/repository/repo/addons.xml').text
-    root = ET.XML( released_addons.encode('utf-8') )
-
+    try:
+        root = ET.XML( released_addons.encode('utf-8') )
+    except: # initially there are no addons.xml
+        print 'Failed to parse remove addons.xml - releasing everything'
+        return __ADDONS__    
     to_release = []
     for id in __ADDONS__:
         released = root.find('addon[@id=\"%s\"]' % id)
