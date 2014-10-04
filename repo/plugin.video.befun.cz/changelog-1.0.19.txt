@@ -1,0 +1,31 @@
+[B]1.0.14:[/B]
+- přidáno nastavení pro vypnutí titulků, jsou-li k dispozici
+[B]1.0.11:[/B]
+- verze++ kvůli natažení závislého modulu s opravami stahování
+[B]1.0.10:[/B]
+- oprava nefunkčniho přehráváni některých videí #183 (by cuchac1)
+- nová volba 'Striktní vyhledávání' - dodatečné filtrování výsledků #173
+[B]1.0.9:[/B]
+- verze++ kvůli natažení závislého modulu s opravami stahování
+[B]1.0.8:[/B]
+- přidáno reportování také na befun.cz Google Analytics (pro uživatelé, kteří povolili zasílání statistik)
+- oprava přehrávání (Free) videí
+[B]1.0.7:[/B]
+- oprava vyhledávání víceslovného textu
+[B]1.0.6:[/B]
+- nyní se natahují informace o filmu (textový popis)
+- oprava chyby při listování seriálů
+[B]1.0.5:[/B]
+- oprava vyhledávání filmů #153
+[B]1.0.4:[/B]
+- oprava stahování - nebyla připojena přípona souboru
+- přidáno listování filmů i mezi kategoriemi
+- přidáno nastavení řazení filmů
+[B]1.0.3:[/B]
+- u stahování nyní vždy funguje notifikace
+[B]1.0.2:[/B]
+- oprava načítání titulků z munkvideo
+[B]1.0.1:[/B]
+- přidány seriály
+[B]1.0.0:[/B]
+Initial version
