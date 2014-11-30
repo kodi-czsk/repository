@@ -1,0 +1,6 @@
+[B]1.0.4:[/B]
+- oprava přerhávání (by mx3L)
+[B]1.0.1:[/B]
+- přidán Usage Tracking
+[B]1.0.0:[/B]
+Initial version
