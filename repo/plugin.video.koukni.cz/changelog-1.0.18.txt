@@ -1,0 +1,25 @@
+[B]1.0.13:[/B]
+- oprava přehrávání rmtp (díky m3x)
+[B]1.0.9:[/B]
+- migrace na content.resolver 1.3.0
+- odebrana moznost pridavat a odebirat tagy
+[B]1.0.8:[/B]
+- přidány další výchozí tagy #91
+[B]1.0.7:[/B]
+- oprava načítání titulků
+[B]1.0.6:[/B]
+- oprava: nefunguje přehrávání
+[B]1.0.5:[/B]
+- opraveno zobrazování správného názvu epizody
+[B]1.0.4:[/B]
+- oprava chybějících položek "Další" a "Předchozí"
+[B]1.0.3:[/B]
+- přidány odkazy na nejnovější a nejsledovanější videa
+- přidán Usage Tracking
+[B]1.0.2:[/B]
+- přidáno načítání/stahování titulků
+[B]1.0.1:[/B]
+- oprava vyhledávání
+- přidáno stránkování
+[B]1.0.0:[/B]
+Initial version
