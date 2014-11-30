@@ -1,0 +1,16 @@
+[B]1.1.1:[/B]
+- urychlení načítání (by mx3L)
+[B]1.1.0:[/B]
+- plugin znovu funkční
+- migrace na ContentProvider API
+[B]1.0.4:[/B]
+- načítání pohádek teď odpovídá webu, lze procházet podle písmen
+[B]1.0.3:[/B]
+- opraveno dle nového vzhledu stránek, načítání seznamu pohádek je ovšem
+pomalejší
+[B]1.0.2:[/B]
+- přidaná možnost volby kvality videa, default: nejlepší 
+[B]1.0.1:[/B]
+- přidaná podpora přehrávání a stahování pohádek rozdělených na více videí
+[B]1.0.0:[/B]
+Initial version
