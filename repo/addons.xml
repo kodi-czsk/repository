@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.2.8">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.stream.resolver" version="1.6.24" />
+    <import addon="script.module.elementtree" version="1.2.7" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Files Online</summary>
+    <summary lang="cs">Soubory Online</summary>
+    <description lang="en">Get access to various czech filesharing services</description>
+    <description lang="cs">Získejte přístup k různým file-sharingovým službám</description>
+    <platform>all</platform>
+    <source>https://github.com/kodi-czsk/plugin.video.online-files</source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.befun.cz" name="befun.cz" provider-name="Libor Zoubek" version="1.0.19">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -47,10 +66,10 @@
   <extension point="xbmc.addon.metadata">
     <summary>XBMC Doplňky (CZ &amp; SK)</summary>
     <description>
-      This repository contains mostly video addons for czech users. [CR] Please send feedback, patches or fire any issues on http://xbmc-doplnky.googlecode.com
+      This repository is deprecated and no longer provides updates, you can uninstall it.
     </description>
     <description lang="cs">
-      Tento repozitář obsahuje video doplňky pro česky a slovensky mluvící uživatele.[CR] Máte-li jakékoliv poznámky, náměty, doplňky k začlenění nebo chcete nahlásit chybu, navštivte http://xbmc-doplnky.googlecode.com.
+      Tento repozitář je zastaralý, můžete jej odinstalovat
     </description>
     <platform>all</platform>
   </extension>
