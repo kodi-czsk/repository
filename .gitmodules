@@ -1,9 +1,54 @@
 [submodule "script.module.stream.resolver"]
 	path = script.module.stream.resolver
-	url = git@github.com:kodi-czsk/script.module.stream.resolver.git
+	url = https://github.com/kodi-czsk/script.module.stream.resolver
 [submodule "befun.cz"]
 	path = plugin.video.befun.cz
-	url = git@github.com:kodi-czsk/plugin.video.befun.cz.git
+	url = https://github.com/kodi-czsk/plugin.video.befun.cz
 [submodule "plugin.video.online-files"]
 	path = plugin.video.online-files
 	url = https://github.com/kodi-czsk/plugin.video.online-files
+[submodule "plugin.video.barrandov.tv"]
+	path = plugin.video.barrandov.tv
+	url = https://github.com/kodi-czsk/plugin.video.barrandov.tv
+[submodule "plugin.video.hejbejse.tv"]
+	path = plugin.video.hejbejse.tv
+	url = https://github.com/kodi-czsk/plugin.video.hejbejse.tv
+[submodule "plugin.video.jaksetodela.cz"]
+	path = plugin.video.jaksetodela.cz
+	url = https://github.com/kodi-czsk/plugin.video.jaksetodela.cz
+[submodule "plugin.video.joj.sk"]
+	path = plugin.video.joj.sk
+	url = https://github.com/kodi-czsk/plugin.video.joj.sk
+[submodule "plugin.video.koukni.cz"]
+	path = plugin.video.koukni.cz
+	url = https://github.com/kodi-czsk/plugin.video.koukni.cz
+[submodule "plugin.video.markiza.sk"]
+	path = plugin.video.markiza.sk
+	url = https://github.com/kodi-czsk/plugin.video.markiza.sk
+[submodule "plugin.video.mtr.sk"]
+	path = plugin.video.mtr.sk
+	url = https://github.com/kodi-czsk/plugin.video.mtr.sk
+[submodule "plugin.video.mixer.cz"]
+	path = plugin.video.mixer.cz
+	url = https://github.com/kodi-czsk/plugin.video.mixer.cz
+[submodule "plugin.video.pohadkar.cz"]
+	path = plugin.video.pohadkar.cz
+	url = https://github.com/kodi-czsk/plugin.video.pohadkar.cz
+[submodule "plugin.video.ta3.com"]
+	path = plugin.video.ta3.com
+	url = https://github.com/kodi-czsk/plugin.video.ta3.com
+[submodule "plugin.video.teevee.sk"]
+	path = plugin.video.teevee.sk
+	url = https://github.com/kodi-czsk/plugin.video.teevee.sk
+[submodule "plugin.video.tv.sosac.ph"]
+	path = plugin.video.tv.sosac.ph
+	url = https://github.com/kodi-czsk/plugin.video.tv.sosac.ph
+[submodule "plugin.video.videacesky.cz"]
+	path = plugin.video.videacesky.cz
+	url = https://github.com/kodi-czsk/plugin.video.videacesky.cz
+[submodule "plugin.video.zkouknito.cz"]
+	path = plugin.video.zkouknito.cz
+	url = https://github.com/kodi-czsk/plugin.video.zkouknito.cz
+[submodule "service.subtitles.titulky.com"]
+	path = service.subtitles.titulky.com
+	url = https://github.com/beam/service.subtitles.titulky.com

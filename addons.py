@@ -1,5 +1,28 @@
+
+_BEAM_ = ["service.subtitles.titulky.com"]
 # list of addons that we are releasing
-__ADDONS__ = ["plugin.video.online-files","plugin.video.befun.cz","script.module.stream.resolver","repository.xbmc.doplnky","repository.kodi-czsk"]
+
+__ADDONS__ = [
+    "plugin.video.barrandov.tv",
+    "plugin.video.befun.cz",
+    "plugin.video.hejbejse.tv",
+    "plugin.video.jaksetodela.cz",
+    "plugin.video.joj.sk",
+    "plugin.video.koukni.cz",
+    "plugin.video.markiza.sk",
+    "plugin.video.mixer.cz",
+    "plugin.video.mtr.sk",
+    "plugin.video.online-files",
+    "plugin.video.pohadkar.cz",
+    "plugin.video.ta3.com",
+    "plugin.video.teevee.sk",
+    "plugin.video.tv.sosac.ph",
+    "plugin.video.videacesky.cz",
+    "plugin.video.zkouknito.cz",
+    "script.module.stream.resolver",
+    "repository.xbmc.doplnky",
+    "repository.kodi-czsk"
+    ] + _BEAM_
 
 import os
 import requests
