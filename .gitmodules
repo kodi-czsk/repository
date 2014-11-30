@@ -4,3 +4,6 @@
 [submodule "befun.cz"]
 	path = plugin.video.befun.cz
 	url = git@github.com:kodi-czsk/plugin.video.befun.cz.git
+[submodule "plugin.video.online-files"]
+	path = plugin.video.online-files
+	url = https://github.com/kodi-czsk/plugin.video.online-files
