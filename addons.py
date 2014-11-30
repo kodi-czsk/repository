@@ -1,5 +1,5 @@
 # list of addons that we are releasing
-__ADDONS__ = ["plugin.video.befun.cz","script.module.stream.resolver","repository.xbmc.doplnky","repository.kodi-czsk"]
+__ADDONS__ = ["plugin.video.online-files","plugin.video.befun.cz","script.module.stream.resolver","repository.xbmc.doplnky","repository.kodi-czsk"]
 
 import os
 import requests
