@@ -1,0 +1,10 @@
+[B]1.1.5:[/B]
+- fixed video resolving
+[B]1.1.4:[/B]
+- fixed video resolving
+[B]1.1.3:[/B]
+- Add live streams (thanks to Kuci)
+[B]1.1.0:[/B]
+Added Senzi.sk
+[B]1.0.0:[/B]
+Initial version
