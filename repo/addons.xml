@@ -36,6 +36,26 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.gordon.ura.cz" name="Gordon Ramsay CZ" provider-name="Maros Ondrasek" version="1.0.5">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.stream.resolver" version="1.6.24" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Gordon Ramsay CZ</summary>
+    <summary lang="cs">Gordon Ramsay CZ</summary>
+    <summary lang="sk">Gordon Ramsay CZ</summary>
+    <description lang="en">Watch online archive from http://gordon.ura.cz</description>
+    <description lang="cs">Gordon Ramsay a jeho hustokrutý pořady ze serveru http://gordon.ura.cz</description>
+    <description lang="sk">Gordon Ramsay a jeho hustokrutý pořady ze serveru http://gordon.ura.cz</description>
+    <platform>all</platform>
+    <source>https://github.com/kodi-czsk/plugin.video.gordon.ura.cz</source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.hejbejse.tv" name="Hejbejse.tv" provider-name="Ivo Brhel" version="1.0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
