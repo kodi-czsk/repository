@@ -18,7 +18,7 @@ else
 	addons=$1
 fi
 echo "Updating addon submodules"
-git submodule foreach git pull
+git submodule foreach git pull origin master
 
 echo "Cleaning up *.pyc files.."
 find . -name '*.pyc' | xargs rm -f
