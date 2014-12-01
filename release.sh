@@ -5,6 +5,7 @@ TOOLS=$(dirname "$0")"/tools"
 
 BUILD_DIR=tmp
 PUBLISH_DIR=repo
+mkdir -p ${BUILD_DIR}
 
 if [ -z $1 ];
 then
