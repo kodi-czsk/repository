@@ -226,6 +226,26 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.rtvs.sk" name="rtvs.sk" provider-name="Maros Ondrasek" version="1.0.3">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.stream.resolver" version="1.6.13" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">rtvs.sk</summary>
+    <summary lang="cs">rtvs.sk</summary>
+    <summary lang="sk">rtvs.sk</summary>
+    <description lang="en">Watch online TV archive from rtvs.sk</description>
+    <description lang="cs">Sledujte TV archiv zo serveru rtvs.sk</description>
+    <description lang="sk">Sledujte TV archív zo serveru rtvs.sk</description>
+    <platform>all</platform>
+    <source>https://github.com/kodi-czsk/plugin.video.rtvs.sk</source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.0.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
