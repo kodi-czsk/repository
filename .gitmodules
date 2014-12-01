@@ -55,3 +55,6 @@
 [submodule "plugin.video.gordon.ura.cz"]
 	path = plugin.video.gordon.ura.cz
 	url = https://github.com/kodi-czsk/plugin.video.gordon.ura.cz.git
+[submodule "plugin.video.rtvs.sk"]
+	path = plugin.video.rtvs.sk
+	url = https://github.com/kodi-czsk/plugin.video.rtvs.sk
