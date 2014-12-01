@@ -5,6 +5,7 @@ _BEAM_ = ["service.subtitles.titulky.com"]
 __ADDONS__ = [
     "plugin.video.barrandov.tv",
     "plugin.video.befun.cz",
+    "plugin.video.gordon.ura.cz",
     "plugin.video.hejbejse.tv",
     "plugin.video.jaksetodela.cz",
     "plugin.video.joj.sk",
