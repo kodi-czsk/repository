@@ -376,14 +376,14 @@
 </addon>
 
 <addon id="repository.kodi-czsk"
-  version="1.0.0"
+  version="1.0.1"
   name="Kodi CZ &amp; SK Doplňky"
   provider-name="Kodi CZSK">
   <extension point="xbmc.addon.repository"
     name="repozitář českých a slovenských doplňků">
     <info compressed="false">http://kodi-czsk.github.io/repository/repo/addons.xml</info>
     <checksum>http://kodi-czsk.github.io/xbmc-doplnky/repository/addons.xml.md5</checksum>
-    <datadir zip="true">http://kodi-cszk.github.io/repository/repo/</datadir>
+    <datadir zip="true">http://kodi-czsk.github.io/repository/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Kodi CZ &amp; SK Doplňky</summary>
