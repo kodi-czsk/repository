@@ -1,0 +1,4 @@
+[B]1.0.1:[/B]
+- oprava načítavania najsledovanejších videií
+[B]1.0.0:[/B]
+Initial version
