@@ -1,0 +1,9 @@
+[B]1.0.4:[/B]
+- fixed listing
+- fixed video resolving
+- removed top, new categories
+[B]1.0.3:[/B]
+- added date listing
+- added related videos listing to context menu
+[B]1.0.0:[/B]
+Initial version
