@@ -266,7 +266,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.teevee.sk" name="teevee.sk" provider-name="Lubomir Kucera" version="1.0">
+<addon id="plugin.video.teevee.sk" name="teevee.sk" provider-name="Lubomir Kucera" version="0.99">
   <requires>
     <import addon="xbmc.python" version="2.7.7" />
     <import addon="script.module.stream.resolver" version="1.6.18" />
@@ -281,6 +281,7 @@
     <description lang="sk">Sledujte online filmy a seriály zo servera teevee.sk</description>
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.teevee.sk</source>
+    <broken>work in progress</broken>
   </extension>
 </addon>
 
