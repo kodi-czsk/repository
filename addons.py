@@ -1,5 +1,5 @@
 
-_BEAM_ = ["service.subtitles.titulky.com"]
+_BEAM_ = ["service.subtitles.titulky.com","service.subtitles.serialzone.cz"]
 # list of addons that we are releasing
 
 __ADDONS__ = [

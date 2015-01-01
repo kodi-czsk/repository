@@ -58,3 +58,6 @@
 [submodule "plugin.video.rtvs.sk"]
 	path = plugin.video.rtvs.sk
 	url = https://github.com/kodi-czsk/plugin.video.rtvs.sk
+[submodule "service.subtitles.serialzone.cz"]
+	path = service.subtitles.serialzone.cz
+	url = https://github.com/beam/service.subtitles.serialzone.cz.git
