@@ -225,6 +225,21 @@ form {
 
 /* GENERAL ELEMENT TYPE STYLES */
 
+#browser-content {
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 2px #ccc;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+#browser-content h3 {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #474747;
+} 
+ 
 #main-content h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 2.8em;
@@ -255,7 +270,7 @@ form {
 
 #main-content h3 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   margin-top: 24px;
   margin-bottom: 8px;
