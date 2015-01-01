@@ -331,6 +331,13 @@ ul {
   padding-left: 20px;
 }
 
+ul.dev {
+  list-style: disc;
+}
+ul.dev > li {
+  padding-bottom: 5px;
+}
+
 ol {
   list-style: decimal inside;
   padding-left: 3px;
