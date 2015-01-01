@@ -413,4 +413,20 @@
 		<email>ondra@bimovi.cz</email>
 	</extension>
 </addon>
+
+<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.2.1" provider-name="Beam">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.simplejson" version="2.0.10" optional="true"/>
+	</requires>
+	<extension point="xbmc.subtitle.module" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary>SerialZone.cz</summary>
+		<description lang="en">Search and download subtitles from serialzone.cz (Czech/Slovak only)</description>
+		<description lang="cs">Vyhledavani a stahovani titulku ze serialzone.cz</description>
+		<description lang="sk">Vyhladavanie a stahovanie titulkov zo serialzone.cz</description>
+		<source>https://github.com/beam/service.subtitles.serialzone.cz</source>
+		<email>ondra@bimovi.cz</email>
+	</extension>
+</addon>
 </addons>
