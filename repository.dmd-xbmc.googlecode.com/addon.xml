@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.dmd-xbmc.googlecode.com" version="4.0.0" name="DMD-Czech XBMC Repository -  deprecated" provider-name="Jiri Vyhnalek">
+  <requires>
+    <import addon="repository.kodi-czsk" version="1.0.1" />
+  </requires>
+  <extension point="xbmc.addon.repository" name="dmd-xbmc.googlecode.com addons repository">
+    <info compressed="false">http://dmd-xbmc.googlecode.com/svn/trunk/addons.xml</info>
+    <checksum>http://dmd-xbmc.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+    <datadir zip="false">http://dmd-xbmc.googlecode.com/svn/trunk/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>DMD XBMC-Czech Repository (dmd-xbmc.googlecode.com)</summary>
+    <description>
+      Addons repository on dmd-xbmc.googlecode.com
+      
+      This repository contains plugins for czech and slovak XBMC users.
+      
+      For example video plugins for playing videos from Voyo.cz, JOJ.sk, Huste.sk, Stream.cz, and many more...
+
+      For more informations see webpage http://dmd-xbmc.googlecode.com
+    </description>
+    <description lang="cs">
+      Repositář rozšíření dmd-xbmc.googlecode.com
+
+      Tento repositář obsahuje pluginy pro české a slovenské uživatele XBMC.
+
+      Najdete zde doplňky pro přehrávání videí z mnoha českých serverů jako např. Voyo.cz, JOJ.sk, Huste.sk, Stream.cz, MArkiza.sk, Muvi.cz, ...
+
+      Další informace o projektu naleznete na http://dmd-xbmc.googlecode.com
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
