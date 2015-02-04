@@ -1,0 +1,52 @@
+2015-02-03
+ * Migrace Repozitare - 2. cast
+2015-02-03
+ * Migrace Repozitare - 1. cast
+2011-08-24:
+ * přidán STV Archiv
+ * změna v dekodéru videa iVysílání 
+2011-08-03:
+ * přidán plugin Filmy CPS :-)
+ * změny v common knihovnách 
+2011-07-31:
+ * přidán plugin Muvi.cz
+ * přidán plugin FashionStarsTV.cz
+  
+2011-07-27:
+ * přidán plugin Filmy CZ 
+
+2011-07-26:
+ * přidán plugin DMD streams (upravený LiveStreams s vlastním playlistem)
+ 
+2011-07-22:
+ * úpravy pluginů VOYO a iVysílání
+ * přechod na upravenou knihovnu BeautifulSOAP - údajně má zpracovávat dotazy o 100% rychleji, thanx to IVO ;-)  
+2011-07-18:
+  * přidán plugin Brno TV
+  * přidán plugin Jak na to?  
+
+2011-07-11:
+  * přidán plugin Huste TV
+
+2011-07-04:
+  * přidán plugin Markíza TV
+
+2011-06-30:
+  * přidán plugin iVysílání ČT
+2011-06-26:
+  * přidán plugin Stream TV  
+
+2011-06-21:
+  * přidán plugin Show Jana Krause
+
+2011-06-19:
+  * přidán archiv JOJ TV
+
+2011-06-18:
+
+ * přidán archiv Prima TV
+ * přidán repositář pro automatické aktualizace 
+
+2011-06-17: repository.dmd-xbmc.booglecode.com 0.1
+
+ * First alpha version 
