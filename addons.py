@@ -23,6 +23,7 @@ __ADDONS__ = [
     "plugin.video.zkouknito.cz",
     "script.module.stream.resolver",
     "repository.xbmc.doplnky",
+    "repository.dmd-xbmc.googlecode.com"
     "repository.kodi-czsk"
     ] + _BEAM_
 
