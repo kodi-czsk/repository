@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="repository.kodi-czsk"
-  version="1.0.1"
+  version="1.0.2"
   name="Kodi CZ &amp; SK Doplňky"
   provider-name="Kodi CZSK">
   <extension point="xbmc.addon.repository"
@@ -18,5 +18,6 @@
       Tento repozitář obsahuje video doplňky pro česky a slovensky mluvící uživatele.[CR] Máte-li jakékoliv poznámky, náměty, doplňky k začlenění nebo chcete nahlásit chybu, navštivte http://xbmc-doplnky.googlecode.com.
     </description>
     <platform>all</platform>
+    <language>cs sk</language>
   </extension>
 </addon>
