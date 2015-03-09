@@ -61,3 +61,6 @@
 [submodule "service.subtitles.serialzone.cz"]
 	path = service.subtitles.serialzone.cz
 	url = https://github.com/beam/service.subtitles.serialzone.cz.git
+[submodule "plugin.video.sosac.ph"]
+	path = plugin.video.sosac.ph
+	url = https://github.com/kodi-czsk/plugin.video.sosac.ph.git
