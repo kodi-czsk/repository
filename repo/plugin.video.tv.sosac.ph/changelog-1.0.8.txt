@@ -1,0 +1,9 @@
+[B]1.0.6:[/B]
+- streamujtv nyni zobrazuji streamy i s audio stopami
+[B]1.0.2:[/B]
+- přidáno nastavení pro vypnutí titulků jsou-li k dispozici
+- přidáno nastavení pro řazení epizod
+[B]1.0.1:[/B]
+- oprava chyby vícestránkového listování písmene
+[B]1.0.0:[/B]
+Initial version
