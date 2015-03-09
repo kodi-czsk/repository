@@ -285,10 +285,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tv.sosac.ph" name="TV Sosáč" provider-name="Libor Zoubek" version="1.0.6">
+<addon id="plugin.video.tv.sosac.ph" name="TV Sosáč (zastaralý)" provider-name="Libor Zoubek" version="1.0.7">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.24" />
+    <import addon="plugin.video.sosac.ph" version="1.0.0" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -296,8 +297,8 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">tv.sosac.ph</summary>
     <summary lang="cs">tv.sosac.ph</summary>
-    <description lang="en">Watch online series tv.sosac.ph</description>
-    <description lang="cs">Sledujte online seriály z tv.sosac.ph</description>
+    <description lang="en">Please move to Sosáč addon</description>
+    <description lang="cs">Použijte dopněk Sosáč (podporuje i filmy)</description>
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.tv.sosac.ph</source>
   </extension>
