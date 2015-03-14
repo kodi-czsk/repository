@@ -246,7 +246,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.0.1">
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.0.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.25" />
@@ -261,6 +261,24 @@
     <description lang="cs">Sledujte online videa a serialy z www.sosac.ph.</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.sledujuserialy.cz" name="sledujuserialy.cz" provider-name="Libor Zoubek" version="1.0.7">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.stream.resolver" version="1.6.13"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">sledujuserialy.cz</summary>
+        <summary lang="cs">sledujuserialy.cz</summary>
+        <description lang="en">Watch online series from sledujuserialy.cz</description>
+        <description lang="cs">Sledujte online seriály ze servru sledujuserialy.cz</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.0.1">
