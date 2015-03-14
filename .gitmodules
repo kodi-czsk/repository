@@ -64,3 +64,6 @@
 [submodule "plugin.video.sosac.ph"]
 	path = plugin.video.sosac.ph
 	url = https://github.com/kodi-czsk/plugin.video.sosac.ph.git
+[submodule "plugin.video.sledujuserialy.cz"]
+	path = plugin.video.sledujuserialy.cz
+	url = https://github.com/kodi-czsk/plugin.video.sledujuserialy.cz.git
