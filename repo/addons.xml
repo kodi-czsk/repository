@@ -260,6 +260,7 @@
     <description lang="en">Watch online movies and tv shows from www.sosac.ph.</description>
     <description lang="cs">Sledujte online videa a serialy z www.sosac.ph.</description>
     <platform>all</platform>
+    <source>https://github.com/kodi-czsk/plugin.video.sosac.ph</source>
   </extension>
 </addon>
 
