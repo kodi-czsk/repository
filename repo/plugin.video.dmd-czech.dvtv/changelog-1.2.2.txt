@@ -1,0 +1,11 @@
+2014-10-25 [1.2.1]
+ * Added function for statistics
+2014-09-02 [1.2.0]
+ * Localization English and Czech
+ * Loading dialogs
+2014-08-24 [1.0.0]
+ * Initial release
+2014-08-25 [1.1.0]
+ * Pagination
+ * Thumbnail in video playback
+ * Durations in listings
