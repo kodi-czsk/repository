@@ -1,0 +1,5 @@
+2014-10-25
+ * Pridani statistik
+[B]2013-11-15 v1.0.0:[/B]
+ - TV.SME.sk - first release
+
