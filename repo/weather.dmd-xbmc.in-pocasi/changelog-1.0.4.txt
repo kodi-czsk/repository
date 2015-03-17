@@ -1,0 +1,10 @@
+2015-01-04
+* Drobne opravy
+2014-10-25
+* Pridani statistik
+2014-10-23
+* Oprava zobrazování nočních ikonek
+2014-10-03
+* Oprava zobrazovani teploty na Linuxech a přidání ikony mlha-noc.png
+2014-09-27
+* Vypusteni doplnku do sveta :)
