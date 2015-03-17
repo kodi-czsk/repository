@@ -5,6 +5,11 @@ _BEAM_ = ["service.subtitles.titulky.com","service.subtitles.serialzone.cz"]
 __ADDONS__ = [
     "plugin.video.barrandov.tv",
     "plugin.video.befun.cz",
+    "plugin.video.dmd-czech.dvtv",
+    "plugin.video.dmd-czech.novaplus",
+    "plugin.audio.dmd-czech.play.cz",
+    "plugin.video.dmd-czech.prima",
+    "plugin.video.dmd-czech.stream",
     "plugin.video.gordon.ura.cz",
     "plugin.video.hejbejse.tv",
     "plugin.video.jaksetodela.cz",
@@ -20,13 +25,16 @@ __ADDONS__ = [
     "plugin.video.sledujuserialy.cz",
     "plugin.video.ta3.com",
     "plugin.video.teevee.sk",
+    "plugin.video.tv.sme.sk",
     "plugin.video.tv.sosac.ph",
     "plugin.video.videacesky.cz",
     "plugin.video.zkouknito.cz",
+    "script.module.dmd-czech.common",
     "script.module.stream.resolver",
     "repository.xbmc.doplnky",
     "repository.dmd-xbmc.googlecode.com",
-    "repository.kodi-czsk"
+    "repository.kodi-czsk",
+    "weather.dmd-xbmc.in-pocasi"
     ] + _BEAM_
 
 import os

@@ -67,3 +67,27 @@
 [submodule "plugin.video.sledujuserialy.cz"]
 	path = plugin.video.sledujuserialy.cz
 	url = https://github.com/kodi-czsk/plugin.video.sledujuserialy.cz.git
+[submodule "script.module.dmd-czech.common"]
+	path = script.module.dmd-czech.common
+	url = https://github.com/kodi-czsk/script.module.dmd-czech.common.git
+[submodule "plugin.video.tv.sme.sk"]
+	path = plugin.video.tv.sme.sk
+	url = https://github.com/kodi-czsk/plugin.video.tv.sme.sk.git
+[submodule "plugin.video.dmd-czech.stream"]
+	path = plugin.video.dmd-czech.stream
+	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.stream.git
+[submodule "plugin.video.dmd-czech.prima"]
+	path = plugin.video.dmd-czech.prima
+	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.prima.git
+[submodule "plugin.video.dmd-czech.dvtv"]
+	path = plugin.video.dmd-czech.dvtv
+	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.dvtv.git
+[submodule "plugin.audio.dmd-czech.play.cz"]
+	path = plugin.audio.dmd-czech.play.cz
+	url = https://github.com/kodi-czsk/plugin.audio.dmd-czech.play.cz.git
+[submodule "weather.dmd-xbmc.in-pocasi"]
+	path = weather.dmd-xbmc.in-pocasi
+	url = https://github.com/kodi-czsk/weather.dmd-xbmc.in-pocasi.git
+[submodule "plugin.video.dmd-czech.novaplus"]
+	path = plugin.video.dmd-czech.novaplus
+	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus.git
