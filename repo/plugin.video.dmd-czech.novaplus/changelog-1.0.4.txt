@@ -1,0 +1,9 @@
+2014-10-25
+ * Pridani statistik
+2014-08-12
+ * Oprava načítání kategorií
+2014-03-15
+ * Oprava prehravani
+2014-02-04: 
+ * Nova Plus (alpha) - first release
+
