@@ -36,6 +36,116 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.dmd-czech.dvtv" name="Drtinová Veselovský TV" version="1.2.2" provider-name="Štěpán Ort">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.dmd-czech.common" version="1.5.5"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>DVTV - Drtinová, Veselovský TV</summary>
+	<description>Plugin to play videos from DVTV.cz</description>
+    <description lang="cs">Exkluzivní rozhovory s vlivnými lidmi české politiky a byznysu. Nejlepší profesionálové v roli moderátorů, kteří se ptají tak přímo a tak dlouho, dokud nedostanou odpověď. Reportáže z míst, kde byste neměli chybět. Klíčové kulturní a společenské události. To vše nabízí první publicistický videokanál na českém internetu.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.dmd-czech.novaplus"
+       name="Nova Plus TV Archiv"
+       version="1.0.4"
+       provider-name="Jiri Vyhnalek">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Nova Plus TV video-archive plugin</summary>
+    <summary lang="cs">Nova Plus TV - archiv</summary>
+    <description>
+        Plugin to play TV video archive Novaplus.nova.cz
+    </description>
+    <description lang="cs">
+        Plugin pro přehrávání videí z archivu Novaplus.nova.cz
+    </description>
+  </extension>
+</addon>
+
+<addon 	id="plugin.audio.dmd-czech.play.cz"
+		name="play.cz"
+		provider-name="Van Thomas"
+		version="0.1.3">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.elementtree" version="1.2.7" />
+    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="audio">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Play.cz</summary>
+    <summary lang="cs">Play.cz</summary>
+    <description lang="en">Listen czech radios from play.cz</description>
+    <description lang="cs">Ceska radia k poslechu ze serveru play.cz</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.dmd-czech.prima"
+       name="Prima PLAY"
+       version="4.0.5"
+       provider-name="Jiri Vyhnalek">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Prima TV video-archive plugin</summary>
+    <summary lang="cs">Prima PLAY</summary>
+    <description>
+        Plugin to play TV video archive play.iprima.cz
+    </description>
+    <description lang="cs">
+        Plugin pro přehrávání videí z archivu play.iprima.cz
+    </description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.dmd-czech.stream"
+       name="Stream TV Archiv"
+       version="1.2.1"
+       provider-name="Jiri Vyhnalek">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+	<import addon="script.module.simplejson"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Stream TV video-archive plugin</summary>
+    <summary lang="cs">Stream TV - archiv</summary>
+    <description>
+        Plugin to play TV video archive stream.cz
+    </description>
+    <description lang="cs">
+        Plugin pro přehrávání videí z archivu stream.cz
+    </description>
+  </extension>
+</addon>
+
 <addon id="plugin.video.gordon.ura.cz" name="Gordon Ramsay CZ" provider-name="Maros Ondrasek" version="1.0.5">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -321,6 +431,34 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.tv.sme.sk"
+       name="TV SME.sk"
+       version="1.0.1"
+       provider-name="Radim Stoklasa">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>TV SME.sk video-archive plugin</summary>
+    <summary lang="sk">Internetová televízia SME.sk</summary>
+    <summary lang="cs">Internetová televize SME.sk</summary>
+    <description>
+        Plugin to play TV video archive tv.sme.sk
+    </description>
+    <description lang="cs">
+        Plugin pro přehrávání videí z archivu tv.sme.sk
+    </description>
+    <description lang="sk">
+        Plugin pre prehrávenie videí z archívu tv.sme.sk
+    </description>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tv.sosac.ph" name="TV Sosáč (zastaralý)" provider-name="Libor Zoubek" version="1.0.8">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -468,6 +606,26 @@
     <platform>all</platform>
     <language>cs sk</language>
   </extension>
+</addon>
+
+<addon 	id="weather.dmd-xbmc.in-pocasi"
+		name="In-počasí"
+		version="1.0.4"
+		provider-name="Erik Zapletal">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.module.dmd-czech.common" version="1.5.5"/>
+	</requires>
+	<extension point="xbmc.python.weather" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary>Weather forecast for Czech Republic from in-pocasi.cz</summary>
+		<description>Actual weather information from your city. All data are collected from amateur weather stations.</description>
+		<summary lang="cs">Předpověď počasí ze serveru in-pocasi.cz</summary>
+		<description lang="cs">Aktuální informace o počasí z mnoha amatérských meteorologických stanic a kvalitní předpověď počasí přímo pro Vaši lokalitu.</description>
+		<language></language>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.2.1" provider-name="Beam">
