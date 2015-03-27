@@ -91,3 +91,6 @@
 [submodule "plugin.video.dmd-czech.novaplus"]
 	path = plugin.video.dmd-czech.novaplus
 	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus.git
+[submodule "plugin.video.ivysilani"]
+	path = plugin.video.ivysilani
+	url = https://github.com/kodi-czsk/plugin.video.ivysilani.git
