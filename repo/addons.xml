@@ -73,7 +73,6 @@
     <description lang="cs">
         Plugin pro přehrávání videí z archivu Novaplus.nova.cz
     </description>
-    <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus</source>
   </extension>
 </addon>
 
