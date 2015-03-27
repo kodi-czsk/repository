@@ -73,7 +73,6 @@
     <description lang="cs">
         Plugin pro přehrávání videí z archivu Novaplus.nova.cz
     </description>
-    <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus</source>
   </extension>
 </addon>
 
@@ -95,7 +94,6 @@
     <description lang="en">Listen czech radios from play.cz</description>
     <description lang="cs">Ceska radia k poslechu ze serveru play.cz</description>
     <platform>all</platform>
-    <source>https://github.com/kodi-czsk/plugin.audio.dmd-czech.play.cz</source>
   </extension>
 </addon>
 
