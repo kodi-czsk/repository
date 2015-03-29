@@ -1,0 +1,14 @@
+[B]1.0.6:[/B]
+- při neúspěšném získání video linku plugin zobrazí hlášku namísto chyby
+[B]1.0.5:[/B]
+- #141 - prehravani opet funkcni
+[B]1.0.3:[/B]
+- opraveno nesprávné listování epizod #137
+[B]1.0.2:[/B]
+- opraveno zobrazování nově přidaných dílů
+- opraveno chybějící tlačítko "Next" při listování v dílech
+- opravena chyba při dekódování textu (sledujuserialy web je již v UTF-8)
+[B]1.0.1:[/B]
+- přidán seznam dnes přidaných dílů
+[B]1.0.0:[/B]
+Initial version
