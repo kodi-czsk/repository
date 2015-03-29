@@ -529,6 +529,19 @@
   </extension>
 </addon>
 
+<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.8" provider-name="Jiri Vyhnalek">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>dmd-czech plugins common python modules</summary>
+    <description>Common python modules pack that is used by dmd-czech plugins</description>
+    <license>GNU GPL</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.26">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
