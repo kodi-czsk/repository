@@ -73,6 +73,7 @@
     <description lang="cs">
         Plugin pro přehrávání videí z archivu Novaplus.nova.cz
     </description>
+    <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus</source>
   </extension>
 </addon>
 
@@ -94,6 +95,7 @@
     <description lang="en">Listen czech radios from play.cz</description>
     <description lang="cs">Ceska radia k poslechu ze serveru play.cz</description>
     <platform>all</platform>
+    <source>https://github.com/kodi-czsk/plugin.audio.dmd-czech.play.cz</source>
   </extension>
 </addon>
 
@@ -389,7 +391,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sledujuserialy.cz" name="sledujuserialy.cz" provider-name="Libor Zoubek" version="1.0.7">
+<addon id="plugin.video.sledujuserialy.cz" name="sledujuserialy.cz" provider-name="Libor Zoubek" version="1.0.8">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.stream.resolver" version="1.6.13"/>
@@ -427,7 +429,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.teevee.sk" name="teevee.sk" provider-name="Lubomir Kucera" version="1.0.1">
+<addon id="plugin.video.teevee.sk" name="teevee.sk" provider-name="Lubomir Kucera" version="1.1.0">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
         <import addon="script.module.stream.resolver" version="1.6.18"/>
