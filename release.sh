@@ -7,6 +7,12 @@ BUILD_DIR=tmp
 PUBLISH_DIR=repo
 mkdir -p ${BUILD_DIR}
 
+echo "Updating addon submodules"
+git submodule init
+git submodule update
+git submodule foreach git pull origin master
+
+
 if [ -z $1 ];
 then
   echo "use -n to release addons that need it"
@@ -18,11 +24,7 @@ then
 else
 	addons=$1
 fi
-echo "Updating addon submodules"
-git submodule init
-git submodule update
-git submodule foreach git pull origin master
-
+echo "Addons to be released $addons"
 echo "Cleaning up *.pyc files.."
 find . -name '*.pyc' | xargs rm -f
 
@@ -30,7 +32,6 @@ if [ ! "$addons" ];
 then
   exit 0
 fi
-
 for addonFile in $addons ; do
     dirname=$addonFile
     if [ ! -f $addonFile/addon.xml ] ; then
