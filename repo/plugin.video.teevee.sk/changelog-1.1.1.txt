@@ -1,0 +1,8 @@
+[B]1.1.1:[/B]
+Improve cookies caching
+[B]1.1.0:[/B]
+Add movie genres
+[B]1.0.1:[/B]
+Improve parsing of streams
+[B]1.0.0:[/B]
+Initial version
