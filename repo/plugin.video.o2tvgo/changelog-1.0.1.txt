@@ -1,0 +1,4 @@
+2014-03-29 [1.0.1]
+* Missing logo bugfix
+2014-12-23 [1.0.0]
+ * Initial release
