@@ -316,6 +316,21 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.0.1" provider-name="Štěpán Ort">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>O2TV Go</summary>
+	<description>Plugin to play live channels from O2TV Go service</description>
+    <description lang="cs">Plugin na přehrávání živé televize ze služby O2TV GO</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.2.8">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
