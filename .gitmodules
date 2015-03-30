@@ -94,3 +94,6 @@
 [submodule "plugin.video.ivysilani"]
 	path = plugin.video.ivysilani
 	url = https://github.com/kodi-czsk/plugin.video.ivysilani.git
+[submodule "plugin.video.o2tvgo"]
+	path = plugin.video.o2tvgo
+	url = https://github.com/kodi-czsk/plugin.video.o2tvgo.git
