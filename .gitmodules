@@ -97,3 +97,6 @@
 [submodule "plugin.video.o2tvgo"]
 	path = plugin.video.o2tvgo
 	url = https://github.com/kodi-czsk/plugin.video.o2tvgo.git
+[submodule "plugin.video.sledujufilmy.cz"]
+	path = plugin.video.sledujufilmy.cz
+	url = https://github.com/kodi-czsk/plugin.video.sledujufilmy.cz.git
