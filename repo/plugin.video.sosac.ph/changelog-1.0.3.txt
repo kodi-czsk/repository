@@ -1,0 +1,6 @@
+[B]1.0.3:[/B]
+- nová adresa serveru
+[B]1.0.1:[/B]
+- oprava chyby při listování většiny seriálů
+[B]1.0.0:[/B]
+Initial version - migration from plugin.video.tv.sosac.ph
