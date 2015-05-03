@@ -1,0 +1,84 @@
+2015-05-03
+ * Oprava parsovani dat
+ * Oprava chovani, kdyz bylo v kategorii pouze 1 video.
+2014-10-25
+ * Pridani statistik
+2014-10-22
+ * Oprava listovani v zanrech a uprava parsovani polozek
+2014-08-21
+ * Oprava zobrazování dílù
+2014-06-11
+ * Pridana moznost zobrazit nejnovejsi videa jednotlivých TV stanic
+ * Pri spousteni dilu je mozne zobrazit si ostatni epizody
+ * Aktualizovan seznam zanru
+2014-03-21
+ * pridani kategorii/zanru
+2014-03-10
+ * oprava Prima PLAY
+2013-11-24:
+ * oprava HD kvality
+2013-09-23:
+ * oprava stránkování
+2013-09-21:
+ * oprava na novou verzi webu iPrima
+2013-04-11:
+ * pridani vyvoleni
+2013-04-11:
+ * oprava stream serveru pro HD kvalitu
+2013-04-07:
+ * oprava nastavení proxy
+2013-03-26:
+ * pøidána možnost proxy pro zahranièní diváky
+2013-02-13:
+ * oficialni pridani HD kvality
+2013-02-04:
+ * oprava zobrazovani videi, pridan archiv ZOOM
+2012-11-26:
+ * oprava zasilani klice
+2012-11-05:
+ * opet oprava autorizace
+2012-10-30:
+ * oprava autorizace
+2012-06-07:
+ * pridana dalsi vyjimka pro nektere neprehratelne porady
+2012-06-06:
+ * odebrany duplicitni porady
+2012-05-04:
+ * pridana vyjimka pro odstraneni chby zpusobene spatnou detekci nahledu videa
+2012-03-23:
+ * pridany nahledy poradu
+2012-03-22:
+ * oprava duplicitnich polozek, automaticke seznamy poradu, oprava HD kvality
+2012-03-21:
+ * zmena vyberu preferovane kvality, pridana moznost HD kvality (nefunguje u vsech poradu!!!)
+2012-03-20:
+ * prechod na Prima PLAY
+2012-03-13:
+ * oprava vcerejsi opravy :)
+2012-03-12:
+ * oprava neprehratelnych poradu
+2012-02-12:
+ * pro zmenu dalsi zmeny v archivu :)
+2011-11-16:
+ * prizpusobeni archivu dalsim zmenam na prime :-) urcite budou dalsi
+2011-11-08:
+ * prizpusobeni archivu dalsim zmenam na prime :-)
+2011-11-04:
+ * pridany nahledy poradu ve vyssi kvalite (thx to peter.harmansky)
+2011-10-31:
+ * opraveno stránkování
+2011-10-29:
+ * provizorní oprava archivu, prozatím nefunkèní stránkování
+2011-10-24:
+ * oprava náhledù poøadù 
+2011-10-03:
+ * pøidány náhledy poøadù  
+2011-09-15:
+ * archiv komplet pøedìlán pro pøehrávání poøadù, které prima novì dává pouze do archivu na svých stránkách  
+2011-07-22:
+ * pøechod na upravenou knihovnu BeautifulSOAP - údajnì má zpracovávat dotazy o 100% rychleji, thanx to IVO ;-)  
+2011-07-04:
+ * zmìna fanart(u)
+2009-06-18: 
+ * Prima.cz (alpha) - first release
+
