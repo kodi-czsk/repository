@@ -1,0 +1,13 @@
+[B]1.0.7:[/B]
+- migrace na ContentProvider API (mx3L)
+[B]1.0.5:[/B]
+- přidaná podpora titulků
+[B]1.0.4:[/B]
+- oprava některých nefunkčních youtube videí
+[B]1.0.3:[/B]
+- opraveno listování kategoriemi #67
+- přidaná možnost volby kvality videa
+[B]1.0.2:[/B]
+- přidán Usage Tracking
+[B]1.0.0:[/B]
+Initial version
