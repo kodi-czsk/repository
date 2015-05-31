@@ -464,10 +464,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.teevee.sk" name="teevee.sk" provider-name="Lubomir Kucera" version="1.1.2">
+<addon id="plugin.video.teevee.sk" name="teevee.sk" provider-name="Lubomir Kucera" version="1.2.0">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
-        <import addon="script.module.stream.resolver" version="1.6.27"/>
+        <import addon="script.module.stream.resolver" version="1.6.31"/>
         <import addon="script.module.beautifulsoup4" version="4.3.1"/>
         <import addon="script.module.html5lib" version="0.999.0"/>
     </requires>
