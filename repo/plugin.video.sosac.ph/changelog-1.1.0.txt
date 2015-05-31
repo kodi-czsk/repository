@@ -1,0 +1,10 @@
+[B]1.1.0:[/B] 30. 05. 2015
+- možnost v kontextovém menu vytvářet .strm soubory (bbaronSVK)
+- nové kategorie (Naposled přidané...) (bbaronSVK)
+- názvy filmů/seriálů se listují v angličtině (dle lokalizace)
+[B]1.0.3:[/B]
+- nová adresa serveru
+[B]1.0.1:[/B]
+- oprava chyby při listování většiny seriálů
+[B]1.0.0:[/B]
+Initial version - migration from plugin.video.tv.sosac.ph
