@@ -1,0 +1,13 @@
+[B]1.2.0:[/B]
+Show stream languages
+Use html5lib for HTML parsing
+[B]1.1.2:[/B]
+Improve resolving performance and reliability
+[B]1.1.1:[/B]
+Improve cookies caching
+[B]1.1.0:[/B]
+Add movie genres
+[B]1.0.1:[/B]
+Improve parsing of streams
+[B]1.0.0:[/B]
+Initial version
