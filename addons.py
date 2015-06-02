@@ -34,6 +34,7 @@ __ADDONS__ = [
     "plugin.video.zkouknito.cz",
     "script.module.dmd-czech.common",
     "script.module.stream.resolver",
+    "script.module.demjson",
     "repository.xbmc.doplnky",
     "repository.dmd-xbmc.googlecode.com",
     "repository.kodi-czsk",
