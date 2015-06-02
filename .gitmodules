@@ -100,3 +100,6 @@
 [submodule "plugin.video.sledujufilmy.cz"]
 	path = plugin.video.sledujufilmy.cz
 	url = https://github.com/kodi-czsk/plugin.video.sledujufilmy.cz.git
+[submodule "script.module.demjson"]
+	path = script.module.demjson
+	url = https://github.com/kodi-czsk/script.module.demjson.git
