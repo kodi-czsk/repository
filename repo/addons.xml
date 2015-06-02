@@ -593,6 +593,21 @@
   </extension>
 </addon>
 
+<addon id="script.module.demjson" name="demjson" version="2.2.3" provider-name="Kuci">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Python module for JSON data encoding, including jsonlint.</summary>
+        <description>demjson is a Python language module for encoding, decoding, and syntax-checking JSON data.</description>
+        <platform>all</platform>
+        <license>GNU LGPL 3.0</license>
+        <source>https://github.com/dmeranda/demjson.git</source>
+        <website>https://github.com/dmeranda/demjson</website>
+    </extension>
+</addon>
+
 <addon id="repository.xbmc.doplnky"
   version="2.0.0"
   name="XBMC Doplňky (CZ &amp; SK) deprecated"
