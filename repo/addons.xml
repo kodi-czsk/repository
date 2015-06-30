@@ -464,11 +464,12 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.teevee.sk" name="teevee.sk" provider-name="Lubomir Kucera" version="1.0.1">
+<addon id="plugin.video.teevee.sk" name="teevee.sk" provider-name="Lubomir Kucera" version="1.2.0">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
-        <import addon="script.module.stream.resolver" version="1.6.18"/>
+        <import addon="script.module.stream.resolver" version="1.6.31"/>
         <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+        <import addon="script.module.html5lib" version="0.999.0"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
         <provides>video</provides>
@@ -530,7 +531,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.9">
+<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.10">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.17" />
@@ -577,11 +578,12 @@
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.25">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.31">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
+    <import addon="script.module.demjson" version="2.2.3" />
   </requires>
   <extension library="lib" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
