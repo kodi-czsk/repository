@@ -19,7 +19,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.befun.cz" name="befun.cz" provider-name="Libor Zoubek" version="1.0.20">
+<addon id="plugin.video.befun.cz" name="befun.cz" provider-name="Libor Zoubek" version="1.0.21">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.23" />
@@ -389,22 +389,24 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.1.0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.25" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">sosac.ph</summary>
-    <summary lang="cs">sosac.ph</summary>
-    <description lang="en">Watch online movies and tv shows from www.sosac.ph.</description>
-    <description lang="cs">Sledujte online videa a serialy z www.sosac.ph.</description>
-    <platform>all</platform>
-    <source>https://github.com/kodi-czsk/plugin.video.sosac.ph</source>
-  </extension>
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.0">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.stream.resolver" version="1.6.25" />
+        <import addon="script.common.plugin.cache" version="2.5.0" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service"  start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">sosac.ph</summary>
+        <summary lang="cs">sosac.ph</summary>
+        <description lang="en">Watch online movies and tv shows from www.sosac.ph.</description>
+        <description lang="cs">Sledujte online videa a serialy z www.sosac.ph.</description>
+        <platform>all</platform>
+        <source>https://github.com/kodi-czsk/plugin.video.sosac.ph</source>
+    </extension>
 </addon>
 
 <addon id="plugin.video.sledujufilmy.cz" name="sledujufilmy.cz" provider-name="Lubomir Kucera" version="1.0.0">
