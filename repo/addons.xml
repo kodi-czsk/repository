@@ -126,7 +126,7 @@
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream TV Archiv"
-       version="1.2.1"
+       version="1.2.2"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -389,11 +389,12 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.1">
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.2">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.stream.resolver" version="1.6.32" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
+        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
         <provides>video</provides>
