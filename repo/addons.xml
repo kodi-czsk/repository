@@ -332,10 +332,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.0">
+<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.30" />
+    <import addon="script.module.stream.resolver" version="1.6.34" />
     <import addon="script.module.elementtree" version="1.2.7" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -581,7 +581,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.33">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.34">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
