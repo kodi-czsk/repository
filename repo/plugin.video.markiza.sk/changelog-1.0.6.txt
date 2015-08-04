@@ -1,0 +1,14 @@
+[B]1.0.6:[/B]
+- oprava nacitavania zoznamu videi
+[B]1.0.5:[/B]
+- refactoring do funkčnej podoby (Peter Zaoral)
+[B]1.0.4:[/B]
+- oprava po redizajne stranok
+[B]1.0.3:[/B]
+- opravené prehrávanie videií
+[B]1.0.2:[/B]
+- opravené stránkovanie
+- pridaná kategória "Podľa dátumu"
+- pridaná možnosť listovať sekciu videa cez kontextovú ponuku
+[B]1.0.0:[/B]
+Initial version
