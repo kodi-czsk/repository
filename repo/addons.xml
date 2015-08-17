@@ -696,7 +696,7 @@
 
 <addon 	id="weather.dmd-xbmc.in-pocasi"
 		name="In-počasí"
-		version="1.0.4"
+		version="1.1.0"
 		provider-name="Erik Zapletal">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -711,6 +711,7 @@
 		<description lang="cs">Aktuální informace o počasí z mnoha amatérských meteorologických stanic a kvalitní předpověď počasí přímo pro Vaši lokalitu.</description>
 		<language></language>
 		<platform>all</platform>
+		<source>https://github.com/kodi-czsk/weather.dmd-xbmc.in-pocasi</source>
 	</extension>
 </addon>
 
