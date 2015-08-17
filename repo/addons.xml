@@ -317,9 +317,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.0.1" provider-name="Štěpán Ort">
+<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.3" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.7.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
