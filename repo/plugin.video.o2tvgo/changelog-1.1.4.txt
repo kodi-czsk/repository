@@ -1,0 +1,16 @@
+2015-08-18 [1.1.4]
+* Device ID saved to settings
+2015-08-17 [1.1.3]
+* Tariff fix
+2015-08-11 [1.1.2]
+* SSL verification turned off (thx to Vita56)
+2015-08-11 [1.1.1]
+* Subscription code isn't number
+2015-08-11 [1.1.0]
+* Subscription code fix
+* Refactoring to use requests library
+* Premium channels support
+2015-03-29 [1.0.1]
+* Missing logo bugfix
+2014-12-23 [1.0.0]
+ * Initial release
