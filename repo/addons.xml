@@ -715,10 +715,10 @@
 	</extension>
 </addon>
 
-<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.2.1" provider-name="Beam">
+<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.2.2" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
-		<import addon="script.module.simplejson" version="2.0.10" optional="true"/>
+		<import addon="script.module.simplejson" version="2.0.10" />
 	</requires>
 	<extension point="xbmc.subtitle.module" library="service.py" />
 	<extension point="xbmc.addon.metadata">
@@ -731,10 +731,10 @@
 	</extension>
 </addon>
 
-<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.2.1" provider-name="Beam">
+<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.2.2" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
-		<import addon="script.module.simplejson" version="2.0.10" optional="true"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
 	</requires>
 	<extension point="xbmc.subtitle.module" library="service.py" />
 	<extension point="xbmc.addon.metadata">
