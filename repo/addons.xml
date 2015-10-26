@@ -101,11 +101,11 @@
 
 <addon id="plugin.video.dmd-czech.prima"
        name="Prima PLAY"
-       version="4.0.8"
+       version="4.0.9"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+    <import addon="script.module.dmd-czech.common" version="1.5.8"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
