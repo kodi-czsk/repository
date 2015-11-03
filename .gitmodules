@@ -103,3 +103,6 @@
 [submodule "script.module.demjson"]
 	path = script.module.demjson
 	url = https://github.com/kodi-czsk/script.module.demjson.git
+[submodule "plugin.video.dmd-czech.aktualne"]
+	path = plugin.video.dmd-czech.aktualne
+	url = https://github.com/kodi-czsk/plugin.video.dmd-czech.aktualne.git

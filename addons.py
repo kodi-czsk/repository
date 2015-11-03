@@ -5,6 +5,7 @@ _BEAM_ = ["service.subtitles.titulky.com","service.subtitles.serialzone.cz"]
 __ADDONS__ = [
     "plugin.video.barrandov.tv",
     "plugin.video.befun.cz",
+    "plugin.video.dmd-czech.aktualne",
     "plugin.video.dmd-czech.dvtv",
     "plugin.video.dmd-czech.novaplus",
     "plugin.audio.dmd-czech.play.cz",
@@ -54,7 +55,7 @@ def find():
         root = ET.XML( released_addons.encode('utf-8') )
     except: # initially there are no addons.xml
         print 'Failed to parse remove addons.xml - releasing everything'
-        return __ADDONS__    
+        return __ADDONS__
     to_release = []
     for id in __ADDONS__:
         released = root.find('addon[@id=\"%s\"]' % id)
