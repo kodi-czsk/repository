@@ -5,7 +5,7 @@ _BEAM_ = ["service.subtitles.titulky.com","service.subtitles.serialzone.cz"]
 __ADDONS__ = [
     "plugin.video.barrandov.tv",
     "plugin.video.befun.cz",
-    "plugin.video.dmd-czech.aktualne",
+#    "plugin.video.dmd-czech.aktualne",
     "plugin.video.dmd-czech.dvtv",
     "plugin.video.dmd-czech.novaplus",
     "plugin.audio.dmd-czech.play.cz",
