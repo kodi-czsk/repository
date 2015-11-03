@@ -1,0 +1,21 @@
+2015-10-29 [2.0.1]
+ * Added support of FireTV. There is some strange bug, causing desynchronization
+of video and audio always in the first video in the playlist. 
+By activating FireTV hack, all files are added twice as a playlist and second 
+video is then playing without problems. I don't know better solution for now. 
+ * Added fanart image loading  
+2015-10-21 [2.0.0]
+ * Now supports whole aktualne.cz, based on dvtv plugin by Štìpán Ort
+2015-05-20 [1.2.3]
+ * Fixed listing episodes (#1 by sWski)
+2014-10-25 [1.2.1]
+ * Added function for statistics
+2014-09-02 [1.2.0]
+ * Localization English and Czech
+ * Loading dialogs
+2014-08-24 [1.0.0]
+ * Initial release
+2014-08-25 [1.1.0]
+ * Pagination
+ * Thumbnail in video playback
+ * Durations in listings
