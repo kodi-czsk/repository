@@ -36,6 +36,22 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně TV" version="2.0.0" provider-name="Petr Čermák, Štěpán Ort">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.dmd-czech.common" version="1.5.5"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Aktuálně TV</summary>
+	<description>Plugin to play videos from Aktualne.cz</description>
+    <description lang="cs">Aktuálně.TV - videa z domova i ze světa.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.video.dmd-czech.dvtv" name="Drtinová Veselovský TV" version="1.2.3" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
