@@ -143,12 +143,12 @@
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream TV Archiv"
-       version="1.2.2"
+       version="1.2.3"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
-	<import addon="script.module.simplejson"/>
+    <import addon="script.module.simplejson"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -599,7 +599,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.35">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.36">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
@@ -713,7 +713,7 @@
 
 <addon 	id="weather.dmd-xbmc.in-pocasi"
 		name="In-počasí"
-		version="1.1.0"
+		version="1.1.1"
 		provider-name="Erik Zapletal">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
