@@ -27,6 +27,7 @@ __ADDONS__ = [
     "plugin.video.sosac.ph",
     "plugin.video.sledujufilmy.cz",
     "plugin.video.sledujuserialy.cz",
+    "plugin.video.slowtv.cz",
     "plugin.video.ta3.com",
     "plugin.video.teevee.sk",
     "plugin.video.tv.sme.sk",
