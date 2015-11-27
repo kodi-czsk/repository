@@ -334,7 +334,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.5" provider-name="Štěpán Ort">
+<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.6" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.7.0"/>
@@ -350,10 +350,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.1">
+<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.34" />
+    <import addon="script.module.stream.resolver" version="1.6.36" />
     <import addon="script.module.elementtree" version="1.2.7" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -526,7 +526,7 @@
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -618,7 +618,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.35">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.36">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
@@ -732,7 +732,7 @@
 
 <addon 	id="weather.dmd-xbmc.in-pocasi"
 		name="In-počasí"
-		version="1.1.0"
+		version="1.1.1"
 		provider-name="Erik Zapletal">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
