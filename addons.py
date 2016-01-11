@@ -23,6 +23,7 @@ __ADDONS__ = [
     "plugin.video.o2tvgo",
     "plugin.video.online-files",
     "plugin.video.pohadkar.cz",
+    "plugin.video.primaplay",
     "plugin.video.rtvs.sk",
     "plugin.video.sosac.ph",
     "plugin.video.sledujufilmy.cz",

@@ -109,3 +109,6 @@
 [submodule "plugin.video.slowtv.cz"]
 	path = plugin.video.slowtv.cz
 	url = https://github.com/kodi-czsk/plugin.video.slowtv.cz.git
+[submodule "plugin.video.primaplay"]
+	path = plugin.video.primaplay
+	url = https://github.com/alladdin/plugin.video.primaplay
