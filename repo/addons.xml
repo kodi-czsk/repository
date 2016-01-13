@@ -117,12 +117,13 @@
 </addon>
 
 <addon id="plugin.video.dmd-czech.prima"
-       name="Prima PLAY"
-       version="4.0.9"
+       name="Prima PLAY (zastaralý)"
+       version="4.0.10"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.8"/>
+    <import addon="plugin.video.primaplay" version="0.2.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -138,6 +139,7 @@
         Plugin pro přehrávání videí z archivu play.iprima.cz
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.prima</source>
+    <broken>deprecated</broken>
   </extension>
 </addon>
 
@@ -384,6 +386,22 @@
     <description lang="cs">Sledujte online pohádky ze servru pohádkář.cz. Ideální pro zabavení dětí.</description>
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.pohadkar.cz</source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.primaplay" name="Prima Play" version="0.2.2" provider-name="Ladislav Dokulil">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Prima Play</summary>
+	<description>Plugin to play videos from Prima Play archive</description>
+    <description lang="cs">Plugin nabízí přístup do archivu Prima Play.</description>
+    <platform>all</platform>
+    <source>https://github.com/alladdin/plugin.video.primaplay</source>
   </extension>
 </addon>
 
