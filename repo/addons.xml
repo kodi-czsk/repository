@@ -502,26 +502,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.1.0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.22" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">ta3.com</summary>
-    <summary lang="cs">ta3.com</summary>
-    <summary lang="sk">ta3.com</summary>
-    <description lang="en">Watch online TV archive from ta3.com</description>
-    <description lang="cs">Sledujte online TV archiv zo serveru ta3.com</description>
-    <description lang="sk">Sledujte online TV archív zo serveru ta3.com</description>
-    <platform>all</platform>
-    <source>https://github.com/kodi-czsk/plugin.video.ta3.com</source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.teevee.sk" name="teevee.sk" provider-name="Lubomir Kucera" version="1.2.0">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
