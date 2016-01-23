@@ -112,3 +112,6 @@
 [submodule "plugin.video.primaplay"]
 	path = plugin.video.primaplay
 	url = https://github.com/alladdin/plugin.video.primaplay
+[submodule "plugin.video.sport5"]
+	path = plugin.video.sport5
+	url = https://github.com/tomkuba/plugin.video.sport5
