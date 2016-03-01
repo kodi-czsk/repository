@@ -145,7 +145,7 @@
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream TV Archiv"
-       version="1.2.3"
+       version="1.2.4"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -165,6 +165,7 @@
     <description lang="cs">
         Plugin pro přehrávání videí z archivu stream.cz
     </description>
+    <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.stream</source>
   </extension>
 </addon>
 
