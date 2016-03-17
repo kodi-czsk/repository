@@ -115,3 +115,6 @@
 [submodule "plugin.video.sport5"]
 	path = plugin.video.sport5
 	url = https://github.com/tomkuba/plugin.video.sport5
+[submodule "plugin.video.mojetv-archiv"]
+	path = plugin.video.mojetv-archiv
+	url = https://github.com/Raiper34/plugin.video.mojetv-archiv.git

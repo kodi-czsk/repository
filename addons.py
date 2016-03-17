@@ -42,7 +42,8 @@ __ADDONS__ = [
     "repository.xbmc.doplnky",
     "repository.dmd-xbmc.googlecode.com",
     "repository.kodi-czsk",
-    "weather.dmd-xbmc.in-pocasi"
+    "weather.dmd-xbmc.in-pocasi",
+    "plugin.video.mojetv-archiv"
     ] + _BEAM_
 
 import os
