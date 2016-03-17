@@ -1,0 +1,11 @@
+1.0.0 Initial Release
+-----
+1.1.0 m3u8 video instead mp4, forward/backward video function
+-----
+1.1.1 notifications about incorect login and/or password
+-----
+1.1.2 icons in dates folder
+-----
+2.0.0 based on official export
+-----
+2.1.0 notifications, searching
