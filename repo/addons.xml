@@ -789,6 +789,37 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.mojetv-archiv" name="Archiv MojeTV" version="2.1.0" provider-name="Raiper34">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb"></summary>
+    <description lang="en_gb"></description>
+    <summary lang="cs">Archív MojeTV</summary>
+    <description lang="cs">
+      Plugin, ktorý zprístupňuje TV Archiv internetovej IP televízie MojeTV.
+      Je potrebné v prvom rade zadať vaše meno a heslo k MojeTV v nastaveniach pluginu.
+    </description>
+    <summary lang="sk">Archív MojeTV</summary>
+    <description lang="sk">
+      Plugin, ktorý zprístupňuje TV Archiv internetovej IP televízie MojeTV.
+      Je potrebné v prvom rade zadať vaše meno a heslo k MojeTV v nastaveniach pluginu.
+    </description>
+    <disclaimer lang="en_gb"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website>http://www.raiper34.net</website>
+    <email>raipergm34@gmail.com</email>
+    <source></source>
+  </extension>
+</addon>
+
 <addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.2.2" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
