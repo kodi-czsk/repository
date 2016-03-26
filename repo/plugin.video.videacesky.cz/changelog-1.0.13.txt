@@ -1,0 +1,19 @@
+[B]1.0.13:[/B] 26. 03. 2016
+- oprava posledních změn na webu (tomkuba)
+[B]1.0.12:[/B]
+- oprava podle zmen na webu, vcetne prehravani playlistu
+[B]1.0.11:[/B]
+- rychla oprava podle zmen na webu, zatim nefunguje prehravani playlistu
+[B]1.0.7:[/B]
+- migrace na ContentProvider API (mx3L)
+[B]1.0.5:[/B]
+- přidaná podpora titulků
+[B]1.0.4:[/B]
+- oprava některých nefunkčních youtube videí
+[B]1.0.3:[/B]
+- opraveno listování kategoriemi #67
+- přidaná možnost volby kvality videa
+[B]1.0.2:[/B]
+- přidán Usage Tracking
+[B]1.0.0:[/B]
+Initial version
