@@ -1,0 +1,2 @@
+1.0.0 Initial Release
+1.1.0 m3u8 video instead mp4, forward/backward video function
