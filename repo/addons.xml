@@ -52,10 +52,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.dvtv" name="Drtinová Veselovský TV" version="1.2.3" provider-name="Štěpán Ort">
+<addon id="plugin.video.dmd-czech.dvtv" name="Drtinová Veselovský TV (zastaralý)" version="1.2.4" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.dmd-czech.common" version="1.5.5"/>
+	  <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+    <import addon="plugin.video.dmd-czech.aktualne" version="2.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
@@ -63,14 +64,14 @@
   <extension point="xbmc.addon.metadata">
     <summary>DVTV - Drtinová, Veselovský TV</summary>
 	<description>Plugin to play videos from DVTV.cz</description>
-    <description lang="cs">Exkluzivní rozhovory s vlivnými lidmi české politiky a byznysu. Nejlepší profesionálové v roli moderátorů, kteří se ptají tak přímo a tak dlouho, dokud nedostanou odpověď. Reportáže z míst, kde byste neměli chybět. Klíčové kulturní a společenské události. To vše nabízí první publicistický videokanál na českém internetu.</description>
+    <description lang="cs">Použijte Aktuálně TV</description>
     <platform>all</platform>
   </extension>
 </addon>
 
 <addon id="plugin.video.dmd-czech.novaplus"
        name="Nova Plus TV Archiv"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -116,12 +117,13 @@
 </addon>
 
 <addon id="plugin.video.dmd-czech.prima"
-       name="Prima PLAY"
-       version="4.0.9"
+       name="Prima PLAY (zastaralý)"
+       version="4.0.10"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.8"/>
+    <import addon="plugin.video.primaplay" version="0.2.1"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -137,17 +139,18 @@
         Plugin pro přehrávání videí z archivu play.iprima.cz
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.prima</source>
+    <broken>deprecated</broken>
   </extension>
 </addon>
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream TV Archiv"
-       version="1.2.2"
+       version="1.2.5"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
-	<import addon="script.module.simplejson"/>
+    <import addon="script.module.simplejson"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -162,6 +165,7 @@
     <description lang="cs">
         Plugin pro přehrávání videí z archivu stream.cz
     </description>
+    <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.stream</source>
   </extension>
 </addon>
 
@@ -333,7 +337,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.5" provider-name="Štěpán Ort">
+<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.6" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.7.0"/>
@@ -349,10 +353,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.1">
+<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.34" />
+    <import addon="script.module.stream.resolver" version="1.6.36" />
     <import addon="script.module.elementtree" version="1.2.7" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -386,7 +390,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.primaplay" name="Prima Play" version="0.2.1" provider-name="Ladislav Dokulil">
+<addon id="plugin.video.primaplay" name="Prima Play" version="0.3.4" provider-name="Ladislav Dokulil">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -398,6 +402,7 @@
 	<description>Plugin to play videos from Prima Play archive</description>
     <description lang="cs">Plugin nabízí přístup do archivu Prima Play.</description>
     <platform>all</platform>
+    <source>https://github.com/alladdin/plugin.video.primaplay</source>
   </extension>
 </addon>
 
@@ -421,12 +426,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.3">
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.5">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.stream.resolver" version="1.6.35" />
+        <import addon="script.module.stream.resolver" version="1.6.38" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
-        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
         <provides>video</provides>
@@ -442,7 +446,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.sledujufilmy.cz" name="sledujufilmy.cz" provider-name="Lubomir Kucera" version="1.0.0">
+<addon id="plugin.video.sledujufilmy.cz" name="sledujufilmy.cz" provider-name="Lubomir Kucera" version="1.0.1">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
         <import addon="script.module.stream.resolver" version="1.6.27"/>
@@ -557,7 +561,7 @@
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.1"
+       version="1.0.3"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -580,6 +584,7 @@
     <description lang="sk">
         Plugin pre prehrávenie videí z archívu tv.sme.sk
     </description>
+    <source>https://github.com/kodi-czsk/plugin.video.tv.sme.sk</source>
   </extension>
 </addon>
 
@@ -602,7 +607,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.10">
+<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.13">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.17" />
@@ -612,7 +617,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">videacesky.cz</summary>
-    <summary lang="cs">videacasky.cz</summary>
+    <summary lang="cs">videacesky.cz</summary>
     <description lang="en">Watch content from videacesky.cz</description>
     <description lang="cs">Sledujte videa, reklamy, seriály, články a návody ze servru videacesky.cz</description>
     <platform>all</platform>
@@ -649,12 +654,14 @@
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.35">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.38">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
     <import addon="script.module.demjson" version="2.2.3" />
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.html5lib" version="0.999.0" />
   </requires>
   <extension library="lib" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
@@ -763,7 +770,7 @@
 
 <addon 	id="weather.dmd-xbmc.in-pocasi"
 		name="In-počasí"
-		version="1.1.0"
+		version="1.1.1"
 		provider-name="Erik Zapletal">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -782,7 +789,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.mojetv-archiv" name="MojeTV Archiv" version="1.1.0" provider-name="Raiper34">
+<addon id="plugin.video.mojetv-archiv" name="Archiv MojeTV" version="2.1.0" provider-name="Raiper34">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -790,15 +797,25 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_gb">Plugin spristupnuje archiv serveru IP televizie MojeTV</summary>
-    <description lang="en_gb">Plugin spristupnuje archiv serveru IP televizie MojeTV</description>
+    <summary lang="en_gb"></summary>
+    <description lang="en_gb"></description>
+    <summary lang="cs">Archív MojeTV</summary>
+    <description lang="cs">
+      Plugin, ktorý zprístupňuje TV Archiv internetovej IP televízie MojeTV.
+      Je potrebné v prvom rade zadať vaše meno a heslo k MojeTV v nastaveniach pluginu.
+    </description>
+    <summary lang="sk">Archív MojeTV</summary>
+    <description lang="sk">
+      Plugin, ktorý zprístupňuje TV Archiv internetovej IP televízie MojeTV.
+      Je potrebné v prvom rade zadať vaše meno a heslo k MojeTV v nastaveniach pluginu.
+    </description>
     <disclaimer lang="en_gb"></disclaimer>
     <language></language>
     <platform>all</platform>
     <license></license>
     <forum></forum>
-    <website></website>
-    <email></email>
+    <website>http://www.raiper34.net</website>
+    <email>raipergm34@gmail.com</email>
     <source></source>
   </extension>
 </addon>
