@@ -9,6 +9,7 @@ __ADDONS__ = [
     "plugin.video.dmd-czech.dvtv",
     "plugin.video.dmd-czech.novaplus",
     "plugin.audio.dmd-czech.play.cz",
+    "plugin.video.dmd-czech.playtvak",
     "plugin.video.dmd-czech.prima",
     "plugin.video.dmd-czech.stream",
     "plugin.video.gordon.ura.cz",
