@@ -116,6 +116,32 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.dmd-czech.playtvak"
+       name="[COLOR red]Play[/COLOR]tvak.cz"
+       version="1.0.0"
+       provider-name="Jan Heřman (72ka)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+    <import addon="script.module.requests" version="2.4.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Watch videos from czech server Playtvak.cz</summary>
+    <summary lang="cs">Sledujte videa ze serveru Playtvak.cz</summary>
+    <description>
+        Plugin to play TV video from Playtvak.cz
+    </description>
+    <description lang="cs">
+        Plugin pro přehrávání videí z Playtvak.cz
+    </description>
+    <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.playtvak</source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.dmd-czech.prima"
        name="Prima PLAY (zastaralý)"
        version="4.0.10"
