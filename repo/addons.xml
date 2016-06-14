@@ -845,6 +845,34 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.dmd-czech.huste"
+       name="Huste TV Archiv"
+       version="0.6.0"
+       provider-name="Jose Riha/Jiri Vyhnalek">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Huste TV video-archive plugin</summary>
+    <summary lang="cs">Huste TV - archiv</summary>
+    <summary lang="sk">Huste TV - archív</summary>
+    <description>
+        Plugin to play TV video archive Huste.tv
+    </description>
+    <description lang="cs">
+        Plugin pro přehrávání videí z archivu Huste.tv
+    </description>
+    <description lang="sk">
+        Plugin na prehrávanie videí z arhcívu Huste.tv
+    </description>
+  </extension>
+</addon>
+
 <addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.2.2" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
