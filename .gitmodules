@@ -124,3 +124,6 @@
 [submodule "plugin.video.huste.tv"]
 	path = /plugin.video.huste.tv
 	url = https://github.com/jose1711/plugin.video.huste.tv.git
+[submodule "plugin.video.topserialy.sk"]
+	path = /plugin.video.topserialy.sk
+	url = https://github.com/jose1711/plugin.video.topserialy.sk.git
