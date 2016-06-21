@@ -472,7 +472,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.sledujufilmy.cz" name="sledujufilmy.cz" provider-name="Lubomir Kucera" version="1.0.2">
+<addon id="plugin.video.sledujufilmy.cz" name="sledujufilmy.cz" provider-name="Lubomir Kucera" version="1.0.3">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
         <import addon="script.module.stream.resolver" version="1.6.38"/>
@@ -679,7 +679,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.38">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.39">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
