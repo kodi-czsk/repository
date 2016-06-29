@@ -45,7 +45,7 @@ __ADDONS__ = [
     "repository.kodi-czsk",
     "weather.dmd-xbmc.in-pocasi",
     "plugin.video.mojetv-archiv",
-    "plugin.video.huste.tv"
+    "plugin.video.dmd-czech.huste"
     ] + _BEAM_
 
 import os
