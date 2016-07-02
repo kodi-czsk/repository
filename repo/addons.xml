@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.barrandov.tv" name="barrandov.tv" provider-name="Maros Ondrasek" version="1.0.2">
+<addon id="plugin.video.barrandov.tv" name="barrandov.tv" provider-name="Maros Ondrasek" version="1.0.3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.13" />
