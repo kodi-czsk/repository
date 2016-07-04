@@ -632,7 +632,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.13">
+<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.14">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.17" />
@@ -645,6 +645,7 @@
     <summary lang="cs">videacesky.cz</summary>
     <description lang="en">Watch content from videacesky.cz</description>
     <description lang="cs">Sledujte videa, reklamy, seriály, články a návody ze servru videacesky.cz</description>
+    <description lang="sk">Sledujte videá, reklamy, seriály, články a návody zo serveru videacesky.cz</description>
     <platform>all</platform>
   </extension>
 </addon>
