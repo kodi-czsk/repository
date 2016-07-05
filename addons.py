@@ -44,7 +44,6 @@ __ADDONS__ = [
     "repository.dmd-xbmc.googlecode.com",
     "repository.kodi-czsk",
     "weather.dmd-xbmc.in-pocasi",
-    "plugin.video.mojetv-archiv",
     "plugin.video.dmd-czech.huste"
     ] + _BEAM_
 
