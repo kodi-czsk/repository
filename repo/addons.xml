@@ -653,7 +653,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.zkouknito.cz" name="zkouknito.cz" provider-name="Libor Zoubek" version="1.0.5">
+<addon id="plugin.video.zkouknito.cz" name="zkouknito.cz" provider-name="Libor Zoubek" version="1.0.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.13" />
@@ -666,6 +666,7 @@
     <summary lang="cs">zkouknito.cz</summary>
     <description lang="en">Watch online content from zkouknito.cz</description>
     <description lang="cs">Sledujte online obsah ze servru zkouknito.cz</description>
+    <description lang="sk">Sledujte online obsah zo servera zkouknito.cz</description>
     <platform>all</platform>
   </extension>
 </addon>
