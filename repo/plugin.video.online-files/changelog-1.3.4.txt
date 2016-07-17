@@ -1,0 +1,55 @@
+[B]1.3.4:[/B] 17. 07. 2016
+- ulozto: oprava prehravani a stahovani (jose1711)
+[B]1.3.3:[/B] 28. 12. 2015
+- oprava hledani ulozto
+[B]1.3.2:[/B] 24. 10. 2015
+- oprava ulozto captcha (biegleux)
+[B]1.3.1:[/B] 22. 7. 2015
+- oprava hledání na ulozto
+[B]1.3.0:[/B] 20. 5. 2015
+- přidána podpora přihlášení pro webshare.cz (sWski)
+[B]1.2.8:[/B]
+- #254 - ulozto: oprava prihlaseni
+- #262 - ulozto: oprava prehravani, vyhledavani
+[B]1.2.7:[/B]
+- #216 - opraveno nefunkční zobrazování captcha
+[B]1.2.5:[/B]
+- ulozto: oprava přehrávání a stahování (dle změn webu)
+[B]1.2.4:[/B]
+- oprava kompatibility s pythonem 2.6
+- oprava fastshare
+[B]1.2.3:[/B]
+- pokus o opravy #193 (nezobrazuje se captcha obrazek na win pokud je na ceste 
+non-ascii znak)
+- globalni vyhledavani nyni dotazuje vsechny servery zaroven
+[B]1.2.2:[/B]
+- ulozto: přidáno cachování výsledků hledání (1h)
+- ulozto: oprava chyby, kdy se vůbec nezobrazí captcha
+[B]1.2.1:[/B]
+- další opravy ulozto hledani
+[B]1.2.0:[/B]
+- přidan server webshare.cz
+[B]1.1.2:[/B]
+- #170 vyhledavani na ulozto opet v provozu
+[B]1.1.1:[/B]
+- #155 přidána podpora oblíbených a uživatelských souborů (zatím pouze zobrazení)
+[B]1.1.0:[/B]
+- přidán fastshare.cz (zatím pouze FREE stahování)
+- přesunuty provider skripty
+[B]1.0.7:[/B]
+- ulozto nyní umožňuje vyhledávát všechny typy souborů a filtrovat dle přípony
+[B]1.0.4:[/B]
+- verze++ kvuli update v stream.resolveru
+[B]1.0.3:[/B]
+- přidáno nové nastavení pro hellspy pro možnost použití slovenského mirroru http://stiahnito.sk
+- oprava přehrávání/stahování y ulozto
+- oprava zobrazování captcha na windows (bezvadata)
+[B]1.0.2:[/B]
+- verze++ kvuli update v stream.resolveru
+[B]1.0.1:[/B]
+- oprava stahování z bezvadata (zatím bez přihlášení)
+- přidáno logování, hlavně na ulozto
+- oprava hromadného vyhledávání, kdy chyba na některém servru neblokuje 
+vyhledávání na jiných
+[B]1.0.0:[/B]
+Initial version
