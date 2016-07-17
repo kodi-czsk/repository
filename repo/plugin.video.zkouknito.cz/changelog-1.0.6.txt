@@ -1,0 +1,8 @@
+[B]1.0.6:[/B]
+- oprava prehravania (by jose1711)
+[B]1.0.4:[/B]
+- oprava přehrávání (by mx3L)
+[B]1.0.1:[/B]
+- přidán Usage Tracking
+[B]1.0.0:[/B]
+Initial version
