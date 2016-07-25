@@ -124,3 +124,6 @@
 [submodule "plugin.video.dmd-czech.huste"]
 	path = plugin.video.dmd-czech.huste
 	url = https://github.com/jose1711/plugin.video.huste.tv.git
+[submodule "weather.shmu.pocasie"]
+	path = weather.dmd-xbmc.in-pocasi
+	url = https://github.com/jose1711/weather.shmu.pocasie.git

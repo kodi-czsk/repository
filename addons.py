@@ -44,7 +44,8 @@ __ADDONS__ = [
     "repository.dmd-xbmc.googlecode.com",
     "repository.kodi-czsk",
     "weather.dmd-xbmc.in-pocasi",
-    "plugin.video.dmd-czech.huste"
+    "plugin.video.dmd-czech.huste",
+    "weather.shmu.pocasie"
     ] + _BEAM_
 
 import os
