@@ -393,8 +393,10 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Files Online</summary>
     <summary lang="cs">Soubory Online</summary>
+    <summary lang="sk">Súbory Online</summary>
     <description lang="en">Get access to various czech filesharing services</description>
     <description lang="cs">Získejte přístup k různým file-sharingovým službám</description>
+    <description lang="sk">Získajte prístup k rôznym file-sharingovým službám</description>
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.online-files</source>
   </extension>
@@ -457,7 +459,7 @@
 <addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.5">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.stream.resolver" version="1.6.38" />
+        <import addon="script.module.stream.resolver" version="1.6.40" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -684,7 +686,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.40">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.41">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
