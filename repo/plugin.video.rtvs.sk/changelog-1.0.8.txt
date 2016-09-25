@@ -1,0 +1,18 @@
+[B]1.0.7:[/B]
+- added all live streams
+- default quality option is set back to always ask
+[B]1.0.6:[/B]
+- fix alphabet range to include shows starting with Z/z, thanks to @pokopt
+[B]1.0.5:[/B]
+- don't use dynamic streaming
+- added quality option
+- default quality is 480p for smooth playback
+[B]1.0.4:[/B]
+- fixed listing
+- fixed video resolving
+- removed top, new categories
+[B]1.0.3:[/B]
+- added date listing
+- added related videos listing to context menu
+[B]1.0.0:[/B]
+Initial version
