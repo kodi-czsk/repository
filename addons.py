@@ -35,6 +35,7 @@ __ADDONS__ = [
     "plugin.video.teevee.sk",
     "plugin.video.tv.sme.sk",
     "plugin.video.tv.sosac.ph",
+    "plugin.video.tv.prehraj.me",
     "plugin.video.videacesky.cz",
     "plugin.video.zkouknito.cz",
     "script.module.dmd-czech.common",
