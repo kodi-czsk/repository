@@ -124,3 +124,6 @@
 [submodule "plugin.video.dmd-czech.huste"]
 	path = plugin.video.dmd-czech.huste
 	url = https://github.com/jose1711/plugin.video.huste.tv.git
+[submodule "plugin.video.stream-cinema"]
+	path = plugin.video.stream-cinema
+	url = https://github.com/bbaronSVK/plugin.video.stream-cinema
