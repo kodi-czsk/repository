@@ -1,0 +1,13 @@
+﻿2016-10-24:
+ * v 1.0.2
+ * opravy chyb z 1.0.1 (některé pořady nešly vůbec listovat)
+ * oprava diakritiky v názvech videí
+ * sjednocení a oprava struktury položek
+ * nově možnost u každého videa jít na stránku pořadu
+2016-10-20:
+ * v 1.0.1
+ * Ukazuje v sekci Pořady všechny díly, dříve ukazoval jen prvních asi 12
+ * U pořadu v informacích zobrazuje počet dílů a počet shlédnutí
+2016-05-20: 
+ * Initial release 1.0.0
+
