@@ -1,0 +1,182 @@
+[B]1.6.40:[/B]
+- add on_init hook to ContentProvider
+- fix hqq & nahnoji parsers, added sk translations (jose1711)
+[B]1.6.39:[/B]
+- Fixed Exashare, Openload and Youwatch resolvers
+- New resolver for Videram
+[B]1.6.37:[/B]
+- (for all plugins) search items can be now edited (Search Similar)
+[B]1.6.36:[/B]
+- fix streamujtv resolver to play videos with missing lang
+[B]1.6.34:[/B]
+- fix usage tracker issue on windows
+[B]1.6.30:[/B]
+- fix froto compatibility issue
+[B]1.6.29:[/B]
+- providers have now injected 'lang' - current language of xbmc/kodi user
+[B]1.6.24:[/B]
+- resolvers: support for displaying additional info (audio track language, etc)
+- streamujtv: return all possible streams (incl. audio track combinations) #223
+[B]1.6.16:[/B]
+- support for disabled subtitles by plugin setting
+- #217 - incorrect item title on some skins
+[B]1.6.15:[/B]
+- fix streamujtv resolver to correctly handle subtitles
+- another possible fix of showing captcha on windows
+[B]1.6.14:[/B]
+- fixed playedto resolver
+[B]1.6.12:[/B]
+- fixed streamujtv resolver
+- better support for dynamic context menu items
+[B]1.6.11:[/B]
+- fixed putlocker and flashx resolvers (ibv)
+[B]1.6.10:[/B]
+- attempt to fix showing captcha image on windows (when there are special
+chars in profile path)
+[B]1.6.9:[/B]
+- attempt to fix showing captcha image on windows (when there are special
+chars in xbmc profile path)
+- added anyfiles resolver
+[B]1.6.8:[/B]
+- added streamujtv resolver
+[B]1.6.7:[/B]
+- add ContentProvider.findstreams - wrapper for resolver.findstreams
+[B]1.6.6:[/B]
+- added koukejse resolver
+- improved @cached decorator
+- captcha image is now downloaded to file before showing up captcha dialog
+[B]1.6.5:[/B]
+- fixed youtube resolver (mx3L)
+- download is now more robust #174
+[B]1.6.4:[/B]
+- fixed youtube resolver (by mx3L)
+- added concurrent function (by mx3L)
+[B]1.6.2:[/B]
+- updated zkouknito resolver, added kset, publicvideohost resolvers (by mx3L)
+[B]1.6.1:[/B]
+- fixed downloading of files with special chars
+- support for @cached decorator for provider methods
+[B]1.5.6:[/B]
+- fixed koukni - works back with mp4
+[B]1.5.5:[/B]
+- contentprovider fixes (does not fail when item title starts with $, supports
+infolabels
+[B]1.5.4:[/B]
+- fixed koukni resolver to properly resolve rtmp
+- removed providers - moved to plugins
+[B]1.5.2:[/B]
+- fixed youtube resolver
+[B]1.5.1:[/B]
+- when downloaded file does not have extension, it is autoappened (.mp4)
+[B]1.5.0:[/B]
+- added resolvers flashx, videomail (ivo, mx3L)
+- resolvers can now return headers (if required for playing/downloading)
+- ContentProviders can now raise ResolveException
+- ulozto provider raises ResolveException when ulozto server is overloaded
+[B]1.4.6:[/B]
+- fixed youtube resolver
+- subtitles now work in munkvideo resolver
+[B]1.4.5:[/B]
+- ulozto provider can now search for all file types
+[B]1.4.4:[/B]
+- added munkvideo resolver
+[B]1.4.3:[/B]
+- fixed eserial resolver to load subs correctly #136
+[B]1.3.12:[/B]
+- fixed eserial resolver to support subtitles and work for more streams
+- fixed quality filtering: we always return exactly 1 stream unless user wants to select himself
+[B]1.3.11:[/B]
+- sledujuserialy resolver resolves mp4 videos as well
+- fixed #127 - searching does not work on frodo beta1
+- added eserialresolver
+- resolvers have now priority (higher=resolver is asked fist)
+[B]1.3.10:[/B]
+- fixed #127 - searching does not work on frodo beta1
+- fixed ulozto to show search results again
+- fixed sledujuserialy resolver (to resolve mp4 videos)
+[B]1.3.9:[/B]
+- got rid of old resolver API
+- fixed ulozto provider to be able to retrieve non-VIP files again
+- hellspy provider has now configurable server url and supports http://stiahnito.sk (slovak mirror)
+[B]1.3.8:[/B]
+- resolver.findstreams - prevent multiple resolving same url
+- added sledujuserialy resolver
+[B]1.3.7:[/B]
+- fixed vkontakte resolver
+[B]1.3.6:[/B]
+- fixed vkontakte resolver
+[B]1.3.4:[/B]
+- fixed youtube resolver
+- added streamcloud & gosuparg resolvers (Ivo)
+[B]1.3.3:[/B]
+- ulozto and hellspy fixed: login() failed when called repeatedly
+[B]1.3.2:[/B]
+- fixed bezvadata content provider
+- added support for delayed file download (bezvadata uses it)
+[B]1.3.1:[/B]
+- vkontakte resolver now supports 720p videos
+- added videonet resolver (thanks to Ivo Brhel), rutube resolver
+[B]1.3.0:[/B]
+- introduced ContentProvider API
+- util.py splitted to util.py and xbmcutil.py (so we're now able to run tests in non-xbmc environment)
+[B]1.2.8:[/B]
+- added nahnoji and moevideo resolvers by Ivo Brhel
+- fixed putlocker (by Ivo), videozer & videobb resolvers
+[B]1.2.7:[/B]
+- youtube resolver fixes
+- all resolvers now return non-empty 'subs' key within resolve2 or findstreams
+[B]1.2.6:[/B]
+- resolvers can now retrieve subtitles
+- added koukni.cz resovler (supports subtitles)
+[B]1.2.2:[/B]
+- bugfixes
+- search.py now supports multiple search items within one addon
+[B]1.2.0:[/B]
+- added method to prelace czech diaktitic chars
+- fixed divByZero when downloading, made notifications more robust
+[B]1.1.7:[/B]
+- new API for stream resolving - quality aware API
+- youtube and vkontakte now implement quality aware API, others have dummy
+impl only
+[B]1.1.6:[/B]
+- another small fix of youtuberesolver
+- fixed videobb and videozer resovlers, thanks to Lynx187
+[B]1.1.5:[/B]
+- added higher level searching API
+- fixed youtuberesolver
+[B]1.1.4:[/B]
+- added dependency on script.usage.tracker
+[B]1.1.3:[/B]
+- download notification: added EST
+[B]1.1.2:[/B]
+- saved searches can be removed now
+[B]1.1.0:[/B]
+- added new API for retrieving common icons from github
+- fixed downloading to report dialog on finish (when not playing)
+[B]1.0.8:[/B]
+- added new API for downloading, browsing local folders
+- fixed string encoding issues
+- fixed zideo resolver
+[B]1.0.7:[/B]
+- added servertip.cz resolver
+- fixed youtube
+- added api for search history
+- added simplejson dependency
+[B]1.0.6:[/B]
+- added zideo.nl
+- stagevu - do not fail if movie was removed
+- videobb - proper resolving
+[B]1.0.5:[/B]
+- added novamov, youtube, trivial - special does nothing
+- fixed megavideo and videozer
+[B]1.0.4:[/B]
+- added megavideo, videozer resolvers
+- fixed zkouknito
+[B]1.0.3:[/B]
+- added other resolvers
+- added simple debug logging
+- all resovlers renamed not to collide with other 3rd party on Camelot
+[B]1.0.1:[/B]
+ - added putlocker resolver
+[B]1.0.0:[/B]
+Initial version
