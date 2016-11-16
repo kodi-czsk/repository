@@ -1,0 +1,5 @@
+﻿[B]0.0.6:[/B]
+pridane serialyss
+
+﻿[B]1.0.5:[/B]
+Initial version
