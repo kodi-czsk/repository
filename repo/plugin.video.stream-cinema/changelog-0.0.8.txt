@@ -1,0 +1,8 @@
+﻿[B]0.0.7:[/B]
+serialy - fixnute info adresara
+
+﻿[B]0.0.6:[/B]
+pridane serialy
+
+﻿[B]1.0.5:[/B]
+Initial version
