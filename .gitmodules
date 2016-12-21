@@ -127,3 +127,6 @@
 [submodule "plugin.video.stream-cinema"]
 	path = plugin.video.stream-cinema
 	url = https://github.com/bbaronSVK/plugin.video.stream-cinema
+[submodule "plugin.video.tv.lux.sk"]
+	path = plugin.video.tv.lux.sk
+	url = https://github.com/janciga/plugin.video.tv.lux.sk.git
