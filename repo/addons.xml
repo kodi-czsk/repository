@@ -589,6 +589,26 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.0.1" provider-name="Tomas Janciga">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.stream.resolver" version="1.6.22" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">TV Lux</summary>
+    <summary lang="sk">TV Lux</summary>
+    <summary lang="cz">TV Lux</summary>
+    <description lang="en_gb">Watch online archive and live stream of Slovak christian TV - TV Lux</description>
+    <description lang="sk">Sledujte online archiv a vysielanie TV Lux</description>
+    <description lang="sk">Sledujte online archiv a vysilani TV Lux</description>
+    <platform>all</platform>
+    <source>https://github.com/janciga/plugin.video.tv.lux.sk</source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
        version="1.0.3"
