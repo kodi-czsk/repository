@@ -1,0 +1,11 @@
+[B]2016-12-26 v1.0.4:[/B]
+ * Oprava - doplnok sa nespusti ak cesta k nemu obsahuje diakritiku (windows)
+[B]2016-02-11 v1.0.3:[/B]
+ * Uprava po zmene webu (vyzadovany key z pianomedia)
+[B]2015-11-08 v1.0.2:[/B]
+ * Pridana moznost nastavit predvolenu kvalitu videa 
+[B]2014-10-25 v1.0.1:[/B]
+ * Pridani statistik
+[B]2013-11-15 v1.0.0:[/B]
+ * TV.SME.sk - first release
+
