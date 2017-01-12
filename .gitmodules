@@ -130,3 +130,6 @@
 [submodule "plugin.video.tv.lux.sk"]
 	path = plugin.video.tv.lux.sk
 	url = https://github.com/janciga/plugin.video.tv.lux.sk.git
+[submodule "plugin.video.topserialy.sk"]
+	path = plugin.video.topserialy.sk
+	url = https://github.com/jose1711/plugin.video.topserialy.sk.git
