@@ -330,7 +330,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.mixer.cz" name="mixer.cz" provider-name="Maros Ondrasek" version="1.0.4">
+<addon id="plugin.video.mixer.cz" name="mixer.cz" provider-name="Maros Ondrasek" version="1.0.5">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.24" />
@@ -348,6 +348,7 @@
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.mixer.cz</source>
   </extension>
+  <broken>Sluzba mixer.cz byla zrusena</broken>
 </addon>
 
 <addon id="plugin.video.mtr.sk" name="Mestská TV Ružomberok" provider-name="Libor Zoubek" version="1.0.1">
@@ -659,6 +660,24 @@
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.tv.sosac.ph</source>
   </extension>
+</addon>
+
+<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.0.1">
+    <requires>
+        <import addon="xbmc.python" version="2.7.7"/>
+        <import addon="script.module.stream.resolver" version="1.6.38"/>
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">topserialy.sk</summary>
+        <summary lang="sk">topserialy.sk</summary>
+        <description lang="en">Watch online movies for free on TopSerialy.sk</description>
+        <description lang="sk">Sleduj filmy online zdarma na TopSerialy.sk</description>
+        <platform>all</platform>
+        <source>https://github.com/jose1711/plugin.video.topserialy.sk</source>
+    </extension>
 </addon>
 
 <addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.16">
