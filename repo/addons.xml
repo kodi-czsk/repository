@@ -461,10 +461,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.10">
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.3.0">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.stream.resolver" version="1.6.40" />
+        <import addon="script.module.stream.resolver" version="1.6.48" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -554,7 +554,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.1.1">
+<addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.1.3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.22" />
@@ -616,7 +616,7 @@
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.3"
+       version="1.0.4"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -680,7 +680,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.14">
+<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.16">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.17" />
@@ -729,7 +729,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.43">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.50">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="2.0.10" />
@@ -892,13 +892,13 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="0.0.2">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.0.1">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
-        <import addon="script.module.stream.resolver" version="1.6.40" />
+        <import addon="script.module.stream.resolver" version="1.6.50" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
-        <import addon="plugin.video.online-files" version="1.3.4" />
         <import addon="script.module.buggalo" version="1.1.2" />
+        <import addon="script.module.elementtree" version="1.2.7" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
