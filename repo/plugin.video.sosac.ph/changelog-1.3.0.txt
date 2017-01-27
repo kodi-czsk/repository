@@ -1,10 +1,13 @@
 [B]1.3.0:[/B] 17. 01. 2017
 - Přepsání a použití JSON souborů od sosac (Saljack)
-- Nová verze knihovny - je nutné nejprve smazat včechny dříve vytovřené .strm soubory, následně pak všechen obsah do knihovny přidat znovu (bude se jevit jako prázdná). Nakonec pak vyčisti KODI knihovnu, aby se smazali odkazy na právě smazané .strm soubory
+- Nová verze knihovny - je nutné nejprve smazat všechny dříve vytvořené .strm
+soubory, následně pak všechen obsah do knihovny přidat znovu (bude se jevit
+jako prázdná). Nakonec pak vyčistit KODI knihovnu, aby se smazali odkazy na
+právě smazané .strm soubory.
 [B]1.2.13:[/B] 14. 12. 2016
 - Nová možnost automatického výběru videa dle jazyka
 [B]1.2.5:[/B] 26. 03. 2016
-- Oprava #41 Kdy plugin blokoval kodi v ukonční (Kuci)
+- Oprava #41 Kdy plugin blokoval Kodi v ukončení (Kuci)
 [B]1.2.4:[/B] 28. 02. 2016
 - Opravené vyhľadanie na systémoch s nainštalovanou knižnicou lxml
 [B]1.2.3:[/B] 20. 10. 2015
