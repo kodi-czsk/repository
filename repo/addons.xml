@@ -472,10 +472,10 @@
     </extension>
     <extension library="service.py" point="xbmc.service"  start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">sosac.ph</summary>
-        <summary lang="cs">sosac.ph</summary>
-        <description lang="en">Watch online movies and tv shows from www.sosac.ph.</description>
-        <description lang="cs">Sledujte online videa a serialy z www.sosac.ph.</description>
+        <summary lang="en">sosac.tv</summary>
+        <summary lang="cs">sosac.tv</summary>
+        <description lang="en">Watch online movies and tv shows from www.sosac.tv.</description>
+        <description lang="cs">Sledujte online filmy a serialy z www.sosac.tv.</description>
         <platform>all</platform>
         <source>https://github.com/kodi-czsk/plugin.video.sosac.ph</source>
     </extension>
@@ -662,7 +662,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.0.4">
+<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.0.6">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
         <import addon="script.module.stream.resolver" version="1.6.38"/>
