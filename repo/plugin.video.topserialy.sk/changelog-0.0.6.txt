@@ -1,0 +1,8 @@
+[B]0.0.6:[/B]
+Add youwatch
+
+[B]0.0.5:[/B]
+Fix broken search
+
+[B]0.0.4:[/B]
+Fix for incorrectly labeled episodes
