@@ -662,7 +662,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.0.8">
+<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.0.9">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
         <import addon="script.module.stream.resolver" version="1.6.38"/>
@@ -674,9 +674,9 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en">topserialy.sk</summary>
         <summary lang="sk">topserialy.sk</summary>
-        <description lang="en">Watch shows for free on TopSerialy.sk</description>
-        <description lang="sk">Sleduj seriály online zdarma na TopSerialy.sk</description>
-        <description lang="cs">Dívejte se na seriály na TopSerialy.sk</description>
+        <description lang="en">Watch shows for free on TopSerialy.to</description>
+        <description lang="sk">Sleduj seriály online zdarma na TopSerialy.to</description>
+        <description lang="cs">Dívejte se na seriály na TopSerialy.to</description>
         <platform>all</platform>
         <source>https://github.com/jose1711/plugin.video.topserialy.sk</source>
     </extension>
