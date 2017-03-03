@@ -1,0 +1,26 @@
+[B]1.0.4:[/B]
+automaticke stahovanie titulkov z opensubtitles ak stream nieje CZ/SK
+
+[B]1.0.3:[/B]
+nacitavanie externych titulkov zo servera
+
+[B]1.0.1:[/B]
+fix webshare loginu
+
+[B]1.0.0:[/B]
+pridane prihlasovanie na webshare - uz nieje potreba prihlasenia sa v plugine online-files
+
+[B]0.0.9:[/B]
+pridane popularne filmy/serialy - generovane zo statistik za poslednych 24hodin
+
+﻿[B]0.0.8:[/B]
+pridana moznost radenia filmov/serialov podla parametrov
+
+[B]0.0.7:[/B]
+serialy - fixnute info adresara
+
+﻿[B]0.0.6:[/B]
+pridane serialy
+
+﻿[B]1.0.5:[/B]
+Initial version
