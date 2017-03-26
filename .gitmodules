@@ -133,9 +133,6 @@
 [submodule "plugin.video.topserialy.sk"]
 	path = plugin.video.topserialy.sk
 	url = https://github.com/jose1711/plugin.video.topserialy.sk.git
-[submodule "script.module.urlresolver"]
-	path = script.module.urlresolver
-	url = https://github.com/Eldorados/script.module.urlresolver.git
 [submodule "metadata.bbaron"]
 	path = metadata.bbaron
 	url = https://github.com/bbaronSVK/metadata.bbaron.git

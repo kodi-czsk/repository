@@ -48,8 +48,7 @@ __ADDONS__ = [
     "weather.dmd-xbmc.in-pocasi",
     "plugin.video.dmd-czech.huste",
     "metadata.bbaron",
-    "plugin.video.stream-cinema",
-    "script.module.urlresolver"
+    "plugin.video.stream-cinema"
     ] + _BEAM_
 
 import os
