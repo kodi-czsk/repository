@@ -136,3 +136,6 @@
 [submodule "script.module.urlresolver"]
 	path = script.module.urlresolver
 	url = https://github.com/Eldorados/script.module.urlresolver.git
+[submodule "metadata.bbaron"]
+	path = metadata.bbaron
+	url = https://github.com/bbaronSVK/metadata.bbaron.git
