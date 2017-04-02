@@ -47,6 +47,7 @@ __ADDONS__ = [
     "repository.kodi-czsk",
     "weather.dmd-xbmc.in-pocasi",
     "plugin.video.dmd-czech.huste",
+    "metadata.bbaron",
     "plugin.video.stream-cinema"
     ] + _BEAM_
 
