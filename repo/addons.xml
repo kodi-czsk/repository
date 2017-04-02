@@ -867,7 +867,7 @@
 
 <addon id="plugin.video.dmd-czech.huste"
        name="Huste TV Archiv"
-       version="0.6.0"
+       version="0.7.0"
        provider-name="Jose Riha/Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -888,7 +888,7 @@
         Plugin pro přehrávání videí z archivu Huste.tv
     </description>
     <description lang="sk">
-        Plugin na prehrávanie videí z archívu Huste.tv
+        Plugin na prehrávanie videí z arhcívu Huste.tv
     </description>
   </extension>
 </addon>
