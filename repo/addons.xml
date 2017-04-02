@@ -893,6 +893,38 @@
   </extension>
 </addon>
 
+<addon id="metadata.bbaron"
+       name="MOVIE SCRAPER BBARON"
+       version="1.5"
+       provider-name="BBaron">
+    <requires>
+        <import addon="xbmc.metadata" version="2.1.0"/>
+        <import addon="metadata.common.themoviedb.org" version="2.12.1"/>
+        <import addon="metadata.common.movieposterdb.com" version="1.1.2"/>
+        <import addon="metadata.common.imdb.com" version="2.7.8"/>
+        <import addon="metadata.common.impa.com" version="1.1.3"/>
+        <import addon="metadata.common.hdtrailers.net" version="2.0.5"/>
+    </requires>
+    <extension point="xbmc.metadata.scraper.movies"
+               language="cs"
+               library="bbaron.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="sk">Jeho funkcia spočíva v tom, že stiahne informácie z viacrích zdrojov pre vašu filmovú databázu.
+            Po nainštalovaní MOVIE SCRAPER BBARON je možné v nastaveniach zvoliť jazyk, podla kterého sa bude vytvárať databáza filmov.
+            Na výber je ORIGINAL(vacsinou anglický)/ CZ / SK. </summary>
+        <summary lang="cz">Jeho funkce spočívá v tom, že stáhne informace z více zdroju pro vaše filmové databáze.
+            Po nainstalování MOVIE SCRAPER BBARON je možné v nastavení zvolit jazyk, podle kterého se bude vytvářet databáze filmů.
+            Na výběr je ORIGINAL(vetsinou anglický)/ CZ / SK. </summary>
+        <summary lang="en">MOVIE SCRAPER BBARON</summary>
+        <description lang="cs">Jeho funkce spočívá v tom, že stáhne informace z více zdroju pro vaše filmové databáze.
+            Po nainstalování MOVIE SCRAPER BBARON je možné v nastavení zvolit jazyk, podle kterého se bude vytvářet databáze filmů.
+            Na výběr je ORIGINAL(většinou anglický)/ CZ / SK.
+        </description>
+        <platform>all</platform>
+        <source>https://github.com/bbaronSVK/metadata.bbaron</source>
+    </extension>
+</addon>
+
 <addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.1.3">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
