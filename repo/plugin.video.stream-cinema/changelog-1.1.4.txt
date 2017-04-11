@@ -1,0 +1,51 @@
+[B]1.1.4[/B]
+- opravene bugy: 
+ - stahovanie serialov bez serie a epizody, 
+ - pocas prehravania a po skonceni sa zobrazuje stale rovnaky nazov filmu/serialu vratane z TV programu
+ - vyziadane prihlasenie na WS
+ - kopec dalsieho
+
+- pridana podpora pre trakt 
+ - prihlasenie na trakt.tv cez plugin
+ - presna identifikacia filmu/serialu
+ - uz nieje potrebne zobrazovat pocas prehravania originalny nazov
+ - moznost pridavat filmy/serialy do zoznamov
+ - moznost vytvarat vlastne privatne zoznamy
+ - automaticky pridava film/serial do kolekcie, aby sa dal oznacit za videny
+ - ak nieje nainstalovany trakt.tv plugin, tak plugin oznacuje film/serial za videny ak sa prehra 75% a viac
+
+[B]1.1.0[/B]
+nova API
+
+[B]1.0.6:[/B]
+fix s nazvom suboru pre stahovanie + posielanie spravnej pripony
+
+[B]1.0.5:[/B]
+default adresar pre stahovanie
+
+[B]1.0.4:[/B]
+automaticke stahovanie titulkov z opensubtitles ak stream nieje CZ/SK
+
+[B]1.0.3:[/B]
+nacitavanie externych titulkov zo servera
+
+[B]1.0.1:[/B]
+fix webshare loginu
+
+[B]1.0.0:[/B]
+pridane prihlasovanie na webshare - uz nieje potreba prihlasenia sa v plugine online-files
+
+[B]0.0.9:[/B]
+pridane popularne filmy/serialy - generovane zo statistik za poslednych 24hodin
+
+﻿[B]0.0.8:[/B]
+pridana moznost radenia filmov/serialov podla parametrov
+
+[B]0.0.7:[/B]
+serialy - fixnute info adresara
+
+﻿[B]0.0.6:[/B]
+pridane serialy
+
+﻿[B]1.0.5:[/B]
+Initial version
