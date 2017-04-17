@@ -171,7 +171,7 @@
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream TV Archiv"
-       version="1.2.6"
+       version="1.2.7"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -718,7 +718,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.8" provider-name="Jiri Vyhnalek">
+<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.9" provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
