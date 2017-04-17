@@ -1,0 +1,2 @@
+2017-04-17 [1.5.9]
+  * Vypnute odosielanie statisktik kvoli nedostupnosti webovej sluzby
