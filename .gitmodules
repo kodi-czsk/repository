@@ -136,3 +136,6 @@
 [submodule "metadata.bbaron"]
 	path = metadata.bbaron
 	url = https://github.com/bbaronSVK/metadata.bbaron.git
+[submodule "plugin.video.idnestv"]
+	path = plugin.video.idnestv
+	url = https://github.com/72ka/plugin.video.idnestv
