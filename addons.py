@@ -14,6 +14,7 @@ __ADDONS__ = [
     "plugin.video.dmd-czech.stream",
     "plugin.video.gordon.ura.cz",
     "plugin.video.hejbejse.tv",
+    "plugin.video.idnestv",
     "plugin.video.ivysilani",
     "plugin.video.jaksetodela.cz",
     "plugin.video.joj.sk",
