@@ -238,6 +238,32 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.idnestv"
+       name="iDNES[COLOR blue]>[/COLOR]tv"
+       version="1.0.0"
+       provider-name="Jan Heřman (72ka)">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+    <import addon="script.module.requests" version="2.4.3"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Watch videos from czech server video.idnes.cz</summary>
+    <summary lang="cs">Sledujte videa ze serveru video.idnes.cz</summary>
+    <description>
+        Plugin to play TV video from video.idnes.cz
+    </description>
+    <description lang="cs">
+        Plugin pro přehrávání videí z video.idnes.cz
+    </description>
+    <source>https://github.com/kodi-czsk/plugin.video.idnestv</source>
+  </extension>
+</addon>
+
 <addon id="plugin.video.ivysilani" name="iVysílání — Česká televize" version="1.3.3" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -682,7 +708,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.16">
+<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.17">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.17" />
