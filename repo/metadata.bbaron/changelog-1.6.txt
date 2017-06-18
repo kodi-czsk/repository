@@ -1,0 +1,6 @@
+﻿[B]1.2[/B]
+Vyhladavanie nazvu cez CSFD.CZ - detail filmu uz z bbaron.sk
+[B]1.1[/B]nastavenia - testovaní
+
+[B]1.0[/B]
+První hotová veřejná verze programu - testovaní
