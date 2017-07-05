@@ -1,0 +1,23 @@
+2017-07-06
+ * Opravene prehravanie
+2017-06-02
+ * Opravene prehravanie
+2017-04-02
+ * Aktualizovany doplnok po presunuti na huste.joj.sk (iba archiv)
+ * Precisteny kod
+2016-06-12
+ * Fixnute parsovanie url
+ * Odstranena sekcia Filmy
+2014-10-25
+ * Pridani statistik
+2013-02-04:
+  * chyba casu live
+2013-01-30:
+  * oprava doplnku
+2012-03-13:
+ * pridana moznost prehravani LIVE sportovnich prenosu a zaznamu (netestovana BETA)  
+2011-07-22:
+ * přechod na upravenou knihovnu BeautifulSOAP - údajně má zpracovávat dotazy o 100% rychleji, thanx to IVO ;-)  
+2011-07-11:
+ * Huste.tv (alpha) - first release
+
