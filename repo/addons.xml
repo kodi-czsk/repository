@@ -71,7 +71,7 @@
 
 <addon id="plugin.video.dmd-czech.novaplus"
        name="Nova Plus TV Archiv"
-       version="1.0.8"
+       version="1.0.9"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -84,11 +84,15 @@
     <platform>all</platform>
     <summary>Nova Plus TV video-archive plugin</summary>
     <summary lang="cs">Nova Plus TV - archiv</summary>
+    <summary lang="sk">Nova Plus TV - archív</summary>
     <description>
         Plugin to play TV video archive Novaplus.nova.cz
     </description>
     <description lang="cs">
         Plugin pro přehrávání videí z archivu Novaplus.nova.cz
+    </description>
+    <description lang="sk">
+        Plugin na prehrávanie videí z archívu Novaplus.nova.cz
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus</source>
   </extension>
