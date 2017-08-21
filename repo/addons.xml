@@ -122,7 +122,7 @@
 
 <addon id="plugin.video.dmd-czech.playtvak"
        name="[COLOR red]Play[/COLOR]tvak.cz"
-       version="1.0.2"
+       version="1.0.0"
        provider-name="Jan Heřman (72ka)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -175,7 +175,7 @@
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream TV Archiv"
-       version="1.2.7"
+       version="1.2.5"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -189,15 +189,11 @@
     <platform>all</platform>
     <summary>Stream TV video-archive plugin</summary>
     <summary lang="cs">Stream TV - archiv</summary>
-    <summary lang="sk">Stream TV - archív</summary>
     <description>
         Plugin to play TV video archive stream.cz
     </description>
     <description lang="cs">
         Plugin pro přehrávání videí z archivu stream.cz
-    </description>
-    <description lang="sk">
-        Plugin pre prehrávenie videí z archívu stream.cz
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.stream</source>
   </extension>
@@ -302,7 +298,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.joj.sk" name="joj.sk" provider-name="Maros Ondrasek" version="1.3.2">
+<addon id="plugin.video.joj.sk" name="joj.sk" provider-name="Maros Ondrasek" version="1.2.9">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.24" />
@@ -340,7 +336,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.markiza.sk" name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral" version="1.1.3">
+<addon id="plugin.video.markiza.sk" name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral" version="1.1.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.24" />
@@ -360,7 +356,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.mixer.cz" name="mixer.cz" provider-name="Maros Ondrasek" version="1.0.5">
+<addon id="plugin.video.mixer.cz" name="mixer.cz" provider-name="Maros Ondrasek" version="1.0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.24" />
@@ -378,7 +374,6 @@
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.mixer.cz</source>
   </extension>
-  <broken>Sluzba mixer.cz byla zrusena</broken>
 </addon>
 
 <addon id="plugin.video.mtr.sk" name="Mestská TV Ružomberok" provider-name="Libor Zoubek" version="1.0.1">
@@ -400,7 +395,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.7" provider-name="Štěpán Ort">
+<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.6" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.7.0"/>
@@ -416,10 +411,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.5">
+<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.51" />
+    <import addon="script.module.stream.resolver" version="1.6.36" />
     <import addon="script.module.elementtree" version="1.2.7" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -455,7 +450,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.primaplay" name="Prima Play" version="0.3.9" provider-name="Ladislav Dokulil">
+<addon id="plugin.video.primaplay" name="Prima Play" version="0.3.5" provider-name="Ladislav Dokulil">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -491,10 +486,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.3.6">
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.10">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.stream.resolver" version="1.6.48" />
+        <import addon="script.module.stream.resolver" version="1.6.40" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -502,10 +497,10 @@
     </extension>
     <extension library="service.py" point="xbmc.service"  start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">sosac.tv</summary>
-        <summary lang="cs">sosac.tv</summary>
-        <description lang="en">Watch online movies and tv shows from www.sosac.tv.</description>
-        <description lang="cs">Sledujte online filmy a serialy z www.sosac.tv.</description>
+        <summary lang="en">sosac.ph</summary>
+        <summary lang="cs">sosac.ph</summary>
+        <description lang="en">Watch online movies and tv shows from www.sosac.ph.</description>
+        <description lang="cs">Sledujte online videa a serialy z www.sosac.ph.</description>
         <platform>all</platform>
         <source>https://github.com/kodi-czsk/plugin.video.sosac.ph</source>
     </extension>
@@ -584,7 +579,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.1.3">
+<addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.1.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.22" />
@@ -624,7 +619,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.0.4" provider-name="Tomas Janciga">
+<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.0.1" provider-name="Tomas Janciga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.stream.resolver" version="1.6.22" />
@@ -646,7 +641,7 @@
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.4"
+       version="1.0.3"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -692,11 +687,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.1.0">
+<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.0.1">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
         <import addon="script.module.stream.resolver" version="1.6.38"/>
-	<import addon="script.module.urlresolver" version="3.0.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
         <provides>video</provides>
@@ -704,15 +698,14 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en">topserialy.sk</summary>
         <summary lang="sk">topserialy.sk</summary>
-        <description lang="en">Watch shows for free on TopSerialy.to</description>
-        <description lang="sk">Sleduj seriály online zdarma na TopSerialy.to</description>
-        <description lang="cs">Dívejte se na seriály na TopSerialy.to</description>
+        <description lang="en">Watch online movies for free on TopSerialy.sk</description>
+        <description lang="sk">Sleduj filmy online zdarma na TopSerialy.sk</description>
         <platform>all</platform>
         <source>https://github.com/jose1711/plugin.video.topserialy.sk</source>
     </extension>
 </addon>
 
-<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.18">
+<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.14">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.17" />
@@ -748,7 +741,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.9" provider-name="Jiri Vyhnalek">
+<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.8" provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -761,9 +754,10 @@
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.51">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.43">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
     <import addon="script.module.demjson" version="2.2.3" />
     <import addon="script.module.beautifulsoup4" version="4.3.1"/>
@@ -952,37 +946,33 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.1.14">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="0.0.2">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
-        <import addon="script.module.stream.resolver" version="1.6.51" />
+        <import addon="script.module.stream.resolver" version="1.6.40" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
+        <import addon="plugin.video.online-files" version="1.3.4" />
         <import addon="script.module.buggalo" version="1.1.2" />
-        <import addon="script.module.elementtree" version="1.2.7" />
-        <!-- import addon="script.trakt" version="3.1.7" /-->
-        <!-- import addon="script.module.urlresolver" version="3.0.27" /-->
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
     </extension>
-    <extension library="service.py" point="xbmc.service" start="startup">
-        <provides>service</provides>
-    </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">stream-cinema.online</summary>
-        <summary lang="cs">stream-cinema.online</summary>
-        <summary lang="sk">stream-cinema.online</summary>
+        <description lang="en">stream-cinema.online</description>
+        <disclaimer lang="en">Watch online movies from stream-cinema.online</disclaimer>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <source>https://github.com/bbaronSVK/plugin.video.stream-cinema.git</source>
+        <source>https://github.com/bbaronSVK/plugin.video.stream-cinema</source>
         <assets>
             <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
+            <fanart></fanart>
+            <screenshot></screenshot>
         </assets>
     </extension>
 </addon>
 
-<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.3.0" provider-name="Beam">
+<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.2.2" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="2.0.10" />
@@ -998,7 +988,7 @@
 	</extension>
 </addon>
 
-<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.2.3" provider-name="Beam">
+<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.2.2" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
