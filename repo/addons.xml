@@ -122,7 +122,7 @@
 
 <addon id="plugin.video.dmd-czech.playtvak"
        name="[COLOR red]Play[/COLOR]tvak.cz"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="Jan Heřman (72ka)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
