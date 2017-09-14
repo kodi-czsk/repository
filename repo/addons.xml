@@ -624,6 +624,39 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.1.0">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="inputstream.adaptive" version="0.0.1" optional="true"/>
+        <import addon="inputstream.rtmp" version="0.0.1" optional="true"/>
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Tipsport ELH</summary>
+        <summary lang="cs">Tipsport ELH</summary>
+        <description lang="en">Watch ELH streams from Tipsport.cz. It is necessary to fill account in setting.</description>
+        <description lang="cs">Sledujte ELH zápasy ze stránky Tipsport.cz. Pro správné fungování je třeba přidat účet v nastavení.</description>
+        <disclaimer lang="en">Addon were made for study purposes only and author does not guide anyone to disrespect Tipsport.cz site rules</disclaimer>
+        <disclaimer lang="cs">Addon byl vytvořen pro studijní účely a autor nenabáda nikoho k nerespektování pravidel stránky Tipsport.cz</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>resources\screenshot-01.jpg</screenshot>
+            <screenshot>resources\screenshot-02.jpg</screenshot>
+            <screenshot>resources\screenshot-03.jpg</screenshot>
+        </assets>
+        <news>
+v0.1.0 (14.9.2017)
+  - First public release
+v0.0.5 (13.9.2017)
+  - Add no stream notification
+        </news>
+    </extension>
+</addon>
+
 <addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.0.4" provider-name="Tomas Janciga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
