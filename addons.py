@@ -34,6 +34,7 @@ __ADDONS__ = [
     "plugin.video.sport5",
     "plugin.video.ta3.com",
     "plugin.video.teevee.sk",
+	"plugin.video.tipsport.elh",
     "plugin.video.tv.lux.sk",
     "plugin.video.tv.sme.sk",
     "plugin.video.tv.sosac.ph",
