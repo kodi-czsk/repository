@@ -139,3 +139,6 @@
 [submodule "plugin.video.idnestv"]
 	path = plugin.video.idnestv
 	url = https://github.com/72ka/plugin.video.idnestv
+[submodule "plugin.video.tipsport.elh"]
+	path = plugin.video.tipsport.elh
+	url = https://github.com/Xsichtik/plugin.video.tipsport.elh.git
