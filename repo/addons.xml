@@ -624,7 +624,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.1.0">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.1.1">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -649,6 +649,8 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.1.1 (19.9.2017)
+  - Enable stream 1 hour before start
 v0.1.0 (14.9.2017)
   - First public release
 v0.0.5 (13.9.2017)
