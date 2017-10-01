@@ -624,7 +624,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.2.3">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.2.4">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -649,6 +649,8 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.2.4 (1.10.2017)
+  - Add Tipsport warnings
 v0.2.3 (27.9.2017)
   - Add thumbnail image to streams
   - Improve logos
@@ -657,12 +659,6 @@ v0.2.1 (26.9.2017)
 v0.2.0 (21.9.2017)
   - Add SK Tipsport (+ icons)
   - Fix stream enabler
-v0.1.1 (19.9.2017)
-  - Enable stream 1 hour before start
-v0.1.0 (14.9.2017)
-  - First public release
-v0.0.5 (13.9.2017)
-  - Add no stream notification
         </news>
     </extension>
 </addon>
