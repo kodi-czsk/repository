@@ -491,10 +491,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.3.6">
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.3.7">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.stream.resolver" version="1.6.48" />
+        <import addon="script.module.stream.resolver" version="1.6.52" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -800,7 +800,7 @@ v0.2.0 (21.9.2017)
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.51">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.52">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
