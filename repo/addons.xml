@@ -624,7 +624,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.2.5">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.2.6">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -649,18 +649,12 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.2.6 (10.10.2017)
+  - Fix ImportError _strptime
 v0.2.5 (8.10.2017)
   - Improve alert message handling
 v0.2.4 (1.10.2017)
   - Add Tipsport warnings
-v0.2.3 (27.9.2017)
-  - Add thumbnail image to streams
-  - Improve logos
-v0.2.1 (26.9.2017)
-  - Improve 'No internet connection' handling
-v0.2.0 (21.9.2017)
-  - Add SK Tipsport (+ icons)
-  - Fix stream enabler
         </news>
     </extension>
 </addon>
