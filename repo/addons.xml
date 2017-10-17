@@ -993,14 +993,13 @@ v0.2.4 (1.10.2017)
     </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.2.8">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.2.9">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
         <import addon="script.module.stream.resolver" version="1.6.51" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
         <import addon="script.module.buggalo" version="1.1.2" />
         <import addon="script.module.elementtree" version="1.2.7" />
-        <import addon="script.module.pyxbmct" version="1.1.4" />
         <import addon="script.module.simplecache" version="1.0.11" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
