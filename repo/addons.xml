@@ -624,7 +624,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.3.2">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.3.3">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -649,6 +649,8 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.3.3(20.10.2017)
+  - Add quality selector in settings
 v0.3.2(19.10.2017)
   - Add Hebrew translation
 v0.3.1 (15.10.2017)
