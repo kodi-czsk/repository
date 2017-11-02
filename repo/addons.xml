@@ -244,7 +244,7 @@
 
 <addon id="plugin.video.idnestv"
        name="iDNES[COLOR blue]>[/COLOR]tv"
-       version="1.0.0"
+       version="1.0.1"
        provider-name="Jan Heřman (72ka)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
