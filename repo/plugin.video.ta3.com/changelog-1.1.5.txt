@@ -1,0 +1,16 @@
+[B]1.1.5:[/B]
+- nova ikona
+[B]1.1.4:[/B]
+- oprava nacitavania videii
+[B]1.1.3:[/B]
+- oprava strankovania
+[B]1.1.2:[/B]
+- oprava listovania kategorii a relacii
+[B]1.1.1:[/B]
+- oprava listovania
+[B]1.1.0:[/B]
+- ciastocna oprava po redesigne stranky
+[B]1.0.1:[/B]
+- oprava načítavania najsledovanejších videií
+[B]1.0.0:[/B]
+Initial version
