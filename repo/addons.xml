@@ -244,7 +244,7 @@
 
 <addon id="plugin.video.idnestv"
        name="iDNES[COLOR blue]>[/COLOR]tv"
-       version="1.0.1"
+       version="2.0.0"
        provider-name="Jan Heřman (72ka)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -256,13 +256,13 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Watch videos from czech server video.idnes.cz</summary>
-    <summary lang="cs">Sledujte videa ze serveru video.idnes.cz</summary>
+    <summary>Watch czech internet TV tv.idnes.cz</summary>
+    <summary lang="cs">Sledujte internetovou televizi tv.idnes.cz</summary>
     <description>
-        Plugin to play TV video from video.idnes.cz
+        Plugin to play TV video from tv.idnes.cz
     </description>
     <description lang="cs">
-        Plugin pro přehrávání videí z video.idnes.cz
+        iDNES spustil novou internetovou televizi. Tento zcela přepracovaný plugin umožňuje přehrávání kompletního obsahu.
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.idnestv</source>
   </extension>
@@ -991,7 +991,7 @@ v0.2.7 (12.10.2017)
     </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.2.19">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.2.20">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
         <import addon="script.module.stream.resolver" version="1.6.51" />
