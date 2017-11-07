@@ -1,0 +1,20 @@
+﻿2017-11-07:
+
+* Release 2.0.0
+* zcela přepracovaný plugin na nově spuštěnou internetovou televizi tv.idnes.cz
+
+2017-11-02:
+
+
+* Oprava prehravani
+
+* Release 1.0.2
+
+
+
+2017-05-20: 
+
+
+
+* Initial release 1.0.0
+
