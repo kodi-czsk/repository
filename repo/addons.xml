@@ -175,7 +175,7 @@
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream TV Archiv"
-       version="1.2.7"
+       version="1.2.5"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -189,15 +189,11 @@
     <platform>all</platform>
     <summary>Stream TV video-archive plugin</summary>
     <summary lang="cs">Stream TV - archiv</summary>
-    <summary lang="sk">Stream TV - archív</summary>
     <description>
         Plugin to play TV video archive stream.cz
     </description>
     <description lang="cs">
         Plugin pro přehrávání videí z archivu stream.cz
-    </description>
-    <description lang="sk">
-        Plugin pre prehrávenie videí z archívu stream.cz
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.stream</source>
   </extension>
@@ -244,7 +240,7 @@
 
 <addon id="plugin.video.idnestv"
        name="iDNES[COLOR blue]>[/COLOR]tv"
-       version="2.0.0"
+       version="1.0.0"
        provider-name="Jan Heřman (72ka)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -256,13 +252,13 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Watch czech internet TV tv.idnes.cz</summary>
-    <summary lang="cs">Sledujte internetovou televizi tv.idnes.cz</summary>
+    <summary>Watch videos from czech server video.idnes.cz</summary>
+    <summary lang="cs">Sledujte videa ze serveru video.idnes.cz</summary>
     <description>
-        Plugin to play TV video from tv.idnes.cz
+        Plugin to play TV video from video.idnes.cz
     </description>
     <description lang="cs">
-        iDNES spustil novou internetovou televizi. Tento zcela přepracovaný plugin umožňuje přehrávání kompletního obsahu.
+        Plugin pro přehrávání videí z video.idnes.cz
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.idnestv</source>
   </extension>
@@ -302,7 +298,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.joj.sk" name="joj.sk" provider-name="Maros Ondrasek" version="1.3.3">
+<addon id="plugin.video.joj.sk" name="joj.sk" provider-name="Maros Ondrasek" version="1.2.9">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.24" />
@@ -340,7 +336,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.markiza.sk" name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral" version="1.1.4">
+<addon id="plugin.video.markiza.sk" name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral" version="1.1.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.24" />
@@ -360,7 +356,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.mixer.cz" name="mixer.cz" provider-name="Maros Ondrasek" version="1.0.5">
+<addon id="plugin.video.mixer.cz" name="mixer.cz" provider-name="Maros Ondrasek" version="1.0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.24" />
@@ -378,7 +374,6 @@
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.mixer.cz</source>
   </extension>
-  <broken>Sluzba mixer.cz byla zrusena</broken>
 </addon>
 
 <addon id="plugin.video.mtr.sk" name="Mestská TV Ružomberok" provider-name="Libor Zoubek" version="1.0.1">
@@ -400,7 +395,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.7" provider-name="Štěpán Ort">
+<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.6" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.7.0"/>
@@ -416,10 +411,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.5">
+<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.51" />
+    <import addon="script.module.stream.resolver" version="1.6.36" />
     <import addon="script.module.elementtree" version="1.2.7" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -455,7 +450,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.primaplay" name="Prima Play" version="0.3.9" provider-name="Ladislav Dokulil">
+<addon id="plugin.video.primaplay" name="Prima Play" version="0.3.5" provider-name="Ladislav Dokulil">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -491,10 +486,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.3.7">
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.10">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.stream.resolver" version="1.6.52" />
+        <import addon="script.module.stream.resolver" version="1.6.40" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -502,10 +497,10 @@
     </extension>
     <extension library="service.py" point="xbmc.service"  start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">sosac.tv</summary>
-        <summary lang="cs">sosac.tv</summary>
-        <description lang="en">Watch online movies and tv shows from www.sosac.tv.</description>
-        <description lang="cs">Sledujte online filmy a serialy z www.sosac.tv.</description>
+        <summary lang="en">sosac.ph</summary>
+        <summary lang="cs">sosac.ph</summary>
+        <description lang="en">Watch online movies and tv shows from www.sosac.ph.</description>
+        <description lang="cs">Sledujte online videa a serialy z www.sosac.ph.</description>
         <platform>all</platform>
         <source>https://github.com/kodi-czsk/plugin.video.sosac.ph</source>
     </extension>
@@ -567,7 +562,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sport5" name="Sport5" provider-name="tomkuba" version="1.1.0">
+<addon id="plugin.video.sport5" name="Sport5" provider-name="Brytro" version="1.0.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -584,7 +579,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.1.5">
+<addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.1.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.22" />
@@ -624,7 +619,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.3.3">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.1.0">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -638,8 +633,8 @@
         <platform>all</platform>
         <summary lang="en">Tipsport ELH</summary>
         <summary lang="cs">Tipsport ELH</summary>
-        <description lang="en">Watch ELH streams from Tipsport.cz. It is necessary to fill account in setting. If you like this addon and want to thank me, you can donate on paypal.me/JanKubovy</description>
-        <description lang="cs">Sledujte ELH zápasy ze stránky Tipsport.cz. Pro správné fungování je třeba přidat účet v nastavení. V případě, že se vám addon líbí a chcete mi nějak poděkovat, můžete mi poslat libovolnou částku na paypal.me/JanKubovy</description>
+        <description lang="en">Watch ELH streams from Tipsport.cz. It is necessary to fill account in setting.</description>
+        <description lang="cs">Sledujte ELH zápasy ze stránky Tipsport.cz. Pro správné fungování je třeba přidat účet v nastavení.</description>
         <disclaimer lang="en">Addon were made for study purposes only and author does not guide anyone to disrespect Tipsport.cz site rules</disclaimer>
         <disclaimer lang="cs">Addon byl vytvořen pro studijní účely a autor nenabáda nikoho k nerespektování pravidel stránky Tipsport.cz</disclaimer>
         <assets>
@@ -649,21 +644,15 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
-v0.3.3(20.10.2017)
-  - Add quality selector in settings
-v0.3.2(19.10.2017)
-  - Add Hebrew translation
-v0.3.1 (15.10.2017)
-  - Hotfix SK streams
-v0.3.0 (15.10.2017)
-  - Add teams full names
-v0.2.7 (12.10.2017)
-  - Fix No streams Problem
+v0.1.0 (14.9.2017)
+  - First public release
+v0.0.5 (13.9.2017)
+  - Add no stream notification
         </news>
     </extension>
 </addon>
 
-<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.0.4" provider-name="Tomas Janciga">
+<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.0.1" provider-name="Tomas Janciga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.stream.resolver" version="1.6.22" />
@@ -685,7 +674,7 @@ v0.2.7 (12.10.2017)
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.4"
+       version="1.0.3"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -731,11 +720,10 @@ v0.2.7 (12.10.2017)
   </extension>
 </addon>
 
-<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.1.0">
+<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.0.1">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
         <import addon="script.module.stream.resolver" version="1.6.38"/>
-	<import addon="script.module.urlresolver" version="3.0.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
         <provides>video</provides>
@@ -743,15 +731,14 @@ v0.2.7 (12.10.2017)
     <extension point="xbmc.addon.metadata">
         <summary lang="en">topserialy.sk</summary>
         <summary lang="sk">topserialy.sk</summary>
-        <description lang="en">Watch shows for free on TopSerialy.to</description>
-        <description lang="sk">Sleduj seriály online zdarma na TopSerialy.to</description>
-        <description lang="cs">Dívejte se na seriály na TopSerialy.to</description>
+        <description lang="en">Watch online movies for free on TopSerialy.sk</description>
+        <description lang="sk">Sleduj filmy online zdarma na TopSerialy.sk</description>
         <platform>all</platform>
         <source>https://github.com/jose1711/plugin.video.topserialy.sk</source>
     </extension>
 </addon>
 
-<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.18">
+<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.14">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.17" />
@@ -787,7 +774,7 @@ v0.2.7 (12.10.2017)
   </extension>
 </addon>
 
-<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.9" provider-name="Jiri Vyhnalek">
+<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.8" provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -800,9 +787,10 @@ v0.2.7 (12.10.2017)
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.52">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.43">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
     <import addon="script.module.demjson" version="2.2.3" />
     <import addon="script.module.beautifulsoup4" version="4.3.1"/>
@@ -991,43 +979,33 @@ v0.2.7 (12.10.2017)
     </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.2.21">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="0.0.2">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
-        <import addon="script.module.stream.resolver" version="1.6.51" />
+        <import addon="script.module.stream.resolver" version="1.6.40" />
+        <import addon="script.common.plugin.cache" version="2.5.0" />
+        <import addon="plugin.video.online-files" version="1.3.4" />
         <import addon="script.module.buggalo" version="1.1.2" />
-        <import addon="script.module.elementtree" version="1.2.7" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
     </extension>
-    <extension library="service.py" point="xbmc.service" start="startup">
-        <provides>service</provides>
-    </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">stream-cinema.online - play content from webshare.cz[CR]For proper functioning, it is necessary to [I]register at webshare.cz and have activated VIP[/I].</summary>
-        <summary lang="cs">stream-cinema.online - prehravani obsahu z webshare.cz[CR]Pro spravne fungovani je potreba se [I]registrovat na webshare.cz a mit aktivovane VIP[/I].</summary>
-        <summary lang="sk">stream-cinema.online - prehravanie obsahu z webshare.cz[CR]Pre spravne fungovanie je potrebne sa [I]registrovat na webshare.cz a mat aktivovane VIP[/I].</summary>
-        <summary lang="he">stream-cinema.online - ניגון תוכן מ-webshare.cz[CR]לתפקוד תקין עליך [I]להירשם ב-webshare.cz ולהיות בעל חשבון VIP פעיל[/I].</summary>
+        <summary lang="en">stream-cinema.online</summary>
+        <description lang="en">stream-cinema.online</description>
+        <disclaimer lang="en">Watch online movies from stream-cinema.online</disclaimer>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-        <source>https://github.com/bbaronSVK/plugin.video.stream-cinema.git</source>
+        <source>https://github.com/bbaronSVK/plugin.video.stream-cinema</source>
         <assets>
             <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
-            <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
-            <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+            <fanart></fanart>
+            <screenshot></screenshot>
         </assets>
-        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with of the content providers. This addon simply search on webshare.cz for content. Use at your own risk!</disclaimer>
-        <disclaimer lang="sk">Autor tohto addonu nemá žiaden obsah, ktorý sa v ňom nachádza a nemá žiadnu príslušnosť k poskytovateľovi obsahu. Tento addon iba vyhľadá obsah na webshare.cz. Používajte na vlastné riziko!</disclaimer>
-        <disclaimer lang="cs">Autor tohto addonu nemá žáden obsah, který se v ňem nachází a nemá žádnou příslušnost k poskytovateli obsahu. Tento addon jen vyhledává obsah na webshare.cz. Používejte na vlastní riziko!</disclaimer>
-        <disclaimer lang="he">-המחבר של ההרחבה זה אינו מארח את התוכן שעלול להימצא ואין לו שום זיקה לספקי התוכן. ההרחבה פשוט מבצעת חיפוש ב webshare.cz עבור תוכן. השימוש הוא על אחריותך בלבד!</disclaimer>
-        <news>[B]1.2.0[/B][CR]- Nova API 1.2[CR]- nove nastavenia:[CR]  - automaticky vyber streamu (jazyk, sekundarny jazyk, kvalita)[CR]  - odfiltrovanie HEVC streamov[CR]  - filtrovanie streamov podla nameranej rychlosti na webshare.cz[CR]- v kontextovom menu je moznost vybrat stream[CR]- v "Moje zoznamy (trakt.tv)" je mozne pridat cely zoznam do kniznice</news>
     </extension>
 </addon>
 
-<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.3.0" provider-name="Beam">
+<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.2.2" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="2.0.10" />
@@ -1043,7 +1021,7 @@ v0.2.7 (12.10.2017)
 	</extension>
 </addon>
 
-<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.2.3" provider-name="Beam">
+<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.2.2" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
