@@ -1,0 +1,10 @@
+﻿[B]1.7[/B]
+upravene nastavenie - pouziva sa uz len jazyk a moznost ziskavat aj "SETY" filmov. Ak sa nepouzivaju sety, tak je scraper ovela rychlejsi.
+
+﻿[B]1.2[/B]
+Vyhladavanie nazvu cez CSFD.CZ - detail filmu uz z bbaron.sk
+
+[B]1.1[/B]nastavenia - testovaní
+
+[B]1.0[/B]
+První hotová veřejná verze programu - testovaní
