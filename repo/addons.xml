@@ -991,7 +991,7 @@ v0.2.7 (12.10.2017)
     </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.2.26">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.2.27">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
         <import addon="script.module.stream.resolver" version="1.6.51" />
@@ -1004,6 +1004,7 @@ v0.2.7 (12.10.2017)
     <extension library="service.py" point="xbmc.service" start="startup">
         <provides>service</provides>
     </extension>
+    <extension library="lib" point="xbmc.python.module" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">stream-cinema.online - play content from webshare.cz[CR]For proper functioning, it is necessary to [I]register at webshare.cz and have activated VIP[/I].</summary>
         <summary lang="cs">stream-cinema.online - prehravani obsahu z webshare.cz[CR]Pro spravne fungovani je potreba se [I]registrovat na webshare.cz a mit aktivovane VIP[/I].</summary>
