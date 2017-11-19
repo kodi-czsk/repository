@@ -142,3 +142,6 @@
 [submodule "plugin.video.tipsport.elh"]
 	path = plugin.video.tipsport.elh
 	url = https://github.com/Xsichtik/plugin.video.tipsport.elh.git
+[submodule "plugin.video.serialhd.cz"]
+	path = plugin.video.serialhd.cz
+	url = https://github.com/martinpodkrivacky/plugin.video.serialhd.cz
