@@ -1028,15 +1028,15 @@ v0.2.7 (12.10.2017)
     </extension>
 </addon>
 
-<addon id="plugin.video.serialhd.cz" name="SerialHD.cz" provider-name="Martin Podkrivacky" version="0.9.7">
-	<requires>
+<addon id="plugin.video.serialhd.cz" name="SerialHD.cz" provider-name="Martin Podkrivacky" version="1.0.1">
+  <requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.stream.resolver" version="2.6.54" />
-	</requires>
-	<extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
 		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
+  </extension>
+  <extension point="xbmc.addon.metadata">
 		<summary lang="en">SerialHD.cz</summary>
 		<summary lang="cs">SerialHD.cz</summary>
 		<description lang="en">Watch online HD and 4K tv shows through portal SerialHD.cz</description>
@@ -1045,7 +1045,7 @@ v0.2.7 (12.10.2017)
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<assets>
-			<icon>icon.png</icon>
+			<icon>icon_aa.png</icon>
 			<fanart>fanart.jpg</fanart>
 			<screenshot>resources/screenshots/a1.jpg</screenshot>
 			<screenshot>resources/screenshots/a2.jpg</screenshot>
@@ -1054,8 +1054,8 @@ v0.2.7 (12.10.2017)
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with of the content providers. This addon simply search on playbe.cz for content. Use at your own risk!</disclaimer>
 		<disclaimer lang="sk">Autor tohto addonu nemá žiaden obsah, ktorý sa v ňom nachádza a nemá žiadnu príslušnosť k poskytovateľovi obsahu. Tento addon iba vyhľadá obsah na playbe.cz. Používajte na vlastné riziko!</disclaimer>
 		<disclaimer lang="cs">Autor tohto addonu nemá žáden obsah, který se v ňem nachází a nemá žádnou příslušnost k poskytovateli obsahu. Tento addon jen vyhledává obsah na playbe.cz. Používejte na vlastní riziko!</disclaimer>
-		<news>[B]0.9.6[/B][CR]- Prehliadnejšie menu[CR]- Vylepšena kontabilita</news>
-	</extension>
+		<news>[B]0.9.8[/B][CR]- Prihlasovanie k účtu</news>
+  </extension>
 </addon>
 
 <addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.3.0" provider-name="Beam">
