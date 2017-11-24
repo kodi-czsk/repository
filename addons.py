@@ -51,7 +51,8 @@ __ADDONS__ = [
     "plugin.video.dmd-czech.huste",
     "metadata.bbaron",
     "plugin.video.stream-cinema",
-    "plugin.video.serialhd.cz"
+    "plugin.video.serialhd.cz",
+    "metadata.csfd.cz"
     ] + _BEAM_
 
 import os
