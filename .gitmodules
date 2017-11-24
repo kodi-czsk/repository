@@ -145,3 +145,6 @@
 [submodule "plugin.video.serialhd.cz"]
 	path = plugin.video.serialhd.cz
 	url = https://github.com/martinpodkrivacky/plugin.video.serialhd.cz
+[submodule "metadata.csfd.cz"]
+	path = metadata.csfd.cz
+	url = https://github.com/ekarorgit/metadata.csfd.cz.git
