@@ -203,7 +203,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.gordon.ura.cz" name="Gordon Ramsay CZ" provider-name="Maros Ondrasek" version="1.0.6">
+<addon id="plugin.video.gordon.ura.cz" name="Gordon Ramsay CZ" provider-name="Maros Ondrasek" version="1.0.7">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.31" />
@@ -1055,6 +1055,51 @@ v0.2.7 (12.10.2017)
 		<disclaimer lang="sk">Autor tohto addonu nemá žiaden obsah, ktorý sa v ňom nachádza a nemá žiadnu príslušnosť k poskytovateľovi obsahu. Tento addon iba vyhľadá obsah na playbe.cz. Používajte na vlastné riziko!</disclaimer>
 		<disclaimer lang="cs">Autor tohto addonu nemá žáden obsah, který se v ňem nachází a nemá žádnou příslušnost k poskytovateli obsahu. Tento addon jen vyhledává obsah na playbe.cz. Používejte na vlastní riziko!</disclaimer>
 		<news>[B]0.9.8[/B][CR]- Prihlasovanie k účtu</news>
+  </extension>
+</addon>
+
+<addon id="metadata.csfd.cz"
+       name="ČSFD.cz"
+       version="3.5"
+       provider-name="ekarorgit">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+    <import addon="metadata.common.themoviedb.org" version="2.12.1"/>
+    <import addon="metadata.common.imdb.com" version="2.7.8"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.movies" language="cs" library="csfdcz.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ČSFD Movie Scraper</summary>
+    <summary lang="cs">ČSFD Metadata Stahovač</summary>
+    <description lang="en">Download Movie information from www.csfd.cz (czech-slovak movie database) / combined with www.imdb.com and themoviedb.org</description>
+    <description lang="cs">Stahuje informace o filmech z csfd.cz (kombinovaně s imdb.com a themoviedb.org). Volně navázáno na původní verzi od LD a verzi 3.4h nalezenou na netu. (http://ldevel.blogspot.sk/)</description>
+    <disclaimer lang="cs">Pro nahlášení bugu navštivte www.github.com/ekarorgit/metadata.csfd.cz</disclaimer>
+    <disclaimer lang="en">For bugs visit www.github.com/ekarorgit/metadata.csfd.cz</disclaimer>
+    <language>cs en</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</license>
+    <forum></forum>
+    <website>www.github.com/ekarorgit/metadata.csfd.cz</website>
+    <email></email>
+    <source>www.github.com/ekarorgit/metadata.csfd.cz</source>
+    <news>v 3.5 (23.11.2017)
+    Logika založena na metadata.csfd.cz verzi 3.4h, ale skoro celé přepsáno. Změny:
+    [fixed] Automatické přesměrovaní IMDB ID na správné (např: imdbid pro film Neon Demon)
+    [fixed] Plakát z CSFD stahuje v maximalním rozlišení
+    [fixed] Délka filmu stažena i při uvedení více verzí na CSFD
+    [changed] Actors, Directors, Writers stahuje opět z IMDB
+    [added] Fallback obsahu z TMDB
+    [added] Možnost stahovaní obsahu pouze z TMDB
+    [added] Scraper opět najde výsledek hledaní s jedním výsledkem (např: Metegol)
+    [added] Volba stahovaní plakátu z IMDB
+    [added] Ve výsledku hledání zobrazuje i search-name
+    [added] Používání cache
+    </news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart></fanart>
+      <screenshot></screenshot>
+    </assets>
   </extension>
 </addon>
 
