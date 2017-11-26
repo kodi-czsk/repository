@@ -800,7 +800,7 @@ v0.2.7 (12.10.2017)
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.53">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.54">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
