@@ -223,7 +223,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.hejbejse.tv" name="Hejbejse.tv" provider-name="Ivo Brhel (refactoring: Jose Riha)" version="1.0.5">
+<addon id="plugin.video.hejbejse.tv" name="Hejbejse.tv" provider-name="Ivo Brhel (refactoring: Jose Riha)" version="1.0.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.13" />
