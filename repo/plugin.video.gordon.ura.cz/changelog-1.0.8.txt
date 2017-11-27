@@ -1,0 +1,17 @@
+[B]1.0.8[/B]
+- nova ikona
+
+[B]1.0.7[/B]
+- pridana podpora pre dailymotion videa
+
+[B]1.0.6[/B]
+- oprava po re-dizajne stranky
+
+[B]1.0.5[/B]
+- oprava strankovania
+
+[B]1.0.4[/B]
+- oprava strankovania
+
+[B]1.0.0:[/B]
+Initial version
