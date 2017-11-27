@@ -1,0 +1,26 @@
+2017-11-26 [1.1.8]
+* New icon
+2017-02-02 [1.1.7]
+* OAuth error fix. Thx to Freaders
+2015-11-13 [1.1.6]
+* Locality fetched from subscription configuration
+* Temporary no broadcast fix
+2015-10-30 [1.1.5]
+* Error variable fix
+* Sending version of plugin to remote error log
+2015-08-18 [1.1.4]
+* Device ID saved to settings
+2015-08-17 [1.1.3]
+* Tariff fix
+2015-08-11 [1.1.2]
+* SSL verification turned off (thx to Vita56)
+2015-08-11 [1.1.1]
+* Subscription code isn't number
+2015-08-11 [1.1.0]
+* Subscription code fix
+* Refactoring to use requests library
+* Premium channels support
+2015-03-29 [1.0.1]
+* Missing logo bugfix
+2014-12-23 [1.0.0]
+ * Initial release
