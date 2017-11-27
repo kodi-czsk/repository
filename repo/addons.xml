@@ -36,7 +36,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně TV" version="2.0.2" provider-name="Petr Čermák, Štěpán Ort">
+<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně TV" version="2.0.3" provider-name="Petr Čermák, Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.dmd-czech.common" version="1.5.5"/>
@@ -400,7 +400,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.7" provider-name="Štěpán Ort">
+<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.8" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.7.0"/>
