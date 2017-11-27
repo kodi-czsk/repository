@@ -1,0 +1,8 @@
+[B]1.0.6:[/B]
+new icon
+[B]1.0.5:[/B]
+fixed new web pages
+[B]1.0.1:[/B]
+fixed new web pages
+[B]1.0.0:[/B]
+Initial version
