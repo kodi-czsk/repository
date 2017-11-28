@@ -936,7 +936,7 @@ v0.2.7 (12.10.2017)
 
 <addon id="plugin.video.dmd-czech.huste"
        name="Huste TV Archiv"
-       version="0.7.2"
+       version="0.7.3"
        provider-name="Jose Riha/Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
