@@ -733,7 +733,7 @@ v0.2.7 (12.10.2017)
   </extension>
 </addon>
 
-<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.1.0">
+<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.1.1">
     <requires>
         <import addon="xbmc.python" version="2.7.7"/>
         <import addon="script.module.stream.resolver" version="1.6.38"/>
@@ -750,6 +750,7 @@ v0.2.7 (12.10.2017)
         <description lang="cs">Dívejte se na seriály na TopSerialy.to</description>
         <platform>all</platform>
         <source>https://github.com/jose1711/plugin.video.topserialy.sk</source>
+	<broken>deprecated</broken>
     </extension>
 </addon>
 
