@@ -14,6 +14,7 @@ __ADDONS__ = [
     "plugin.video.dmd-czech.stream",
     "plugin.video.gordon.ura.cz",
     "plugin.video.hejbejse.tv",
+    "plugin.video.idnestv",
     "plugin.video.ivysilani",
     "plugin.video.jaksetodela.cz",
     "plugin.video.joj.sk",
@@ -33,8 +34,11 @@ __ADDONS__ = [
     "plugin.video.sport5",
     "plugin.video.ta3.com",
     "plugin.video.teevee.sk",
+    "plugin.video.tipsport.elh",
+    "plugin.video.tv.lux.sk",
     "plugin.video.tv.sme.sk",
     "plugin.video.tv.sosac.ph",
+    "plugin.video.topserialy.sk",
     "plugin.video.videacesky.cz",
     "plugin.video.zkouknito.cz",
     "script.module.dmd-czech.common",
@@ -44,8 +48,11 @@ __ADDONS__ = [
     "repository.dmd-xbmc.googlecode.com",
     "repository.kodi-czsk",
     "weather.dmd-xbmc.in-pocasi",
-    "plugin.video.mojetv-archiv",
-    "plugin.video.dmd-czech.huste"
+    "plugin.video.dmd-czech.huste",
+    "metadata.bbaron",
+    "plugin.video.stream-cinema",
+    "plugin.video.serialhd.cz",
+    "metadata.csfd.cz"
     ] + _BEAM_
 
 import os
