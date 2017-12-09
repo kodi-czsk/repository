@@ -1,0 +1,10 @@
+[B]1.1.1:[/B]
+Fixed titles
+Opravene titulky videi
+[B]1.1.0:[/B]
+Adapted to new website
+Opraveno pro novy web
+[B]1.0.1:[/B]
+New logo
+[B]1.0.0:[/B]
+Initial version
