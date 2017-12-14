@@ -1,0 +1,5 @@
+[B]1.0:[/B]
+Pridany GIFnik (podpora iba pre HTML5 videa)
+
+[B]0.9:[/B]
+Prva verejna verzia
