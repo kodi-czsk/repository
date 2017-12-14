@@ -1096,6 +1096,28 @@ v0.3.5(8.12.2017)
   </extension>
 </addon>
 
+<addon id="plugin.image.rouming" name="Rouming" version="1.0" provider-name="jose1711">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+	<import addon="script.module.stream.resolver" version="1.6.17" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Pics and photos from Rouming.cz</summary>
+        <description lang="en">Check what's new on Rouming.cz</description>
+        <summary lang="sk">Obrázky a fotografie zo serveru Rouming.cz</summary>
+        <description lang="sk">Pozri, čo je nové na Roumenovi!</description>
+        <summary lang="cz">Obrázky a fotografie ze serveru Rouming.cz</summary>
+        <description lang="cz">Mrkni se, co je nové u Roumena!</description>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <language/>
+        <email>jose1711@gmail.com</email>
+    </extension>
+</addon>
+
 <addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.3.0" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
