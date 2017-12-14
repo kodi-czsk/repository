@@ -148,3 +148,6 @@
 [submodule "metadata.csfd.cz"]
 	path = metadata.csfd.cz
 	url = https://github.com/ekarorgit/metadata.csfd.cz.git
+[submodule "plugin.image.rouming"]
+	path = plugin.image.rouming
+	url = https://github.com/jose1711/plugin.image.rouming
