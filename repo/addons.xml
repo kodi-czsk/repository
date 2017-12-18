@@ -1096,7 +1096,7 @@ v0.3.5(8.12.2017)
   </extension>
 </addon>
 
-<addon id="plugin.image.rouming" name="Rouming" version="1.0" provider-name="jose1711">
+<addon id="plugin.image.rouming" name="Rouming" version="1.2" provider-name="jose1711">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
 	<import addon="script.module.stream.resolver" version="1.6.17" />
