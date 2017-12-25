@@ -268,19 +268,21 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.ivysilani" name="iVysílání — Česká televize" version="1.3.3" provider-name="Štěpán Ort">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>iVysílání — Česká televize</summary>
-	<description>Plugin to play videos and live TV from Czech Television's iVysilani</description>
-    <description lang="cs">Plugin nabízí přístup do archivu České televize iVysílání i přehrávání kanálů živě.</description>
-    <platform>all</platform>
-  </extension>
+<addon id="plugin.video.ivysilani" name="iVysílání — Česká televize" version="1.3.4" provider-name="Štěpán Ort">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.stream.resolver" version="1.6.13"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>iVysílání — Česká televize</summary>
+        <description>Plugin to play videos and live TV from Czech Television's iVysilani</description>
+        <description lang="cs">Plugin nabízí přístup do archivu České televize iVysílání i přehrávání kanálů živě.
+        </description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.jaksetodela.cz" name="Jak se to dela" provider-name="Ivo Brhel (Jose Riha - refactoring)" version="1.0.3">
