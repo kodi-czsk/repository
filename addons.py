@@ -53,7 +53,8 @@ __ADDONS__ = [
     "plugin.video.stream-cinema",
     "plugin.video.serialhd.cz",
     "metadata.csfd.cz",
-    "plugin.image.rouming"
+    "plugin.image.rouming",
+    "metadata.serialzone.cz"
     ] + _BEAM_
 
 import os
