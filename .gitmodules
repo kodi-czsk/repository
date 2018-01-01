@@ -151,3 +151,6 @@
 [submodule "plugin.image.rouming"]
 	path = plugin.image.rouming
 	url = https://github.com/jose1711/plugin.image.rouming
+[submodule "metadata.serialzone.cz"]
+	path = metadata.serialzone.cz
+	url = https://github.com/ekarorgit/metadata.serialzone.cz.git
