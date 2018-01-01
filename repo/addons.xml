@@ -795,7 +795,7 @@ v0.3.6(26.12.2017)
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.54">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.55">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
@@ -1121,6 +1121,50 @@ v0.3.6(26.12.2017)
 	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <language/>
         <email>jose1711@gmail.com</email>
+    </extension>
+</addon>
+
+<addon id="metadata.serialzone.cz"
+       name="SerialZone.cz"
+       version="2.3"
+       provider-name="ekarorgit">
+    <requires>
+        <import addon="xbmc.metadata" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.metadata.scraper.tvshows" language="cs" library="serialzone.cz.xml"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Serialzone Scraper</summary>
+        <summary lang="cs">Serialzone Stahovac</summary>
+        <description lang="en">Download series information from www.serialzone.cz</description>
+        <description lang="cs">Stahuje informace o filmech z webu serialzone.cz.</description>
+        <disclaimer lang="cs">Pro nahlášení bugu navštivte www.github.com/ekarorgit/metadata.serialzone.cz</disclaimer>
+        <disclaimer lang="en">For bugs visit www.github.com/ekarorgit/metadata.serialzone.cz</disclaimer>
+        <language>cs en</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</license>
+        <forum/>
+        <website>www.github.com/ekarorgit/metadata.serialzone.cz</website>
+        <email/>
+        <source>www.github.com/ekarorgit/metadata.serialzone.cz</source>
+        <news>v 2.3 (2.1.2018)
+  [changed] XSLT pro parsovani serialzone API
+  [changed] TheTVDB API 2.0 pro media
+  [changed] Pokud je nazev v cz a en stejny, tak se nezobrazuje v zavorce
+  [added]   Vyhledavani nove uprednostnuje rok z nazvu slozky
+
+v 2.2 (27.11.2017)
+  [added] Spravne vezme serialzone url z nfo souboru
+  [added] Uklada IMDBid do DB pro mozne pouziti v jinych pluginech
+  [added] Primarne posters, series posters, banners, fanarts z TVDB
+  [added] Moznost stahovani fallback poster ze serialzone (silena kvalita)
+  [added] Fallback ostatnich medii ze serialzone
+  [added] Moznost vypnout original nazev
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart/>
+            <screenshot/>
+        </assets>
     </extension>
 </addon>
 
