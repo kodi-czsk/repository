@@ -154,3 +154,6 @@
 [submodule "metadata.serialzone.cz"]
 	path = metadata.serialzone.cz
 	url = https://github.com/ekarorgit/metadata.serialzone.cz.git
+[submodule "plugin.video.titulkomet.cz"]
+	path = plugin.video.titulkomet.cz
+	url = https://github.com/brozikcz/plugin.video.titulkomet.cz.git

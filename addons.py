@@ -54,7 +54,8 @@ __ADDONS__ = [
     "plugin.video.serialhd.cz",
     "metadata.csfd.cz",
     "plugin.image.rouming",
-    "metadata.serialzone.cz"
+    "metadata.serialzone.cz",
+    "plugin.video.titulkomet.cz"
     ] + _BEAM_
 
 import os
