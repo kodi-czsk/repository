@@ -1055,7 +1055,7 @@ v0.3.6(26.12.2017)
 
 <addon id="metadata.csfd.cz"
        name="ČSFD.cz"
-       version="3.6"
+       version="3.7"
        provider-name="ekarorgit">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -1077,7 +1077,10 @@ v0.3.6(26.12.2017)
     <website>www.github.com/ekarorgit/metadata.csfd.cz</website>
     <email></email>
     <source>www.github.com/ekarorgit/metadata.csfd.cz</source>
-    <news> v 3.6 (28.12.2017)
+    <news> v 3.7 (2.1.2018)
+    [fixed] polozky v nastaveni
+    [fixed] spravne stahuje pocet hlasu hodnoceni
+ v 3.6 (28.12.2017)
     [fixed] Smazáno nadbytečné odsazováni v popisu filmu
     [added] Možnost zapnout anglické názvy místo "původních"
 
