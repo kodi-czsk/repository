@@ -1,0 +1,16 @@
+0.0.5
+- odstraneny problem s neaktualizovanim meteogramu
+- opravene zobrazovanie predpovede pre dalsie dni
+
+0.0.4
+- chybajuca ikona nesposobi pad pluginu
+
+0.0.3
+- opravene zobrazovanie ikony hmly
+
+0.0.2
+- opraveny problem s kodi na androide
+- pridany changelog
+
+0.0.1
+- uvodna verzia
