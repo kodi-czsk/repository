@@ -1190,6 +1190,33 @@ v 2.2 (27.11.2017)
   </extension>
 </addon>
 
+<addon 	id="weather.shmu.pocasie"
+		name="SHMU.sk počasie"
+		version="0.0.5"
+		provider-name="Jose Riha">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.pil" />
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.module.stream.resolver" version="1.6.13" />
+                <import addon="script.module.beautifulsoup4" version="1.6.13" />
+                <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+                <import addon="script.module.demjson" version="2.2.3" />
+	</requires>
+	<extension point="xbmc.python.weather" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary>Weather forecast for Slovak Republic from www.shmu.sk</summary>
+		<description>Actual weather information for major cities in Slovakia (current conditions are pulled from openweathermap)</description>
+		<summary lang="cs">Předpověď počasí ze serveru www.shmu.sk</summary>
+		<description lang="cs">Informace o počasí pro města na Slovensku (aktuální data pocházejí z openweathermap)</description>
+		<summary lang="sk">Predpoveď počasia zo serveru www.shmu.sk</summary>
+		<description lang="sk">Informácie o počasí pre Slovensko (aktuálne údaje pochádzajú z openweathermap)</description>
+		<language></language>
+		<platform>all</platform>
+		<source>https://github.com/jose1711/weather.shmu.pocasie.git</source>
+	</extension>
+</addon>
+
 <addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.3.0" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
