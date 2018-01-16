@@ -122,7 +122,7 @@
 
 <addon id="plugin.video.dmd-czech.playtvak"
        name="[COLOR red]Play[/COLOR]tvak.cz"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="Jan Heřman (72ka)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -244,12 +244,13 @@
 
 <addon id="plugin.video.idnestv"
        name="iDNES[COLOR blue]>[/COLOR]tv"
-       version="2.0.0"
+       version="2.0.1"
        provider-name="Jan Heřman (72ka)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
     <import addon="script.module.requests" version="2.4.3"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
