@@ -1130,7 +1130,7 @@ v0.3.6(26.12.2017)
 
 <addon id="metadata.serialzone.cz"
        name="SerialZone.cz"
-       version="2.3"
+       version="2.4"
        provider-name="ekarorgit">
     <requires>
         <import addon="xbmc.metadata" version="2.1.0"/>
@@ -1150,7 +1150,12 @@ v0.3.6(26.12.2017)
         <website>www.github.com/ekarorgit/metadata.serialzone.cz</website>
         <email/>
         <source>www.github.com/ekarorgit/metadata.serialzone.cz</source>
-        <news>v 2.3 (2.1.2018)
+        <news>v 2.4 (22.1.2018)
+  [fixed] element id nyni obsahuje TVDBid pro trakt.tv
+  [fixed] normalizace mezer v nazvech
+  [added] moznost pouze anglickych/puvodnich nazvu
+
+v 2.3 (2.1.2018)
   [changed] XSLT pro parsovani serialzone API
   [changed] TheTVDB API 2.0 pro media
   [changed] Pokud je nazev v cz a en stejny, tak se nezobrazuje v zavorce
