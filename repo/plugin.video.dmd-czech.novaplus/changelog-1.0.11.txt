@@ -1,0 +1,26 @@
+2017-11-26
+ * Nová ikona
+2017-09-24
+ * Oprava prehravani videi po zmene stranek Nova Plus
+2017-07-05
+ * Oprava zobrazenia vsetkych dielov v poradoch a serialoch
+2017-04-29
+ * Oprava prehravani
+2016-05-20
+ * Oprava prehravani
+ * Oprava nahledu poradu
+ * Zmena nazvu hlavniho adresare na Nejsledovanejsi
+ * Update grafiky dle aktualniho vzhledu stranek Nova Plus
+2015-11-21
+ * Oprava prehravani
+2015-06-11
+ * Oprava prehravani
+2014-10-25
+ * Pridani statistik
+2014-08-12
+ * Oprava nacitani kategorii
+2014-03-15
+ * Oprava prehravani
+2014-02-04: 
+ * Nova Plus (alpha) - first release
+
