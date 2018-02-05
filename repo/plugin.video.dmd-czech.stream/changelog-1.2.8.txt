@@ -1,0 +1,68 @@
+2018-02-04 [1.2.8]
+  * 1024px verze ikony
+2017-04-17 [1.2.7]
+  * Aktualizacia ikony
+2016-12-26 [1.2.6]
+  * Oprava - doplnok sa nespusti ak cesta k nemu obsahuje diakritiku (windows)
+  * Pridane preklady nazvov kategorii (najnovsie videa/relacie/rozpravky)   
+2016-03-13 [1.2.5]
+  * Oprava - sekce Pohadky nelze otevrit pokud API vrati pouze jeden porad.
+2016-01-30 [1.2.4]
+  * V popise videa sa odstrania/nahradia HTML znacky za formatovacie znacky podporovane v Kodi.
+  * Doplnena moznost vyberu inej kvality videa z kontextoveho menu.
+  * Pridane zobrazovanie poradoveho cisla epizody pri prehliadani relacie.
+  * Pridane odkazy na jednotlive sezony pri prehliadani epizod relacie.
+  * Opravene nezobrazovanie epizody relacie, pokial bola jedina v sezone.
+  * Opravene vylistovanie epizod v relaciach vzdy od najnovsich po najstarsie (nespoliehat sa na poradie prijate zo streamu).
+2015-11-08 [1.2.3]
+  * Pridana moznost vyberu kvality videa
+  * Pridana moznost triedenia relacii a rozpravok podla nazvu cez "sidebar menu"
+2015-07-06 [1.2.2]
+  * Oprava listování všech pořadů
+2015-02-15 [1.2.1]
+  * Provizorne doplnenie vyzadovaneho hesla pri pristupe k Stream API
+2014-12-12
+  * Predelani pluginu, na vyuzivani Stream API
+2014-10-31
+  * Pridani zavislosti na simplejson 
+2014-10-24
+  * Pridani sberu statistik 
+2013-04-10:
+  * Pri spousteni videa se nyni zobrazuje nabidka na seznam vsech dilu poradu
+2013-04-10:
+  * Pridan vypis vsech nejnovejsich epizod
+2013-04-04:
+  * oprava nezobrazovani epizod poradu
+2013-12-27:
+  * pridana sekce Pohadky
+2013-11-24:
+  * oprava ziskavani starsich videi 
+2013-11-24:
+  * uprava na ziskavani videa pomoci JSON poli 
+2013-11-23:
+  * oprava archivu na novy web, zatim provizorni
+2013-10-21:
+  * docasna oprava archivu (thanx to Radim)
+2013-06-03:
+ * oprava zobrazeni sekci
+2012-07-18:
+ * obroda archivu
+2011-11-03:
+ * debug
+2011-11-02:
+ * pridana moznost zobrazeni vlastnich nahranych videi
+2011-10-17:
+ * pridano vyhledavani
+2011-10-16:
+ * odstranen issue 1
+ * odebran filmovy stream, ktery byl zrusen
+ * odebrana Prima TV z duvodu prechodu na vlastni archiv, aktualni archiv Prima v samostatnem doplnku    
+2011-08-10:
+ * oprava  kategorie Hudba - Hudebni porady  
+2011-07-22:
+ * prechod na upravenou knihovnu BeautifulSOAP - udajne ma zpracovavat dotazy o 100% rychleji, thanx to IVO ;-)  
+2011-07-04:
+ * uprava ikony
+2011-06-26:
+ * Stream (alpha) - first release
+
