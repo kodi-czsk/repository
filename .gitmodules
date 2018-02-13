@@ -142,3 +142,21 @@
 [submodule "plugin.video.tipsport.elh"]
 	path = plugin.video.tipsport.elh
 	url = https://github.com/Xsichtik/plugin.video.tipsport.elh.git
+[submodule "plugin.video.serialhd.cz"]
+	path = plugin.video.serialhd.cz
+	url = https://github.com/martinpodkrivacky/plugin.video.serialhd.cz
+[submodule "metadata.csfd.cz"]
+	path = metadata.csfd.cz
+	url = https://github.com/ekarorgit/metadata.csfd.cz.git
+[submodule "plugin.image.rouming"]
+	path = plugin.image.rouming
+	url = https://github.com/jose1711/plugin.image.rouming
+[submodule "metadata.serialzone.cz"]
+	path = metadata.serialzone.cz
+	url = https://github.com/ekarorgit/metadata.serialzone.cz.git
+[submodule "plugin.video.titulkomet.cz"]
+	path = plugin.video.titulkomet.cz
+	url = https://github.com/brozikcz/plugin.video.titulkomet.cz.git
+[submodule "weather.shmu.pocasie"]
+	path = weather.shmu.pocasie
+	url = https://github.com/jose1711/weather.shmu.pocasie.git

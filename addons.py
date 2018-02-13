@@ -34,7 +34,7 @@ __ADDONS__ = [
     "plugin.video.sport5",
     "plugin.video.ta3.com",
     "plugin.video.teevee.sk",
-	"plugin.video.tipsport.elh",
+    "plugin.video.tipsport.elh",
     "plugin.video.tv.lux.sk",
     "plugin.video.tv.sme.sk",
     "plugin.video.tv.sosac.ph",
@@ -50,7 +50,13 @@ __ADDONS__ = [
     "weather.dmd-xbmc.in-pocasi",
     "plugin.video.dmd-czech.huste",
     "metadata.bbaron",
-    "plugin.video.stream-cinema"
+    "plugin.video.stream-cinema",
+    "plugin.video.serialhd.cz",
+    "metadata.csfd.cz",
+    "plugin.image.rouming",
+    "metadata.serialzone.cz",
+    "plugin.video.titulkomet.cz",
+    "weather.shmu.pocasie"
     ] + _BEAM_
 
 import os
