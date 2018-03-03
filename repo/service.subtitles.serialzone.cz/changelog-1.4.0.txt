@@ -1,0 +1,74 @@
+v1.4.0 (3.3.2018)
+- oprava otevirani okna s vyberem nastaveni jazyku pro stazeni
+
+v1.2.3 (13.02.2017)
+- oprava dekodovani utf8
+
+v1.2.1 (26.10.2014)
+- interni upravy (prejmenovani stats na usage_stats)
+
+v1.2.0 (23.10.2014)
+- oprava vycisteni tmp adresare (Helix)
+
+v1.1.1 (15.8.2014)
+- oprava preklepu v manualnim vyhledavani
+
+v1.1.0 (29.7.2014)
+- moznost vycisteni textu o zavorky, formatovani, atd (zapnuto)
+
+v1.0.0 (27.7.2014)
+- doplneni zavislosti
+- uprava vytazeni nazvu ze zavorek (minimalne 3 znaky)
+- zruseni moznosti ukladani titulku k prehravanemu souboru z .raru (od xbmc 13.1 neni potreba)
+- pridan slovensky preklad
+
+v0.9.3 (13.5.2014)
+- moznost pouzit text v zavorkach jako text pro vyhledavani (zapnuto)
+
+v0.9.2 (11.5.2014)
+- funkcni manualni vyhledavani
+
+v0.9.1 (6.5.2014)
+- dialog s nabidkou otevrit nastaveni jazyku titulku pokud jsou nastaveny spatne
+
+v0.9.0 (4.5.2014)
+- upozorneni pokud je spatne nastaveny jazyk pro vyhledavani titulku
+
+v0.8.0 (30.4.2014)
+- moznost odesilani statistik pouzivani (zapnuto)
+- uprava prekladu
+
+v0.7.0 (25.4.2014)
+- lokalizace nastaveni a hlasek
+- drobna uprava kodu a logovani
+
+v0.4.0 (23.4.2014)
+- filtrovani vysledku podle nastaveni jazyku pro vyhledavani titulku v XBMC
+
+v0.3.0 (21.4.2014)
+- oprava oznaceni titulku jako synced pokud se nepodarilo zjistit velikost lokalniho souboru
+- nova metoda pro zjisteni velikosti souboru v raru
+- drobne procisteni kodu
+
+v0.0.7 (15.4.2014)
+- moznost zkopirovani titulku vedle videa, pokud je prehravano video z raru (vypnuto)
+- moznost filtrace serialu podle roku vysilani (vypnuto)
+
+v0.0.6 (15.4.2014)
+- uprava velikosti ikony
+
+v0.0.5 (13.4.2014)
+- moznost vynechani clenu The z nazvu pri vyhledavani (zapnuto)
+
+v0.0.4 (10.4.2014)
+- manualni vyhledavani (pouze pro vyhledani serialu)
+- fix vyhledavani pokud titulky nebyly z webu nikdy stazeny
+
+v0.0.3 (3.4.2014)
+- unescape na jmeno titulku
+
+v0.0.2 (1.4.2014)
+- drobne interni zmeny
+
+v0.0.1 (30.3.2014)
+- preklopeni puvodni verze na Gotham
