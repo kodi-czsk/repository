@@ -56,7 +56,8 @@ __ADDONS__ = [
     "plugin.image.rouming",
     "metadata.serialzone.cz",
     "plugin.video.titulkomet.cz",
-    "weather.shmu.pocasie"
+    "weather.shmu.pocasie",
+    "script.skin.stream-cinema"
     ] + _BEAM_
 
 import os
