@@ -55,7 +55,9 @@ __ADDONS__ = [
     "metadata.csfd.cz",
     "plugin.image.rouming",
     "metadata.serialzone.cz",
-    "plugin.video.mojevideo.sk"
+    "plugin.video.mojevideo.sk",
+    "plugin.video.titulkomet.cz",
+    "weather.shmu.pocasie"
     ] + _BEAM_
 
 import os
