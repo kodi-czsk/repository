@@ -994,7 +994,7 @@ v0.3.7(2.2.2018)
     </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.5">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.6">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
         <import addon="script.module.stream.resolver" version="1.6.51" />
@@ -1029,6 +1029,7 @@ v0.3.7(2.2.2018)
         <disclaimer lang="he">-המחבר של ההרחבה זה אינו מארח את התוכן שעלול להימצא ואין לו שום זיקה לספקי התוכן. ההרחבה פשוט מבצעת חיפוש ב webshare.cz עבור תוכן. השימוש הוא על אחריותך בלבד!</disclaimer>
         <news>[B]1.2.0[/B][CR]- Nova API 1.2[CR]- nove nastavenia:[CR]  - automaticky vyber streamu (jazyk, sekundarny jazyk, kvalita)[CR]  - odfiltrovanie HEVC streamov[CR]  - filtrovanie streamov podla nameranej rychlosti na webshare.cz[CR]- v kontextovom menu je moznost vybrat stream[CR]- v "Moje zoznamy (trakt.tv)" je mozne pridat cely zoznam do kniznice</news>
     </extension>
+    <extension library="lib" point="xbmc.python.module" />
 </addon>
 
 <addon id="plugin.video.serialhd.cz" name="SerialHD.cz" provider-name="Martin Podkrivacky" version="1.0.1">
