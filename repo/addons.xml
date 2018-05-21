@@ -1224,7 +1224,7 @@ v 2.2 (27.11.2017)
 
 <addon 	id="weather.shmu.pocasie"
 		name="SHMU.sk počasie"
-		version="0.0.7"
+		version="0.0.8"
 		provider-name="Jose Riha">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
