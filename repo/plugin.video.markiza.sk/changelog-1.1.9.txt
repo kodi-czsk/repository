@@ -1,0 +1,41 @@
+[B]1.1.9:[/B]
+- pridana moznost abecedneho radenia relacii (thanks @dushi)
+[B]1.1.8:[/B]
+- oprava prehravania najnovsich relacii
+[B]1.1.7:[/B]
+- oprava po mensich zmenach webu
+[B]1.1.6:[/B]
+- zobrazovanie trvania videi
+[B]1.1.5:[/B]
+- Nová ikona
+[B]1.1.4:[/B]
+- oprava prehravania videi, opravil @pvagner
+[B]1.1.3:[/B]
+- pridana podpora strankovania (chlapi neplacu,..)
+[B]1.1.2:[/B]
+- oprava nacitavania najnovsich videii
+- pridane listovanie najnovsich a najsledovanejsich videii
+- odstranena nefunkcna moznost stahovat
+- odstranene nefunkcna moznost zmeny kvality streamu
+[B]1.1.0:[/B]
+- oprava listovania na starsej verzii python
+[B]1.0.9:[/B]
+- oprava listovania epizod
+[B]1.0.8:[/B]
+- oprava po redizajne stranok
+[B]1.0.7:[/B]
+- oprava prehravania
+[B]1.0.6:[/B]
+- oprava nacitavania zoznamu videi
+[B]1.0.5:[/B]
+- refactoring do funkčnej podoby (Peter Zaoral)
+[B]1.0.4:[/B]
+- oprava po redizajne stranok
+[B]1.0.3:[/B]
+- opravené prehrávanie videií
+[B]1.0.2:[/B]
+- opravené stránkovanie
+- pridaná kategória "Podľa dátumu"
+- pridaná možnosť listovať sekciu videa cez kontextovú ponuku
+[B]1.0.0:[/B]
+Initial version
