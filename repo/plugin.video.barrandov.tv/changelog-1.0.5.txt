@@ -1,0 +1,8 @@
+[B]1.0.5:[/B]
+Opravene prehravanie videi
+[B]1.0.4:[/B]
+Nová ikona
+[B]1.0.3:[/B]
+fixed addon by jose1711
+[B]1.0.0:[/B]
+Initial version
