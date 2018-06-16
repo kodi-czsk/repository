@@ -38,7 +38,6 @@ __ADDONS__ = [
     "plugin.video.tv.lux.sk",
     "plugin.video.tv.sme.sk",
     "plugin.video.tv.sosac.ph",
-    "plugin.video.topserialy.sk",
     "plugin.video.videacesky.cz",
     "plugin.video.zkouknito.cz",
     "script.module.dmd-czech.common",
