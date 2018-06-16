@@ -733,27 +733,6 @@ v0.3.7(2.2.2018)
   </extension>
 </addon>
 
-<addon id="plugin.video.topserialy.sk" name="topserialy.sk" provider-name="Jose1711" version="0.1.1">
-    <requires>
-        <import addon="xbmc.python" version="2.7.7"/>
-        <import addon="script.module.stream.resolver" version="1.6.38"/>
-	<import addon="script.module.urlresolver" version="3.0.0" />
-    </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">topserialy.sk</summary>
-        <summary lang="sk">topserialy.sk</summary>
-        <description lang="en">Watch shows for free on TopSerialy.to</description>
-        <description lang="sk">Sleduj seriály online zdarma na TopSerialy.to</description>
-        <description lang="cs">Dívejte se na seriály na TopSerialy.to</description>
-        <platform>all</platform>
-        <source>https://github.com/jose1711/plugin.video.topserialy.sk</source>
-	<broken>deprecated</broken>
-    </extension>
-</addon>
-
 <addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.24">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -803,7 +782,7 @@ v0.3.7(2.2.2018)
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.55">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.56">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
@@ -1201,6 +1180,25 @@ v 2.2 (27.11.2017)
             <screenshot/>
         </assets>
     </extension>
+</addon>
+
+<addon id="plugin.video.mojevideo.sk" name="mojevideo.sk" provider-name="jose1711" version="0.0.8">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.stream.resolver" version="1.6.55" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">mojevideo.sk</summary>
+    <summary lang="cs">mojevideo.sk</summary>
+    <summary lang="sk">mojevideo.sk</summary>
+    <description lang="en">Watch content from mojevideo.sk</description>
+    <description lang="cs">Sleduj videa z mojevideo.sk</description>
+    <description lang="sk">Videá z mojevideo.sk</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.titulkomet.cz" name="titulkomet.cz" provider-name="BrozikCZ" version="0.0.3">
