@@ -130,8 +130,6 @@
 [submodule "plugin.video.tv.lux.sk"]
 	path = plugin.video.tv.lux.sk
 	url = https://github.com/janciga/plugin.video.tv.lux.sk.git
-	path = plugin.video.topserialy.sk
-	url = https://github.com/jose1711/plugin.video.topserialy.sk.git
 [submodule "metadata.bbaron"]
 	path = metadata.bbaron
 	url = https://github.com/bbaronSVK/metadata.bbaron.git
@@ -140,7 +138,7 @@
 	url = https://github.com/72ka/plugin.video.idnestv
 [submodule "plugin.video.tipsport.elh"]
 	path = plugin.video.tipsport.elh
-	url = https://github.com/Xsichtik/plugin.video.tipsport.elh.git
+	url = https://github.com/JKubovy/plugin.video.tipsport.elh.git
 [submodule "plugin.video.serialhd.cz"]
 	path = plugin.video.serialhd.cz
 	url = https://github.com/martinpodkrivacky/plugin.video.serialhd.cz
