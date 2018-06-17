@@ -1,0 +1,48 @@
+[B]1.3.5[/B]
+- fix listing, thanks to @petzah
+[B]1.3.4[/B]
+- fix live links
+[B]1.3.3[/B]
+- fix video resolving
+[B]1.3.2[/B]
+- fix video resolving, thanks to @petzah
+[B]1.3.0[/B]
+- fix listing shows with empty season/episode, thanks to @marki555
+[B]1.2.9[/B]
+- fix joj live stream (2)
+[B]1.2.8[/B]
+- fix joj live stream
+- fix episodes listing (15 min kuchar)
+[B]1.2.7[/B]
+- re-add other webpages(plus, wau) + live streams
+[B]1.2.6[/B]
+- fixed after webpage redesign
+[B]1.2.5[/B]
+- clean up episodes listing of show 'ceskoslovensko ma talent'
+- and slovak language string fixes, thanks to @jose1711
+[B]1.2.4[/B]
+- fixed cs-ma-talent video resolving, thanks to @jose1711
+[B]1.2.3[/B]
+- fixed some series listing (Divoke kone)
+[B]1.2.2[/B]
+- fixed series listing
+[B]1.2.1[/B]
+- fixed live streams (thanks to Kuci)
+[B]1.2.0[/B]
+- fixed not working resolving (panelak, x-factor)
+- added "vsetky" subcategory
+- added "filmy" subcategory
+- simplified listing (vysielane/nevysielane put together)
+- shows for 7 day watching are now marked (7d)
+- nevysielane show are now marked (nevys)
+- removed live stream from listing (not working)
+[B]1.1.5:[/B]
+- fixed video resolving
+[B]1.1.4:[/B]
+- fixed video resolving
+[B]1.1.3:[/B]
+- Add live streams (thanks to Kuci)
+[B]1.1.0:[/B]
+Added Senzi.sk
+[B]1.0.0:[/B]
+Initial version
