@@ -160,3 +160,6 @@
 [submodule "weather.shmu.pocasie"]
 	path = weather.shmu.pocasie
 	url = https://github.com/jose1711/weather.shmu.pocasie.git
+[submodule "skin.estuary.stream-cinema"]
+	path = skin.estuary.stream-cinema
+	url = https://github.com/Jirkoun/skin.estuary.stream-cinema.git

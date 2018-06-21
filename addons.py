@@ -56,7 +56,8 @@ __ADDONS__ = [
     "metadata.serialzone.cz",
     "plugin.video.mojevideo.sk",
     "plugin.video.titulkomet.cz",
-    "weather.shmu.pocasie"
+    "weather.shmu.pocasie",
+    "skin.estuary.stream-cinema"
     ] + _BEAM_
 
 import os
