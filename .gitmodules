@@ -130,9 +130,6 @@
 [submodule "plugin.video.tv.lux.sk"]
 	path = plugin.video.tv.lux.sk
 	url = https://github.com/janciga/plugin.video.tv.lux.sk.git
-[submodule "plugin.video.topserialy.sk"]
-	path = plugin.video.topserialy.sk
-	url = https://github.com/jose1711/plugin.video.topserialy.sk.git
 [submodule "metadata.bbaron"]
 	path = metadata.bbaron
 	url = https://github.com/bbaronSVK/metadata.bbaron.git
@@ -141,10 +138,28 @@
 	url = https://github.com/72ka/plugin.video.idnestv
 [submodule "plugin.video.tipsport.elh"]
 	path = plugin.video.tipsport.elh
-	url = https://github.com/Xsichtik/plugin.video.tipsport.elh.git
+	url = https://github.com/JKubovy/plugin.video.tipsport.elh.git
 [submodule "plugin.video.serialhd.cz"]
 	path = plugin.video.serialhd.cz
 	url = https://github.com/martinpodkrivacky/plugin.video.serialhd.cz
 [submodule "metadata.csfd.cz"]
 	path = metadata.csfd.cz
 	url = https://github.com/ekarorgit/metadata.csfd.cz.git
+[submodule "plugin.image.rouming"]
+	path = plugin.image.rouming
+	url = https://github.com/jose1711/plugin.image.rouming
+[submodule "metadata.serialzone.cz"]
+	path = metadata.serialzone.cz
+	url = https://github.com/ekarorgit/metadata.serialzone.cz.git
+[submodule "plugin.video.mojevideo.sk"]
+	path = plugin.video.mojevideo.sk
+	url = https://github.com/jose1711/plugin.video.mojevideo.sk
+[submodule "plugin.video.titulkomet.cz"]
+	path = plugin.video.titulkomet.cz
+	url = https://github.com/brozikcz/plugin.video.titulkomet.cz.git
+[submodule "weather.shmu.pocasie"]
+	path = weather.shmu.pocasie
+	url = https://github.com/jose1711/weather.shmu.pocasie.git
+[submodule "skin.estuary.stream-cinema"]
+	path = skin.estuary.stream-cinema
+	url = https://github.com/Jirkoun/skin.estuary.stream-cinema.git

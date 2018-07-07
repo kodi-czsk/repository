@@ -9,7 +9,6 @@ __ADDONS__ = [
     "plugin.video.dmd-czech.novaplus",
     "plugin.audio.dmd-czech.play.cz",
     "plugin.video.dmd-czech.playtvak",
-    "plugin.video.dmd-czech.prima",
     "plugin.video.dmd-czech.stream",
     "plugin.video.gordon.ura.cz",
     "plugin.video.hejbejse.tv",
@@ -17,7 +16,6 @@ __ADDONS__ = [
     "plugin.video.ivysilani",
     "plugin.video.jaksetodela.cz",
     "plugin.video.joj.sk",
-    "plugin.video.koukni.cz",
     "plugin.video.markiza.sk",
     "plugin.video.mtr.sk",
     "plugin.video.o2tvgo",
@@ -35,6 +33,7 @@ __ADDONS__ = [
     "plugin.video.tv.lux.sk",
     "plugin.video.tv.sme.sk",
     "plugin.video.topserialy.sk",
+    "plugin.video.tv.sosac.ph",
     "plugin.video.videacesky.cz",
     "plugin.video.zkouknito.cz",
     "script.module.dmd-czech.common",
@@ -48,7 +47,13 @@ __ADDONS__ = [
     "metadata.bbaron",
     "plugin.video.stream-cinema",
     "plugin.video.serialhd.cz",
-    "metadata.csfd.cz"
+    "metadata.csfd.cz",
+    "plugin.image.rouming",
+    "metadata.serialzone.cz",
+    "plugin.video.mojevideo.sk",
+    "plugin.video.titulkomet.cz",
+    "weather.shmu.pocasie",
+    "skin.estuary.stream-cinema"
     ] + _BEAM_
 
 import os
