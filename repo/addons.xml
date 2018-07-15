@@ -973,7 +973,7 @@ v0.3.7(2.2.2018)
     </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.7">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.8">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
         <import addon="script.module.stream.resolver" version="1.6.51" />
@@ -1006,7 +1006,7 @@ v0.3.7(2.2.2018)
         <disclaimer lang="sk">Autor tohto addonu nemá žiaden obsah, ktorý sa v ňom nachádza a nemá žiadnu príslušnosť k poskytovateľovi obsahu. Tento addon iba vyhľadá obsah na webshare.cz. Používajte na vlastné riziko!</disclaimer>
         <disclaimer lang="cs">Autor tohto addonu nemá žáden obsah, který se v ňem nachází a nemá žádnou příslušnost k poskytovateli obsahu. Tento addon jen vyhledává obsah na webshare.cz. Používejte na vlastní riziko!</disclaimer>
         <disclaimer lang="he">-המחבר של ההרחבה זה אינו מארח את התוכן שעלול להימצא ואין לו שום זיקה לספקי התוכן. ההרחבה פשוט מבצעת חיפוש ב webshare.cz עבור תוכן. השימוש הוא על אחריותך בלבד!</disclaimer>
-        <news>[B]1.2.0[/B][CR]- Nova API 1.2[CR]- nove nastavenia:[CR]  - automaticky vyber streamu (jazyk, sekundarny jazyk, kvalita)[CR]  - odfiltrovanie HEVC streamov[CR]  - filtrovanie streamov podla nameranej rychlosti na webshare.cz[CR]- v kontextovom menu je moznost vybrat stream[CR]- v "Moje zoznamy (trakt.tv)" je mozne pridat cely zoznam do kniznice</news>
+        <news>Lepsie narabanie s tokenom po prihlaseni. Automaticke prepinanie HTTP(s) na webshare serveroch podla nastavenia v plugine</news>
     </extension>
     <extension library="lib" point="xbmc.python.module" />
 </addon>
