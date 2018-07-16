@@ -163,3 +163,6 @@
 [submodule "skin.estuary.stream-cinema"]
 	path = skin.estuary.stream-cinema
 	url = https://github.com/Jirkoun/skin.estuary.stream-cinema.git
+[submodule "plugin.video.sl"]
+	path = plugin.video.sl
+	url = https://github.com/Sorien/plugin.video.sl.git
