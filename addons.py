@@ -57,8 +57,8 @@ __ADDONS__ = [
     "plugin.video.mojevideo.sk",
     "plugin.video.titulkomet.cz",
     "weather.shmu.pocasie",
-    "skin.estuary.stream-cinema"
-	"plugin.video.sl"
+    "skin.estuary.stream-cinema",
+    "plugin.video.sl"
     ] + _BEAM_
 
 import os
