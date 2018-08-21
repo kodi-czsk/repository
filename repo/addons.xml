@@ -1329,7 +1329,7 @@ v 2.2 (27.11.2017)
 	</extension>
 </addon>
 
-<addon id="plugin.video.sl" version="0.0.4" name="Skylink LiveTV" provider-name="Sorien">
+<addon id="plugin.video.sl" version="0.0.5" name="Skylink LiveTV" provider-name="Sorien">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
   <import addon="script.module.requests" version="2.18.4"/>
