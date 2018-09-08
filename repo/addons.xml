@@ -687,7 +687,7 @@ v0.3.7(2.2.2018)
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.4"
+       version="1.0.5"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
