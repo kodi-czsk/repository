@@ -28,9 +28,6 @@
 [submodule "plugin.video.mtr.sk"]
 	path = plugin.video.mtr.sk
 	url = https://github.com/kodi-czsk/plugin.video.mtr.sk
-[submodule "plugin.video.mixer.cz"]
-	path = plugin.video.mixer.cz
-	url = https://github.com/kodi-czsk/plugin.video.mixer.cz
 [submodule "plugin.video.pohadkar.cz"]
 	path = plugin.video.pohadkar.cz
 	url = https://github.com/kodi-czsk/plugin.video.pohadkar.cz

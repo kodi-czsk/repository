@@ -20,7 +20,6 @@ __ADDONS__ = [
     "plugin.video.joj.sk",
     "plugin.video.koukni.cz",
     "plugin.video.markiza.sk",
-    "plugin.video.mixer.cz",
     "plugin.video.mtr.sk",
     "plugin.video.o2tvgo",
     "plugin.video.online-files",
