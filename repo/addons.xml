@@ -627,7 +627,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.4.4">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.4.5">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -652,19 +652,12 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.4.5(23.0.2018)
+  - Fix stream quality selector
 v0.4.4(16.9.2018)
   - Fix SK streams
 v0.4.3(15.9.2018)
   - Fix new Tipsport stream handling for CZ league
-v0.4.2(13.4.2018)
-  - Change username to email
-  - Fix minor response change
-v0.4.1(20.3.2018)
-  - Minor API change
-v0.4.0(7.3.2018)
-  - Fix new Tipsport page
-v0.3.7(2.2.2018)
-  - Bugfix
         </news>
     </extension>
 </addon>
