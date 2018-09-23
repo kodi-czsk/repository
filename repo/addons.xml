@@ -1255,7 +1255,7 @@ v 2.2 (27.11.2017)
 	</extension>
 </addon>
 
-<addon id="skin.estuary.stream-cinema" version="1.9.16.f" name="Estuary Stream-Cinema" provider-name="phil65, Ichabod Fletchman + Stream-Cinema MOD by JiRo">
+<addon id="skin.estuary.stream-cinema" version="1.9.16.g" name="Estuary Stream-Cinema" provider-name="phil65, Ichabod Fletchman + Stream-Cinema MOD by JiRo">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
@@ -1268,6 +1268,14 @@ v 2.2 (27.11.2017)
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
+[B]Verze 1.9.16.g[/B]
+- přesunutí addon na Github a zařazení do repozitáře Kodi CZ/SK
+- doplnění diagnostické stránky Item do Info filmů, seriálů a epizod
+- doplněna volba možnosti současného zobrazení stručného a rozšířeného widget info
+- doplněny další zobrazení informací v horním panelu
+- opravy drobných chyb widgetů
+- přidána podpora pro addon Radio (dříve Radio.de)
+- přidána podpora pro addon Trailer
 [B]Verze 1.9.16.f[/B]
 - označování MOD subverzí přesunuto do čísla verze => 1.9.16.f
 - opuštěno řešení využívající, dále jsou používány už jen přímé odkazy na addon Stream-Cinema
@@ -1306,10 +1314,10 @@ v 2.2 (27.11.2017)
 		<disclaimer lang="sk_SK">Estuary Stream-Cinema je amatérskou úpravou skinu Estuary. Používate ho na vlastné nebezpečenstvo. Prípadnú podporu nájdete na http://www.xbmc-kodi.cz/prispevek-estuary-stream-cinema</disclaimer>
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-		<forum></forum>
-		<source></source>
+		<forum>http://www.xbmc-kodi.cz/prispevek-estuary-stream-cinema</forum>
+		<source>https://github.com/kodi-czsk/skin.estuary.sream-cinema</source>
 		<assets>
-			<icon>resources/icon.png</icon>
+			<icon>icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 			<screenshot>resources/screenshot000.jpg</screenshot>
 			<screenshot>resources/screenshot001.jpg</screenshot>
