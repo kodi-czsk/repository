@@ -1255,7 +1255,7 @@ v 2.2 (27.11.2017)
 	</extension>
 </addon>
 
-<addon id="skin.estuary.stream-cinema" version="1.9.16.g" name="Estuary Stream-Cinema" provider-name="phil65, Ichabod Fletchman + Stream-Cinema MOD by JiRo">
+<addon id="skin.estuary.stream-cinema" version="1.9.16.h" name="Estuary Stream-Cinema" provider-name="phil65, Ichabod Fletchman + Stream-Cinema MOD by JiRo">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
@@ -1268,6 +1268,8 @@ v 2.2 (27.11.2017)
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
+[B]Verze 1.9.16.h[/B]
+- odstraněno porovnávání verzí skinu
 [B]Verze 1.9.16.g[/B]
 - přesunutí addon na Github a zařazení do repozitáře Kodi CZ/SK
 - doplnění diagnostické stránky Item do Info filmů, seriálů a epizod
