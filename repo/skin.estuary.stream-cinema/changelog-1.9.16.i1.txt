@@ -1,0 +1,44 @@
+Verze 1.9.16.i1
+- opravena chyba ve widgetu Stream-Cinema Main Menu
+Verze 1.9.16.i
+- opravena chyba funkce Reboot z vnitřní paměti (Android)
+- rozšíření vyhledávání Kodi o Radio 
+Verze 1.9.16.h
+- odstraněno porovnávání verzí skinu
+Verze 1.9.16.g
+- přesunutí addon na Github a zařazení do repozitáře Kodi CZ/SK
+- doplnění diagnostické stránky Item do Info filmů, seriálů a epizod
+- doplněna volba možnosti současného zobrazení stručného a rozšířeného widget info
+- doplněny další zobrazení informací v horním panelu
+- opravy drobných chyb widgetů
+- přidána podpora pro addon Radio (dříve Radio.de)
+- přidána podpora pro addon Trailer
+Verze 1.9.16.f
+- označování MOD subverzí přesunuto do čísla verze => 1.9.16.f
+- opuštěno řešení využívající, dále jsou používány už jen přímé odkazy na addon Stream-Cinema
+- doplnění funkce widget info ve stručné (název, rok a žánry) a rozšířené verzi (+ obrázek a popis)
+- do Power menu doplněna možnost provést Reboot z vnitřní paměti - možno povolit/zakázat v nastavení
+- rozšířeny a upraveny všechny widgety, změna třídění na "random" u seznamů, ke kterým Streamm-Cinema neposílá datum přidání 
+- možnost zadání maximálního limitu počtu položek widgetu (5 - 50) - vyžaduje reload skinu 
+- přepracována funkce nastavení skinu - společné nastavení všech položek a parametrů hlavní nabídky na jedné stránce, stránka specifických nastavení
+- přidána podpora pro addon iVysílání v podobném funkčním rozsahu jako pro Stream-Cinema
+Verze 1.9.16.e
+- do Power menu doplněna možnost provést Reload skinu
+- doplněna funkce Zobrazit widgety na celé obrazovce - credit @safonov_ivan
+Verze 1.9.16.d
+- blokování widgetů SC je nyní odvozené i od blokování SC v hlavní nabídce i jednotlivých položek SC v hlavním menu - díky za inspiraci @Karel1981
+Verze 1.9.16.c
+- opravena chyba řazení widgetu Poslední sledované seriály - díky @beepee
+- do hlavního panelu doplněno zobrazení místa s předpovědí počasí a zatížení CPU a obsazení paměti
+Verze 1.9.16.b
+- opraveny drobné chyby ve widgetech Stream-Cinema a Moje seznamy
+Verze 1.9.16.a
+- odvozeno od Estuary 1.9.16 - Kodi 17.6. - Krypton
+- základní verze modifikace skinu
+- menu a widgets - Hlavní, Filmy, Seriály, Pohádky, Koncerty, Anime, Televize, Moje seznamy
+- doplňkový text v menu
+- ropzšíření parametrizace skinu
+- rozšíření infromací v hlavním panelu - datum a den v týdnu, indikace rozdílu verzí Estuary a Estuary Stream-Cinema
+- zobrazení Rating a UserRating v obrázcích posterů
+Verze 1.9.16
+- odvozeno od Estuary 1.9.16 - Kodi 17.6. - Krypton
