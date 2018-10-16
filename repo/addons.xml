@@ -1259,7 +1259,7 @@ v 2.2 (27.11.2017)
 	</extension>
 </addon>
 
-<addon id="skin.estuary.stream-cinema" version="1.9.16.i" name="Estuary Stream-Cinema" provider-name="phil65, Ichabod Fletchman + Stream-Cinema MOD by JiRo">
+<addon id="skin.estuary.stream-cinema" version="1.9.16.i1" name="Estuary Stream-Cinema" provider-name="phil65, Ichabod Fletchman + Stream-Cinema MOD by JiRo">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
@@ -1272,6 +1272,8 @@ v 2.2 (27.11.2017)
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
+[B]Verze 1.9.16.i1[/B]
+- opravena chyba ve widgetu Stream-Cinema Main Menu
 [B]Verze 1.9.16.i[/B]
 - opravena chyba funkce Reboot z vnitřní paměti (Android)
 - rozšíření vyhledávání Kodi o Radio
