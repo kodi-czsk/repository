@@ -1374,6 +1374,36 @@ v 2.2 (27.11.2017)
 </extension>
 </addon>
 
+<addon id="plugin.video.mall.tv"
+       name="Mall.TV"
+       version="0.0.4"
+       provider-name="koudi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.kodiswift" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Mall.TV</summary>
+    <summary lang="cs">Mall.TV</summary>
+    <summary lang="en">Mall.TV</summary>
+    <description>
+        Plugin to play Mall.TV
+    </description>
+    <description lang="cs">
+        Plugin pro přehrávání Mall.TV
+    </description>
+    <source>https://github.com/koudi/plugin.video.mall.tv</source>
+  </extension>
+</addon>
+
 <addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.4.0" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
