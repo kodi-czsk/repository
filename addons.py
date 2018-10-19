@@ -32,7 +32,6 @@ __ADDONS__ = [
     "plugin.video.tipsport.elh",
     "plugin.video.tv.lux.sk",
     "plugin.video.tv.sme.sk",
-    "plugin.video.topserialy.sk",
     "plugin.video.tv.sosac.ph",
     "plugin.video.videacesky.cz",
     "plugin.video.zkouknito.cz",
