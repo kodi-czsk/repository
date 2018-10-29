@@ -52,23 +52,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.dvtv" name="Drtinová Veselovský TV (zastaralý)" version="1.2.4" provider-name="Štěpán Ort">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	  <import addon="script.module.dmd-czech.common" version="1.5.5"/>
-    <import addon="plugin.video.dmd-czech.aktualne" version="2.0.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>DVTV - Drtinová, Veselovský TV</summary>
-	<description>Plugin to play videos from DVTV.cz</description>
-    <description lang="cs">Použijte Aktuálně TV</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="plugin.video.dmd-czech.novaplus"
        name="Nova Plus TV Archiv"
        version="1.0.12"
@@ -143,33 +126,6 @@
         Plugin pro přehrávání videí z Playtvak.cz
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.playtvak</source>
-  </extension>
-</addon>
-
-<addon id="plugin.video.dmd-czech.prima"
-       name="Prima PLAY (zastaralý)"
-       version="4.0.10"
-       provider-name="Jiri Vyhnalek">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.dmd-czech.common" version="1.5.8"/>
-    <import addon="plugin.video.primaplay" version="0.2.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Prima TV video-archive plugin</summary>
-    <summary lang="cs">Prima PLAY</summary>
-    <description>
-        Plugin to play TV video archive play.iprima.cz
-    </description>
-    <description lang="cs">
-        Plugin pro přehrávání videí z archivu play.iprima.cz
-    </description>
-    <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.prima</source>
-    <broken>deprecated</broken>
   </extension>
 </addon>
 
@@ -325,24 +281,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.koukni.cz" name="koukni.cz" provider-name="Libor Zoubek" version="1.0.18">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.18" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">koukni.cz</summary>
-    <summary lang="cs">koukni.cz</summary>
-    <description lang="en">Watch online HD content from koukni.cz</description>
-    <description lang="cs">Sledujte online HD obsah ze servru koukni.cz</description>
-    <platform>all</platform>
-    <source>https://github.com/kodi-czsk/plugin.video.koukni.cz</source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.markiza.sk" name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral" version="1.2.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -361,27 +299,6 @@
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.markiza.sk</source>
   </extension>
-</addon>
-
-<addon id="plugin.video.mixer.cz" name="mixer.cz" provider-name="Maros Ondrasek" version="1.0.5">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.24" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">mixer.cz</summary>
-    <summary lang="cs">mixer.cz</summary>
-    <summary lang="sk">mixer.cz</summary>
-    <description lang="en">Watch music clips from mixer.cz</description>
-    <description lang="cs">Sledujte hudobne klipy ze servru mixer.cz</description>
-    <description lang="sk">Sledujte hudobne klipy zo serveru mixer.cz</description>
-    <platform>all</platform>
-    <source>https://github.com/kodi-czsk/plugin.video.mixer.cz</source>
-  </extension>
-  <broken>Sluzba mixer.cz byla zrusena</broken>
 </addon>
 
 <addon id="plugin.video.mtr.sk" name="Mestská TV Ružomberok" provider-name="Libor Zoubek" version="1.0.1">
@@ -529,24 +446,6 @@
         <description lang="sk">Sleduj filmy online zdarma na SledujuFilmy.cz</description>
         <platform>all</platform>
         <source>https://github.com/kodi-czsk/plugin.video.sledujufilmy.cz</source>
-    </extension>
-</addon>
-
-<addon id="plugin.video.sledujuserialy.cz" name="sledujuserialy.cz" provider-name="Libor Zoubek" version="1.0.8">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.stream.resolver" version="1.6.13"/>
-        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
-    </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">sledujuserialy.cz</summary>
-        <summary lang="cs">sledujuserialy.cz</summary>
-        <description lang="en">Watch online series from sledujuserialy.cz</description>
-        <description lang="cs">Sledujte online seriály ze servru sledujuserialy.cz</description>
-        <platform>all</platform>
     </extension>
 </addon>
 
@@ -976,7 +875,7 @@ v0.4.3(15.9.2018)
     </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.9">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.10">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
         <import addon="script.module.stream.resolver" version="1.6.51" />
@@ -1376,7 +1275,7 @@ v 2.2 (27.11.2017)
 
 <addon id="plugin.video.mall.tv"
        name="Mall.TV"
-       version="0.0.4"
+       version="0.0.6"
        provider-name="koudi">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
