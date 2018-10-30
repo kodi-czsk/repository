@@ -1275,7 +1275,7 @@ v 2.2 (27.11.2017)
 
 <addon id="plugin.video.mall.tv"
        name="Mall.TV"
-       version="0.0.6"
+       version="0.0.7"
        provider-name="koudi">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1293,11 +1293,15 @@ v 2.2 (27.11.2017)
     <summary>Mall.TV</summary>
     <summary lang="cs">Mall.TV</summary>
     <summary lang="en">Mall.TV</summary>
+    <summary lang="sk">Mall.TV</summary>
     <description>
         Plugin to play Mall.TV
     </description>
     <description lang="cs">
         Plugin pro přehrávání Mall.TV
+    </description>
+    <description lang="sk">
+        Plugin na prehrávanie Mall.TV
     </description>
     <source>https://github.com/koudi/plugin.video.mall.tv</source>
   </extension>
