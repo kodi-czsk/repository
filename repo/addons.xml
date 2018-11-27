@@ -526,7 +526,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.4.8">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.4.9">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -551,6 +551,8 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.4.9(7.11.2018)
+  - Fix ChunkedEncodingError
 v0.4.8(3.10.2018)
   - Fix unable to play stream
 v0.4.7(30.9.2018)
