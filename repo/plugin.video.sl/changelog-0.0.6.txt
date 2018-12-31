@@ -1,0 +1,18 @@
+﻿[B]0.0.6:[/B]
+- Oprava zaseknuteho loadingu
+- Opravy chyb sposobenych vypadkom internetoveho pripojenia
+[B]0.0.5:[/B]
+- Interne upravy
+[B]0.0.4:[/B]
+- Opravy EPG
+[B]0.0.3[/B]
+- úpravy v prekladoch, ďakujem @koperfieldcz
+- pridané žánre do EPG
+- opravy EPG 
+- odstránené logá z pluginu možnosť definovať v nastaveniach IPTVSimple, kompatibilné packy: [koperfieldove loga](https://github.com/koperfieldcz/skylink-livetv-logos), [Marhyho Picony](https://marhycz.github.io/picons)
+- možnosť odhlásiť niektoré z aktuálne používaných zariadení ak sa všetky 4 zariadenia už používajú
+- automatické reprihlásenie ak session už nie je platný
+[B]0.0.2:[/B]
+- plugin vytvara playlist iba pre dostupne programy
+- opravene defaultne nastavenia
+- opravene nefunkcne prihlasenie pre skylink.sk
