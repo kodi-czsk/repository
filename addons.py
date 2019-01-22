@@ -55,6 +55,7 @@ __ADDONS__ = [
     "skin.estuary.stream-cinema",
     "plugin.video.sl",
     "plugin.video.mall.tv"
+	"plugin.sk.and.cz.radia"
     ] + _BEAM_
 
 import os
