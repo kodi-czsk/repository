@@ -169,3 +169,6 @@
 [submodule "plugin.video.mall.tv"]
 	path = plugin.video.mall.tv
 	url = https://github.com/koudi/plugin.video.mall.tv.git
+[submodule "plugin.sk.and.cz.radia"]
+	path = plugin.sk.and.cz.radia
+	url = https://github.com/majko96/plugin.sk.and.cz.radia.git
