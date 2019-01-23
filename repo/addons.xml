@@ -527,7 +527,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.5.3">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.5.4">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -552,6 +552,10 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.5.4(23.1.2019)
+  - Add Persistant Storage (reuse session)
+  - Add logger
+  - Improve loading speed
 v0.5.3(16.1.2019)
   - Add CZ Chance League
 v0.5.2(2.12.2018)
