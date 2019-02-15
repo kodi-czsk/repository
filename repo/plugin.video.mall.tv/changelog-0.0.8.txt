@@ -1,0 +1,21 @@
+2019-02-15 [0.0.8]
+  * Added possibility to choose format (HLS/MP4) - thx bbaronSVK
+2018-10-30 [0.0.7]
+  * Added go to button to context menu in new/popular 
+  * Added slovak translation
+2018-10-25 [0.0.6]
+  * Added season folders to shows
+2018-10-23 [0.0.5]
+  * Added some metadata to list items
+  * Added content type to routes
+  * Fixed recent with live videos
+2018-10-15 [0.0.4]
+  * Added recent videos
+  * Added popular videos
+2018-10-12 [0.0.3]
+  * Fixed default quality
+2018-10-12 [0.0.2]
+  * Added max_quality setting
+  * Fixed 18+ videos
+2018-10-11 [0.0.1]
+  * First draft
