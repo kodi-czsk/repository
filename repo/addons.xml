@@ -1238,7 +1238,7 @@ v 2.2 (27.11.2017)
 	</extension>
 </addon>
 
-<addon id="plugin.video.sl" version="0.0.6" name="Skylink LiveTV" provider-name="Sorien">
+<addon id="plugin.video.sl" version="1.0.0" name="Skylink LiveTV" provider-name="Sorien">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.requests" version="2.18.4"/>
@@ -1259,6 +1259,9 @@ v 2.2 (27.11.2017)
   <forum>https://www.xbmc-kodi.cz/prispevek-skylink-livetv-addon-beta</forum>
   <source>https://github.com/Sorien/plugin.video.sl</source>
   <news>
+1.0.0
+- Opravy
+
 0.0.6
 - Oprava zaseknuteho loadingu
 - Opravy chyb sposobenych vypadkom internetoveho pripojenia
@@ -1276,11 +1279,6 @@ v 2.2 (27.11.2017)
 - odstránené logá z pluginu možnosť definovať v nastaveniach IPTVSimple, kompatibilné packy: [koperfieldove loga](https://github.com/koperfieldcz/skylink-livetv-logos), [Marhyho Picony](https://marhycz.github.io/picons)
 - možnosť odhlásiť niektoré z aktuálne používaných zariadení ak sa všetky 4 zariadenia už používajú
 - automatické reprihlásenie ak session už nie je platný
-
-0.0.2
-- plugin vytvara playlist iba pre dostupne programy
-- opravene defaultne nastavenia
-- opravene nefunkcne prihlasenie pre skylink.sk
   </news>
   <assets>
     <icon>icon.png</icon>
