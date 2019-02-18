@@ -882,10 +882,10 @@ v0.5.0(29.11.2018)
     </extension>
 </addon>
 
-<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.12">
+<addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.13">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
-        <import addon="script.module.stream.resolver" version="1.6.51" />
+        <import addon="script.module.stream.resolver" version="1.6.60" />
         <import addon="script.module.buggalo" version="1.1.2" />
         <import addon="script.module.elementtree" version="1.2.7" />
     </requires>
