@@ -169,3 +169,8 @@
 [submodule "plugin.video.mall.tv"]
 	path = plugin.video.mall.tv
 	url = https://github.com/koudi/plugin.video.mall.tv.git
+[submodule "plugin.video.bombuj.filmyserialy"]
+	path = plugin.video.bombuj.filmyserialy
+	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
+	
+	
