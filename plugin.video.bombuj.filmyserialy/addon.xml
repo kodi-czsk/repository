@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.bombuj.filmyserialy"
+version="1.2.0"
+name="Bombuj.eu"
+provider-name="KubiszDeny">
+<requires>
+    <import addon="xbmc.python" version="2.19.0" />
+	<import addon="script.module.resolveurl" version="5.0.00"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>video</provides>
+    <provides>audio</provides>
+	</extension>
+<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+  <summary lang="en">Bombuj.eu</summary>
+  <description lang="en_GB">Přehrávač Filmů a Seriálů Scrapované z bombuj.eu.</description>
+  <disclaimer lang="en_GB">KodiLama, sanc0, KubiszDeny</disclaimer>
+  <platform>all</platform>
+  <forum>https://www.xbmc-kodi.cz/prispevek-bombuj-eu-doplnek</forum>
+  <source>https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy</source>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\img1.png</screenshot>
+    <screenshot>resources\img2.png</screenshot>
+    <screenshot>resources\img3.png</screenshot>
+    <screenshot>resources\img4.png</screenshot>   
+  </assets>
+  <news>
+  04.01.19> Plugin upraven a přidán obsah.
+  05.01.19> Dodána databáze od Sarose a přidány seriály.
+  06.01.19> Bombuj.eu doplněk přidán na Github a přidány další seriály.
+  Forum: https://www.xbmc-kodi.cz/prispevek-bombuj-eu-doplnek
+  Github: https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy
+  Kontakt: m.denykubisz@gmail.com 
+  ----------------------------------------------------------------------
+  Odkaz není zločin.
+</news>
+</extension>
+</addon>
