@@ -3,6 +3,7 @@ _BEAM_ = ["service.subtitles.titulky.com","service.subtitles.serialzone.cz"]
 # list of addons that we are releasing
 
 __ADDONS__ = [
+    "plugin.video.bombuj.filmyserialy",
     "plugin.video.barrandov.tv",
     "plugin.video.befun.cz",
     "plugin.video.dmd-czech.aktualne",
