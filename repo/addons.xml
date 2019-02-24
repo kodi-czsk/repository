@@ -527,12 +527,13 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.5.6">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.6.0">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="inputstream.adaptive" version="0.0.1" optional="true"/>
-        <import addon="inputstream.rtmp" version="0.0.1" optional="true"/>
+        <import addon="script.module.pil" version="1.1.7" optional="true"/>
+        <import addon="inputstream.adaptive" version="2.3.13" optional="true"/>
+        <import addon="inputstream.rtmp" version="2.0.4" optional="true"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
         <provides>video</provides>
@@ -552,6 +553,10 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.6.0(24.2.2019)
+  - Add Generating match icon
+v0.5.7(16.2.2019)
+  - Add Memory Storage for session
 v0.5.6(27.1.2019)
   - Revert Using Persistant Storage
 v0.5.5(23.1.2019)
