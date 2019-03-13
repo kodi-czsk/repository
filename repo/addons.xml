@@ -605,11 +605,12 @@ v0.5.0(29.11.2018)
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.5"
+       version="1.0.6"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+    <import addon="plugin.video.youtube" version="6.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
