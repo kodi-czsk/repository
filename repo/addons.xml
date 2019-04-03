@@ -527,13 +527,13 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.6.1">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.6.2">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
         <import addon="script.module.pil" version="1.1.7" optional="true"/>
-        <import addon="inputstream.adaptive" version="2.3.13" optional="true"/>
-        <import addon="inputstream.rtmp" version="2.0.4" optional="true"/>
+        <import addon="inputstream.adaptive" version="0.0.1" optional="true"/>
+        <import addon="inputstream.rtmp" version="0.0.1" optional="true"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
         <provides>video</provides>
@@ -553,6 +553,8 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.6.2(3.4.2019)
+  - Remove Inputstream addon version restriction
 v0.6.1(8.3.2019)
   - Disable match logo generating when path has non-ASCII characters
 v0.6.0(24.2.2019)
