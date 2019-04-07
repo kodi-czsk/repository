@@ -172,5 +172,6 @@
 [submodule "plugin.video.bombuj.filmyserialy"]
 	path = plugin.video.bombuj.filmyserialy
 	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
-	
-	
+[submodule "plugin.audio.poslouchej.radia"]
+	path = plugin.audio.poslouchej.radia
+	url = https://github.com/Mebox/plugin.audio.poslouchej.radia.git
