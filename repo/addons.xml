@@ -1252,7 +1252,7 @@ v 2.2 (27.11.2017)
 	</extension>
 </addon>
 
-<addon id="plugin.video.sl" version="1.2.0" name="Skylink Live TV" provider-name="Sorien">
+<addon id="plugin.video.sl" version="1.2.1" name="Skylink Live TV" provider-name="Sorien">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.requests" version="2.18.4"/>
@@ -1272,13 +1272,22 @@ v 2.2 (27.11.2017)
   <forum>https://www.xbmc-kodi.cz/prispevek-skylink-livetv-addon-beta</forum>
   <source>https://github.com/Sorien/plugin.video.sl</source>
   <news>
-1.2.0
+[B]1.2.1[/B]
+- Tuning loga stanic - moznosti nastavenia pre archiv, moznost pouzit loga zo stranky live, aj pre live playlist
+- Moznost obmedzenia vyberu zariadeni len na prehliadace (aby to neodhlasovalo z telefonu ci TV)
+- Moznost nastavenia aby negenerovalo / nezobrazovalo stanice ktore su pin protected
+- Pytanie PIN kodu na staniciach, ktore su pin protected
+- Fix vyberu zariadeni v archive
+- Fix lokalizacnych unicode chyb pri hlaskach
+- Fix neulozenia nastaveni, ked je service v prevadzke
+
+[B]1.2.0[/B]
 - Pridanie archivu vo video doplnkoch
 
-1.0.1
+[B]1.0.1[/B]
 - Pridanie moznosti pouzit najstarsie zariadenie ak ziadne zariadenie nie je dostupne
 
-1.0.0
+[B]1.0.0[/B]
 - Opravy
   </news>
   <assets>
