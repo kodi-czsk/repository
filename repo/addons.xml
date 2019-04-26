@@ -1064,7 +1064,7 @@ v0.5.0(29.11.2018)
 
 <addon id="metadata.serialzone.cz"
        name="SerialZone.cz"
-       version="2.5"
+       version="2.6"
        provider-name="ekarorgit">
     <requires>
         <import addon="xbmc.metadata" version="2.1.0"/>
@@ -1073,18 +1073,24 @@ v0.5.0(29.11.2018)
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Serialzone Scraper</summary>
         <summary lang="cs">Serialzone Stahovac</summary>
+        <summary lang="sk">Sťahovač metadát zo serialzone.cz</summary>
         <description lang="en">Download series information from www.serialzone.cz</description>
         <description lang="cs">Stahuje informace o filmech z webu serialzone.cz.</description>
+        <description lang="sk">Sťahuje informácie o seriáloch z webu serialzone.cz.</description>
         <disclaimer lang="cs">Pro nahlášení bugu navštivte www.github.com/ekarorgit/metadata.serialzone.cz</disclaimer>
         <disclaimer lang="en">For bugs visit www.github.com/ekarorgit/metadata.serialzone.cz</disclaimer>
-        <language>cs en</language>
+        <disclaimer lang="sk">Pre nahlásenie chyby navštívte www.github.com/ekarorgit/metadata.serialzone.cz</disclaimer>
+        <language>cs en sk</language>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</license>
         <forum/>
         <website>www.github.com/ekarorgit/metadata.serialzone.cz</website>
         <email/>
         <source>www.github.com/ekarorgit/metadata.serialzone.cz</source>
-        <news>v 2.5 (6.7.2018)
+        <news>v 2.6
+   [added] pridana slovenstina (mvalec)
+
+v 2.5 (6.7.2018)
   [fixed] stahovani TVDB art - lepsi parsovani
 
 v 2.4 (22.1.2018)
