@@ -1,5 +1,4 @@
 
-_BEAM_ = ["service.subtitles.titulky.com","service.subtitles.serialzone.cz"]
 # list of addons that we are releasing
 
 __ADDONS__ = [
@@ -56,7 +55,7 @@ __ADDONS__ = [
     "plugin.video.sl",
     "plugin.video.mall.tv",
     "plugin.video.bombuj.filmyserialy"
-    ] + _BEAM_
+    ]
 
 import os
 import requests
