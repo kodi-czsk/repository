@@ -54,7 +54,7 @@
 
 <addon id="plugin.video.dmd-czech.novaplus"
        name="Nova Plus TV Archiv"
-       version="1.0.16"
+       version="1.0.17"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
