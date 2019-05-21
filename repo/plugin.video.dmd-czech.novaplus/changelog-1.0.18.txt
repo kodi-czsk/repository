@@ -1,0 +1,42 @@
+2019-05-20
+ * Oprava prehravani nekterych poradu bez popisu dilu
+2019-05-01
+ * Oprava seznamu poradu
+2019-03-14
+ * Zmena na webu Nova Plus (odkaz na porad vede rovnou na nejnovejsi dil)
+2019-01-16
+ * Oprava seznamu epizod poradu
+2018-11-20
+ * Oprava doplnku po zmene stranek Nova Plus (seznam epizod poradu)
+2018-11-16
+ * Oprava doplnku po zmene stranek Nova Plus
+2018-09-17
+ * Doplneni dalsich dilu (z Nova Gold) v serialech
+2018-08-14
+ * Oprava doplnku po zmene stranek Nova Plus
+2017-11-26
+ * Nová ikona
+2017-09-24
+ * Oprava prehravani videi po zmene stranek Nova Plus
+2017-07-05
+ * Oprava zobrazenia vsetkych dielov v poradoch a serialoch
+2017-04-29
+ * Oprava prehravani
+2016-05-20
+ * Oprava prehravani
+ * Oprava nahledu poradu
+ * Zmena nazvu hlavniho adresare na Nejsledovanejsi
+ * Update grafiky dle aktualniho vzhledu stranek Nova Plus
+2015-11-21
+ * Oprava prehravani
+2015-06-11
+ * Oprava prehravani
+2014-10-25
+ * Pridani statistik
+2014-08-12
+ * Oprava nacitani kategorii
+2014-03-15
+ * Oprava prehravani
+2014-02-04:
+ * Nova Plus (alpha) - first release
+
