@@ -1,0 +1,53 @@
+2019-05-27 [1.3.8]
+ * Unzipping playlist if needed. Thx PitelVonSacek / gorn
+2019-05-16 [1.3.7]
+ * Show temporary channels (Olympics, ...) if broadcasting
+2018-05-10 [1.3.6]
+ * Fix playback url change. Thx petrprochy
+2018-01-28 [1.3.5]
+ * No subtitles bugfix
+2017-06-12 [1.3.4]
+ * Subtitles support. Thx jose1711
+ * 1080p quality. Thx filiip
+ * Removed LOH channels
+2016-08-08 [1.3.3]
+ * Rio Summer Olympics channels
+ * Slovak translation by jose1711. Thx
+2015-05-02 [1.3.2]
+ * Extra ice hockey channels
+2015-04-26 [1.3.1]
+ * Live channels listing bugfix
+2015-04-19 [1.3.0]
+ * Main playlist video selection (skiping Rated preroll)
+ * RMTP cleanup (not supported any more)
+ * Right resolution label for mobile quality
+ * Better Helix autounpause fix now set as default
+2015-01-22 [1.2.6]
+ * Token error detection bugfix by mx3L. Thx
+2015-01-10 [1.2.5]
+ * Unsupported skin bugfix by Libor Zoubek. Thx
+2015-01-04 [1.2.4]
+ * Player overridden to unpause on start and seek (experimental)
+ * JSON playlist parsing bugfix
+ * Available qualities revised (slower but working)
+2015-01-03 [1.2.3]
+ * Auto view mode default fix
+2015-01-03 [1.2.2]
+ * Bugfix
+2015-01-03 [1.2.1]
+ * Automatic view mode fix 
+2015-01-03 [1.2.0]
+ * Episode listing is default for programmes listed by letter or genre (allowes favouriting)
+ * Windows path join bugfix
+ * Thread concurence datetime import bugfix
+ * Translation of well known errors (etc. license expired)
+ * Automatic view mode
+2014-12-22 [1.1.0]
+ * Bugfix: listing of letters with diacritic
+ * Well known errors
+ * Error reporting
+2014-10-12 [1.0.0]
+ * First version of plugin
+2014-10-07 [0.1.0]
+ * First version of wrapper
+ 
