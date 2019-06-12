@@ -36,7 +36,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně TV" version="2.0.5" provider-name="Petr Čermák, Štěpán Ort">
+<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně TV" version="2.0.6" provider-name="Petr Čermák, Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.dmd-czech.common" version="1.5.5"/>
