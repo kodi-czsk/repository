@@ -174,3 +174,6 @@
 	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
 	
 	
+[submodule "script.playonkodi.urldownloader"]
+	path = script.playonkodi.urldownloader
+	url = https://github.com/P1-Ro/script.playonkodi.urldownloader
