@@ -55,7 +55,8 @@ __ADDONS__ = [
     "skin.estuary.stream-cinema",
     "plugin.video.sl",
     "plugin.video.mall.tv",
-    "plugin.video.bombuj.filmyserialy"
+    "plugin.video.bombuj.filmyserialy",
+    "script.playonkodi.urldownloader"
     ] + _BEAM_
 
 import os
