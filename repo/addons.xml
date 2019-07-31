@@ -375,7 +375,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.primaplay" name="iPrima" version="0.4.2" provider-name="Ladislav Dokulil, Roman Smolka">
+<addon id="plugin.video.primaplay" name="iPrima" version="0.4.3" provider-name="Ladislav Dokulil, Roman Smolka">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.youtube.dl" version="14.810.0"/>
