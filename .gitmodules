@@ -172,5 +172,8 @@
 [submodule "plugin.video.bombuj.filmyserialy"]
 	path = plugin.video.bombuj.filmyserialy
 	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
+[submodule "plugin.video.dmd-czech.xtv"]
+	path = plugin.video.dmd-czech.xtv
+	url = https://github.com/lama18/plugin.video.dmd-czech.xtv.git
 	
 	
