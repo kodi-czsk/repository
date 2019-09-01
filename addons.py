@@ -56,6 +56,7 @@ __ADDONS__ = [
     "plugin.video.sl",
     "plugin.video.mall.tv",
     "plugin.video.bombuj.filmyserialy"
+    "plugin.video.dmd-czech.xtv"
     ] + _BEAM_
 
 import os
