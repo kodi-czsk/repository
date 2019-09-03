@@ -896,7 +896,7 @@ v0.5.0(29.11.2018)
     </extension>
 </addon>
 
-    <addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.18">
+    <addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.19">
     <requires>
         <import addon="xbmc.python" version="2.14.0" />
         <import addon="script.module.stream.resolver" version="1.6.60" />
@@ -914,7 +914,6 @@ v0.5.0(29.11.2018)
         <summary lang="en">stream-cinema.online - play content from webshare.cz[CR]For proper functioning, it is necessary to [I]register at webshare.cz and have activated VIP[/I].</summary>
         <summary lang="cs">stream-cinema.online - prehravani obsahu z webshare.cz[CR]Pro spravne fungovani je potreba se [I]registrovat na webshare.cz a mit aktivovane VIP[/I].</summary>
         <summary lang="sk">stream-cinema.online - prehravanie obsahu z webshare.cz[CR]Pre spravne fungovanie je potrebne sa [I]registrovat na webshare.cz a mat aktivovane VIP[/I].</summary>
-        <summary lang="he">stream-cinema.online - ניגון תוכן מ-webshare.cz[CR]לתפקוד תקין עליך [I]להירשם ב-webshare.cz ולהיות בעל חשבון VIP פעיל[/I].</summary>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <source>https://github.com/bbaronSVK/plugin.video.stream-cinema.git</source>
@@ -928,7 +927,6 @@ v0.5.0(29.11.2018)
         <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with of the content providers. This addon simply search on webshare.cz for content. Use at your own risk!</disclaimer>
         <disclaimer lang="sk">Autor tohto addonu nemá žiaden obsah, ktorý sa v ňom nachádza a nemá žiadnu príslušnosť k poskytovateľovi obsahu. Tento addon iba vyhľadá obsah na webshare.cz. Používajte na vlastné riziko!</disclaimer>
         <disclaimer lang="cs">Autor tohto addonu nemá žáden obsah, který se v ňem nachází a nemá žádnou příslušnost k poskytovateli obsahu. Tento addon jen vyhledává obsah na webshare.cz. Používejte na vlastní riziko!</disclaimer>
-        <disclaimer lang="he">-המחבר של ההרחבה זה אינו מארח את התוכן שעלול להימצא ואין לו שום זיקה לספקי התוכן. ההרחבה פשוט מבצעת חיפוש ב webshare.cz עבור תוכן. השימוש הוא על אחריותך בלבד!</disclaimer>
         <news>Opravene prihlasenie ak z API pride prazdny salt.</news>
     </extension>
     <extension library="lib" point="xbmc.python.module" />
