@@ -1,0 +1,21 @@
+[B]2019-09-29 v1.0.7:[/B]
+ * Pridana podpora pre zdroj videa Vimeo
+[B]2019-03-13 v1.0.6:[/B]
+ * Zakladna oprava prehravania po zmene webu z tv.sme.sk na video.sme.sk
+ * Zatial bez zoznamu relacii a najnovsich videi
+ * Na prehravanie sa pouziva plugin.video.youtube
+ * Odstranenie nefunkcnych statistik
+[B]2018-09-08 v1.0.5:[/B]
+ * Oprava prehravania po zmenach na sme.sk (thanx to jose1711)
+ * Odstraneny vyber kvality videa (oprava s nim docasne nepocita)
+[B]2016-12-26 v1.0.4:[/B]
+ * Oprava - doplnok sa nespusti ak cesta k nemu obsahuje diakritiku (windows)
+[B]2016-02-11 v1.0.3:[/B]
+ * Uprava po zmene webu (vyzadovany key z pianomedia)
+[B]2015-11-08 v1.0.2:[/B]
+ * Pridana moznost nastavit predvolenu kvalitu videa 
+[B]2014-10-25 v1.0.1:[/B]
+ * Pridani statistik
+[B]2013-11-15 v1.0.0:[/B]
+ * TV.SME.sk - first release
+
