@@ -611,29 +611,30 @@ v0.5.0(29.11.2018)
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.8"
+       version="1.0.9"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
     <import addon="plugin.video.youtube" version="6.0.0"/>
+    <import addon="script.module.elementtree" version="1.2.7" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>TV SME.sk video-archive plugin</summary>
-    <summary lang="sk">Internetová televízia SME.sk</summary>
-    <summary lang="cs">Internetová televize SME.sk</summary>
+    <summary>Video archive SME.sk</summary>
+    <summary lang="sk">Video archív SME.sk</summary>
+    <summary lang="cs">Video archiv SME.sk</summary>
     <description>
-        Plugin to play TV video archive tv.sme.sk
+        Plugin to play video archive video.sme.sk
     </description>
     <description lang="cs">
-        Plugin pro přehrávání videí z archivu tv.sme.sk
+        Plugin pro přehrávání videí z archivu video.sme.sk
     </description>
     <description lang="sk">
-        Plugin pre prehrávenie videí z archívu tv.sme.sk
+        Plugin pre prehrávenie videí z archívu video.sme.sk
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.tv.sme.sk</source>
   </extension>
