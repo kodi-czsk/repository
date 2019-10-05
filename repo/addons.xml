@@ -1328,7 +1328,7 @@ v 2.2 (27.11.2017)
 
 <addon id="plugin.video.mall.tv"
        name="Mall.TV"
-       version="0.0.8"
+       version="0.0.9"
        provider-name="koudi">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
