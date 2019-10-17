@@ -527,7 +527,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.6.4">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.6.5">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -542,10 +542,13 @@
         <platform>all</platform>
         <summary lang="en">Tipsport ELH</summary>
         <summary lang="cs">Tipsport ELH</summary>
-        <description lang="en">Watch ELH streams from Tipsport.cz. It is necessary to fill account in setting. If you like this addon and want to thank me, you can donate on paypal.me/JanKubovy</description>
-        <description lang="cs">Sledujte ELH zápasy ze stránky Tipsport.cz. Pro správné fungování je třeba přidat účet v nastavení. V případě, že se vám addon líbí a chcete mi nějak poděkovat, můžete mi poslat libovolnou částku na paypal.me/JanKubovy</description>
-        <disclaimer lang="en">Addon were made for study purposes only and author does not guide anyone to disrespect Tipsport.cz site rules</disclaimer>
-        <disclaimer lang="cs">Addon byl vytvořen pro studijní účely a autor nenabáda nikoho k nerespektování pravidel stránky Tipsport.cz</disclaimer>
+        <summary lang="sk">Tipsport ELH</summary>
+        <description lang="en">Watch ELH streams from Tipsport site. It is necessary to fill account in setting. If you like this addon and want to thank me, you can donate on paypal.me/JanKubovy</description>
+        <description lang="cs">Sledujte ELH zápasy ze stránky Tipsport. Pro správné fungování je třeba přidat účet v nastavení. V případě, že se vám addon líbí a chcete mi nějak poděkovat, můžete mi poslat libovolnou částku na paypal.me/JanKubovy</description>
+        <description lang="sk">Sledujte ELH zápasy zo stránky Tipsport. Pre správne fungovanie je potrebné pridať konto v nastavení. V prípade, že sa vám addon páči a chcete mi nejako poďakovať, môžete mi poslať ľubovoľnú čiastku na paypal.me/JanKubovy</description>
+        <disclaimer lang="en">Addon were made for study purposes only and author does not guide anyone to disrespect Tipsport site rules</disclaimer>
+        <disclaimer lang="cs">Addon byl vytvořen pro studijní účely a autor nenabáda nikoho k nerespektování pravidel stránky Tipsport</disclaimer>
+        <disclaimer lang="sk">Addon bol vytvorený pre študijné účely a autor nenabáda nikoho k nerešpektovaniu pravidiel stránky Tipsport</disclaimer>
         <assets>
             <icon>icon.png</icon>
             <screenshot>resources\screenshot-01.jpg</screenshot>
@@ -553,6 +556,8 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.6.5(16.10.2019)
+  - Add tipsport.sk support [experimental]
 v0.6.4(28.9.2019)
   - Add Slovak language
 v0.6.3(10.4.2019)
