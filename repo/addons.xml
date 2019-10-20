@@ -527,7 +527,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.6.5">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.6.6">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -556,6 +556,9 @@
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.6.6(20.10.2019)
+  - Fix tipsport.sk streams [experimental]
+  - Add Slovan and Michalovce logo
 v0.6.5(16.10.2019)
   - Add tipsport.sk support [experimental]
 v0.6.4(28.9.2019)
