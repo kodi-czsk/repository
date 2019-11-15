@@ -1076,7 +1076,7 @@ v0.5.0(29.11.2018)
 
 <addon id="metadata.serialzone.cz"
        name="SerialZone.cz"
-       version="2.6"
+       version="2.7"
        provider-name="ekarorgit">
     <requires>
         <import addon="xbmc.metadata" version="2.1.0"/>
@@ -1099,8 +1099,11 @@ v0.5.0(29.11.2018)
         <website>www.github.com/ekarorgit/metadata.serialzone.cz</website>
         <email/>
         <source>www.github.com/ekarorgit/metadata.serialzone.cz</source>
-        <news>v 2.6
-   [added] pridana slovenstina (mvalec)
+        <news>v 2.7 (15.11.2019)
+  [fix] TVDBart parsing - added language
+
+v 2.6
+  [added] pridana slovenstina (mvalec)
 
 v 2.5 (6.7.2018)
   [fixed] stahovani TVDB art - lepsi parsovani
