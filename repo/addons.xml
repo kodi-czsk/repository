@@ -975,7 +975,7 @@ v0.5.0(29.11.2018)
 
 <addon id="metadata.csfd.cz"
        name="ČSFD.cz"
-       version="3.12"
+       version="3.13"
        provider-name="ekarorgit">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -1000,7 +1000,10 @@ v0.5.0(29.11.2018)
     <website>www.github.com/ekarorgit/metadata.csfd.cz</website>
     <email></email>
     <source>www.github.com/ekarorgit/metadata.csfd.cz</source>
-    <news> v 3.12 (14.11.2019)
+    <news> v 3.13 (20.11.2019)
+    [fix] rolled back to http for imdb
+
+ v 3.12 (14.11.2019)
     [fix] https with user-agent for csfd.cz calls ((JimmyS83)
 
  v 3.11 (9.7.2018)
