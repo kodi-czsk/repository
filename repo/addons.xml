@@ -1276,7 +1276,7 @@ v 2.2 (27.11.2017)
 	</extension>
 </addon>
 
-<addon id="plugin.video.sl" version="1.6.4" name="Skylink Live TV" provider-name="Sorien, cache-sk">
+<addon id="plugin.video.sl" version="1.6.6" name="Skylink Live TV" provider-name="Sorien, cache-sk">
 <requires>
   <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.requests" version="2.18.4"/>
@@ -1296,8 +1296,10 @@ v 2.2 (27.11.2017)
   <forum>https://www.xbmc-kodi.cz/prispevek-skylink-livetv-addon-beta</forum>
   <source>https://github.com/Sorien/plugin.video.sl</source>
   <news>
-[B]1.6.4[/B]
-- fix preklepu v nastaveni PVR IPTV Simple Client
+[B]1.6.6[/B]
+- pridanie seriesNo/episodeNo do xmltv
+[B]1.6.5[/B]
+- kolmpatibilita s Kodi Matrix a Python 3.x
 [B]1.6.3[/B]
 - moznost automatickeho nastavenia PVR IPTV Simple Client-a z nastaveni pluinu
 [B]1.6.2[/B]
