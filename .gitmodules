@@ -171,9 +171,7 @@
 	url = https://github.com/koudi/plugin.video.mall.tv.git
 [submodule "plugin.video.bombuj.filmyserialy"]
 	path = plugin.video.bombuj.filmyserialy
-	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
-	
-	
+	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git	
 [submodule "plugin.video.hbogoeu"]
 	path = plugin.video.hbogoeu
-	url = git@github.com:arvvoid/plugin.video.hbogoeu.git
+	url = https://github.com/arvvoid/plugin.video.hbogoeu.git
