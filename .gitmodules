@@ -174,3 +174,6 @@
 	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
 	
 	
+[submodule "plugin.video.hbogoeu"]
+	path = plugin.video.hbogoeu
+	url = git@github.com:arvvoid/plugin.video.hbogoeu.git
