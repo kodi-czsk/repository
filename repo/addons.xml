@@ -274,14 +274,14 @@
     <summary lang="cs">joj.sk</summary>
     <summary lang="sk">joj.sk</summary>
     <description lang="en">Watch online TV archive from joj.sk</description>
-    <description lang="cs">Sledujte online TV archiv zo serveru joj.sk</description>
+    <description lang="cs">Sledujte online TV archiv ze serveru joj.sk</description>
     <description lang="sk">Sledujte online TV archív zo serveru joj.sk</description>
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.joj.sk</source>
   </extension>
 </addon>
 
-<addon id="plugin.video.markiza.sk" name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral" version="1.3.3">
+<addon id="plugin.video.markiza.sk" name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral" version="1.3.5">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
