@@ -1160,10 +1160,11 @@ v 2.2 (27.11.2017)
   </extension>
 </addon>
 
-<addon id="plugin.video.titulkomet.cz" name="titulkomet.cz" provider-name="BrozikCZ" version="0.0.3">
+<addon id="plugin.video.titulkomet.cz" name="titulkomet.cz" provider-name="BrozikCZ" version="0.0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.55" />
+    <import addon="script.module.youtube.dl" version="19.912.0"/>
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
