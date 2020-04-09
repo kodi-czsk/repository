@@ -980,86 +980,86 @@ v0.5.0(29.11.2018)
   </extension>
 </addon>
 
-<addon id="metadata.csfd.cz"
-       name="ČSFD.cz"
-       version="3.13"
-       provider-name="ekarorgit">
-  <requires>
-    <import addon="xbmc.metadata" version="2.1.0"/>
-    <import addon="metadata.common.themoviedb.org" version="3.1.0"/>
-    <import addon="metadata.common.imdb.com" version="2.9.9"/>
-  </requires>
-  <extension point="xbmc.metadata.scraper.movies" language="cs" library="csfdcz.xml"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">ČSFD Movie Scraper</summary>
-    <summary lang="cs">ČSFD Metadata Stahovač</summary>
-    <summary lang="sk">ČSFD Metadata Sťahovač</summary>
-    <description lang="en">Download Movie information from www.csfd.cz (czech-slovak movie database) / combined with www.imdb.com and themoviedb.org</description>
-    <description lang="cs">Stahuje informace o filmech z csfd.cz (kombinovaně s imdb.com a themoviedb.org). Volně navázáno na původní verzi od LD a verzi 3.4h nalezenou na netu. (http://ldevel.blogspot.sk/)</description>
-    <description lang="sk">Sťahuje informácie o filmoch z csfd.cz (kombinovane z imdb.com a themoviedb.org). Voľne naviazané na pôvodnú verziu od LD a verziu 3.4h nájdenú na webe. (http://ldevel.blogspot.sk/)</description>
-    <disclaimer lang="cs">Pro nahlášení bugu navštivte www.github.com/ekarorgit/metadata.csfd.cz</disclaimer>
-    <disclaimer lang="en">For bugs visit www.github.com/ekarorgit/metadata.csfd.cz</disclaimer>
-    <disclaimer lang="sk">Pre nahlásenie chyby navštívte www.github.com/ekarorgit/metadata.csfd.cz</disclaimer>
-    <language>cs en sk</language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</license>
-    <forum></forum>
-    <website>www.github.com/ekarorgit/metadata.csfd.cz</website>
-    <email></email>
-    <source>www.github.com/ekarorgit/metadata.csfd.cz</source>
-    <news> v 3.13 (20.11.2019)
-    [fix] rolled back to http for imdb
+<addon id="metadata.csfd.cz" name="ČSFD.cz" version="3.14" provider-name="ekarorgit">
+   <requires>
+      <import addon="xbmc.metadata" version="2.1.0"/>
+      <import addon="metadata.common.themoviedb.org" version="3.1.0"/>
+      <import addon="metadata.common.imdb.com" version="3.1.10"/>
+   </requires>
+   <extension point="xbmc.metadata.scraper.movies" language="cs" library="csfdcz.xml"/>
+   <extension point="xbmc.addon.metadata">
+      <summary lang="en">ČSFD Movie Scraper</summary>
+      <summary lang="cs">ČSFD Metadata Stahovač</summary>
+      <summary lang="sk">ČSFD Metadata Sťahovač</summary>
+      <description lang="en">Download Movie information from www.csfd.cz (czech-slovak movie database) / combined with www.imdb.com and themoviedb.org</description>
+      <description lang="cs">Stahuje informace o filmech z csfd.cz (kombinovaně s imdb.com a themoviedb.org). Volně navázáno na původní verzi od LD a verzi 3.4h nalezenou na netu. (http://ldevel.blogspot.sk/)</description>
+      <description lang="sk">Sťahuje informácie o filmoch z csfd.cz (kombinovane z imdb.com a themoviedb.org). Voľne naviazané na pôvodnú verziu od LD a verziu 3.4h nájdenú na webe. (http://ldevel.blogspot.sk/)</description>
+      <disclaimer lang="cs">Pro nahlášení bugu navštivte www.github.com/ekarorgit/metadata.csfd.cz</disclaimer>
+      <disclaimer lang="en">For bugs visit www.github.com/ekarorgit/metadata.csfd.cz</disclaimer>
+      <disclaimer lang="sk">Pre nahlásenie chyby navštívte www.github.com/ekarorgit/metadata.csfd.cz</disclaimer>
+      <language>cs en sk</language>
+      <platform>all</platform>
+      <license>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</license>
+      <forum></forum>
+      <website>www.github.com/ekarorgit/metadata.csfd.cz</website>
+      <email></email>
+      <source>www.github.com/ekarorgit/metadata.csfd.cz</source>
+      <news>v 3.14 (9.4.2020)
+   [fix] imdb akas subdomain not reachable
+   [fix] different behavior on cleanbuffers - infinite loop crashing Kodi
+   [removed] downloading US rating from imdb took +1s for each request.
 
- v 3.12 (14.11.2019)
-    [fix] https with user-agent for csfd.cz calls ((JimmyS83)
+v 3.13 (20.11.2019)
+   [fix] rolled back to http for imdb
 
- v 3.11 (9.7.2018)
-    [added] Slovak translation (mvalec)
+v 3.12 (14.11.2019)
+   [fix] https with user-agent for csfd.cz calls ((JimmyS83)
 
- v 3.10 (20.2.2018)
-    [fix] get imdbid from https links
+v 3.11 (9.7.2018)
+   [added] Slovak translation (mvalec)
 
- v 3.9 (2.2.2018)
-    [changed] prekopana volba a kombinace jazyku v nazvu filmu:
-      local - lokalizovany nazev z csfd (bere v uvahu odkud jde pripojeni)
-      original - prvni z dalsich uvedenych nazvu na csfd
-      en - Snazi se najit prioritne EN nazev z USA,GBR,CAN,AUS,IRL,NZL
-      cz - prvni uvedeny cesky nazev
-      sk - prvni uvedeny slovensky nazev
-    [added] moznost stahovani obsazeni z TMDB
+v 3.10 (20.2.2018)
+   [fix] get imdbid from https links
+v 3.9 (2.2.2018)
+   [changed] prekopana volba a kombinace jazyku v nazvu filmu:
+     local - lokalizovany nazev z csfd (bere v uvahu odkud jde pripojeni)
+     original - prvni z dalsich uvedenych nazvu na csfd
+     en - Snazi se najit prioritne EN nazev z USA,GBR,CAN,AUS,IRL,NZL
+     cz - prvni uvedeny cesky nazev
+     sk - prvni uvedeny slovensky nazev
+   [added] moznost stahovani obsazeni z TMDB
+v 3.8 (26.1.2018)
+   [fixed] vracena stranka primo z vyhledavani
+   [fixed] kolekce, fanart, poster, trailer z TMDB
+   [added] volba preferovaneho jazyka pro fanart (standartne cs)
 
- v 3.8 (26.1.2018)
-    [fixed] vracena stranka primo z vyhledavani
-    [fixed] kolekce, fanart, poster, trailer z TMDB
-    [added] volba preferovaneho jazyka pro fanart (standartne cs)
+v 3.7 (31.12.2017)
+   [fixed] polozky v nastaveni
+   [fixed] spravne stahuje pocet hlasu hodnoceni
 
- v 3.7 (31.12.2017)
-    [fixed] polozky v nastaveni
-    [fixed] spravne stahuje pocet hlasu hodnoceni
+v 3.6 (28.12.2017)
+   [fixed] Smazáno nadbytečné odsazováni v popisu filmu
+   [added] Možnost zapnout anglické názvy místo "původních"
 
- v 3.6 (28.12.2017)
-    [fixed] Smazáno nadbytečné odsazováni v popisu filmu
-    [added] Možnost zapnout anglické názvy místo "původních"
-
- v 3.5 (23.11.2017)
-    Logika založena na metadata.csfd.cz verzi 3.4h, ale skoro celé přepsáno. Změny:
-    [fixed] Automatické přesměrovaní IMDB ID na správné (např: imdbid pro film Neon Demon)
-    [fixed] Plakát z CSFD stahuje v maximalním rozlišení
-    [fixed] Délka filmu stažena i při uvedení více verzí na CSFD
-    [changed] Actors, Directors, Writers stahuje opět z IMDB
-    [added] Fallback obsahu z TMDB
-    [added] Možnost stahovaní obsahu pouze z TMDB
-    [added] Scraper opět najde výsledek hledaní s jedním výsledkem (např: Metegol)
-    [added] Volba stahovaní plakátu z IMDB
-    [added] Ve výsledku hledání zobrazuje i search-name
-    [added] Používání cache
-    </news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart></fanart>
-      <screenshot></screenshot>
-    </assets>
-  </extension>
+v 3.5 (23.11.2017)
+   Logika založena na metadata.csfd.cz verzi 3.4h, ale skoro celé přepsáno. Změny:
+   [fixed] Automatické přesměrovaní IMDB ID na správné (např: imdbid pro film Neon Demon)
+   [fixed] Plakát z CSFD stahuje v maximalním rozlišení
+   [fixed] Délka filmu stažena i při uvedení více verzí na CSFD
+   [changed] Actors, Directors, Writers stahuje opět z IMDB
+   [added] Fallback obsahu z TMDB
+   [added] Možnost stahovaní obsahu pouze z TMDB
+   [added] Scraper opět najde výsledek hledaní s jedním výsledkem (např: Metegol)
+   [added] Volba stahovaní plakátu z IMDB
+   [added] Ve výsledku hledání zobrazuje i search-name
+   [added] Používání cache
+      </news>
+      <assets>
+         <icon>icon.png</icon>
+         <fanart></fanart>
+         <screenshot></screenshot>
+      </assets>
+   </extension>
 </addon>
 
 <addon id="plugin.image.rouming" name="Rouming" version="1.2" provider-name="jose1711">
