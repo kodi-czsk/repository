@@ -1,0 +1,180 @@
+[B]3.15[/B]
+[fix] more graceful behavior when missing imdbId (MrVoltz)
+[fix] proper dependencies
+
+[B]3.14[/B]
+[fix] imdb akas subdomain not reachable
+[fix] different behavior on cleanbuffers - infinite loop crashing Kodi
+[removed] downloading US rating from imdb took +1s for each request.
+
+[B]3.13[/B]
+[fix] rolled back to http for imdb
+
+[B]3.12[/B]
+[fix] https with user-agent for csfd.cz calls (JimmyS83)
+
+[B]3.11[/B]
+[added] Slovak translation (mvalec)
+
+[B]3.10[/B]
+[fix] get imdbid from https links
+
+[B]3.9[/B]
+[changed] prekopana volba a kombinace jazyku v nazvu filmu:
+  local - lokalizovany nazev z csfd (bere v uvahu odkud jde pripojeni)
+  original - prvni z dalsich uvedenych nazvu na csfd
+  en - Snazi se najit prioritne EN nazev z USA,GBR,CAN,AUS,IRL,NZL
+  cz - prvni uvedeny cesky nazev
+  sk - prvni uvedeny slovensky nazev
+[added] moznost stahovani obsazeni z TMDB
+
+[B]3.8[/B]
+[fixed] vracena stranka primo z vyhledavani na csfd.cz
+[fixed] kolekce, fanart, poster, trailer z TMDB
+[added] volba preferovaneho jazyka pro fanart (standartne cs)
+
+[B]3.7[/B]
+[fixed] polozky v nastaveni
+[fixed] spravne stahuje pocet hlasu hodnoceni
+
+[B]3.6[/B]
+[fixed] Smazáno nadbytečné odsazováni v popisu filmu
+[added] Možnost zapnout anglické názvy místo "původních"
+
+[B]3.5[/B]
+Logika založena na metadata.csfd.cz verzi 3.4h, ale skoro celé přepsáno. Změny:
+[fixed]Automatické přesměrovaní IMDB ID na správné (např: imdbid pro film Neon Demon)
+[fixed]Plakát z CSFD stahuje v maximalním rozlišení
+[fixed]Délka filmu stažena i při uvedení více verzí na CSFD
+[changed]Actors, Directors, Writers stahuje opět z IMDB
+[added]Fallback obsahu z TMDB
+[added]Možnost stahovaní obsahu pouze z TMDB
+[added]Scraper opět najde výsledek hledaní s jedním výsledkem (např: Metegol)
+[added]Volba stahovaní plakátu z IMDB 
+[added]Ve výsledku hledání zobrazuje i search-name
+[added]Používání cache
+
+[B]3.4h[/B]
+[removed]Odebrána možnost stahování obsahu z MoviePosterDB a HD-Trailers.net
+ 
+[B]3.4g[/B]
+[added]Ukládání id filmu z IMDB do databáze pro práci s dalšími doplňky
+
+[B]3.4f[/B]
+[fixed]Oprava získání informací pomocí .nfo ze serveru ČSFD.cz
+
+[B]3.4e[/B]
+[fixed]Oprava získání informací pomocí .nfo
+
+[B]3.4d[/B]
+[removed]Odstraněno nefunkční stahování plakátů z IMDB
+[added]Přidána volba stahování fanartu z themoviedb.org
+
+[B]3.4c[/B]
+[added]Možnost odstraňovat výrazy "part X" z názvu filmu. Může se zlepšit vyhledávání v případě, že se v názvu nesprávně nacházejí tyto výrazy - např. v případě filmů rozdělených na více částí.
+
+[B]3.4b[/B]
+[fixed]Oprava nastavení zobrazení názvů filmů.
+
+[B]3.4[/B]
+[fixed]Oprava formátování CSFD a další optimalizace.
+
+[B]3.3a[/B]
+[fixed]Oprava stahování originálního názvu filmu.
+
+[B]3.3[/B]
+[added]vice nastaveni a zdroju stahovani dat. Upřednostňováno TMDB atd.
+
+[B]3.2g[/B]
+[added]volba rozlisovani dle roku
+
+[B]3.2f[/B]
+[fixed]rozlisovani filmu dle roku
+
+[B]3.2e[/B]
+[added]pridana upoutavka z HDTrailers.net
+
+[B]3.2d[/B]
+[added]pridana upoutavka z TMDB
+
+[B]3.2c[/B]
+[fixed]stahovani posteru z csfd
+
+[B]3.2b[/B]
+[fixed]nastaveni trideni dle anglickeho nazvu
+
+[B]3.2a[/B]
+[added]moznost nastaveni stahovani pouze _hlavniho_ nazvu z csfd (prevazne ceskeho)
+
+[B]3.1f[/B]
+[fixed]cesky nazev filmu
+
+[B]3.1e[/B]
+[fixed]obsah filmu
+
+[B]3.1d[/B]
+[fixed]nacitani naprimo nalezenych filmu (Trainspotting, Manderlay)
+
+[B]3.1c[/B]
+[fixed]nacitani obsahu po zmene na csfd
+
+[B]3.1b[/B]
+[fixed] snad - nacitani dat na cistem xbmc
+
+[B]3.1alpha[/B]
+[fixed] načítání seznamu filmu (vždy tam byl ještě jeden s nesmyslným rokem)
+[fixed] načítání filmu, pokud s daným názvem byl právě jeden a v něm odkaz na jiný film (Elizabethtown)
+[added] možnost vypnutí/zapnutí vkládání typu filmu do názvu (TV Film, Video Film, Divadlo)
+[added] u filmů původem z Česko, Československo se nenačítá zahraniční název
+[added] načítání země původu k filmu
+
+[B]3.0e[/B]
+[fixed] načítání více žánrů
+[fixed] úprava načítání obsahu
+
+[B]3.0d[/B]
+[fixed] načítání názvu u některých filmů (Beaty and the Briefcase)
+[fixed] načítání cizojazyčných filmů (Irreversible, Objective)
+[fixed] odstranění &nbsp; z obsahu filmu + úprava načítání obsahu filmu
+[improved] načítání seznamu filmu
+
+[B]3.0c[/B]
+[fixed] načítání filmu, který se najde přímo (MegaMind, Postriziny)
+
+[B]3.0b[/B]
+[fixed] částečně upraveno třídění - ve většině případů by to mělo být OK
+
+[B]3.0alpha[/B]
+adaptace na nový design ČSFD.cz
+
+[B]2.1f[/B]
+[fixed] - načítání filmů, které nemají zatím nemají žádné komentáře (Multiple Sarcasms, Nice Guy Johnny, apod)
+
+[B]2.1e[/B]
+[fixed] - načítání českého názvu filmu u filmů, které mají jako defaultní slovenský (Jak básníci přicházejí o iluze, Dědictví)
+[fixed] - načítání obsahu některých filmů (Vítězství 2005)
+
+[B]2.1d[/B]
+[fixed] - opraveno načítání některých popisů filmů
+
+[B]2.1c[/B]
+[fixed] - opraveno načítání posteru z csfd pro filmy, které nemají odkaz na imdb
+[added] - stahování celého obsahu filmu (pokud je tam "zobrazit celý text")
+[fixed] - odstranění &nbsp; z obsahu filmu
+
+[B]2.1b[/B]
+[fixed] - drobná úprava - některé filmy na čsfd.cz mají odkaz na imdb.com ještě v dalším formátu (Legally Blonde 2).
+
+[B]2.1alpha[/B]
+[fixed] - načítání informací z IMDB.com (pro imdb scraper v. 1.0.15) - předělal jsem kompletně celé napojení na imdb scraper, takže se zde mohou (a určitě budou) vyskytovat chyby, prosím hlásit - případně i konkrétní film
+[added] - třídění dle anglického názvu (první je anglický název (příp. první cizojazyčný), až nakonec český) - nastavení v konfiguraci
+[added] - konfigurace velikosti IMDB posteru
+
+[B]2.0c[/B]
+Konfigurace poradi nazvu
+
+[B]2.0b[/B]
+Konfigurace stažení posteru z csfd / imdb
+
+[B]2.0alpha[/B]
+Initial revision for xbmc > 9.11
