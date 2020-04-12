@@ -980,11 +980,11 @@ v0.5.0(29.11.2018)
   </extension>
 </addon>
 
-<addon id="metadata.csfd.cz" name="ČSFD.cz" version="3.14" provider-name="ekarorgit">
+<addon id="metadata.csfd.cz" name="ČSFD.cz" version="3.15" provider-name="ekarorgit">
    <requires>
       <import addon="xbmc.metadata" version="2.1.0"/>
       <import addon="metadata.common.themoviedb.org" version="3.1.0"/>
-      <import addon="metadata.common.imdb.com" version="3.1.10"/>
+      <import addon="metadata.common.imdb.com" version="3.1.0"/>
    </requires>
    <extension point="xbmc.metadata.scraper.movies" language="cs" library="csfdcz.xml"/>
    <extension point="xbmc.addon.metadata">
@@ -1004,7 +1004,11 @@ v0.5.0(29.11.2018)
       <website>www.github.com/ekarorgit/metadata.csfd.cz</website>
       <email></email>
       <source>www.github.com/ekarorgit/metadata.csfd.cz</source>
-      <news>v 3.14 (9.4.2020)
+      <news>v 3.15 (12.4.2020)
+   [fix] more graceful behavior when missing imdbId (MrVoltz)
+   [fix] proper dependencies
+
+v 3.14 (9.4.2020)
    [fix] imdb akas subdomain not reachable
    [fix] different behavior on cleanbuffers - infinite loop crashing Kodi
    [removed] downloading US rating from imdb took +1s for each request.
