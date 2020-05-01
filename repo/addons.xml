@@ -394,7 +394,7 @@ version="1.3.12">
   </extension>
 </addon>
 
-<addon id="plugin.video.rtvs.sk" name="rtvs.sk" provider-name="Maros Ondrasek" version="1.8.5">
+<addon id="plugin.video.rtvs.sk" name="rtvs.sk" provider-name="Maros Ondrasek" version="1.8.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.13" />
@@ -914,7 +914,7 @@ v0.5.0(29.11.2018)
     </extension>
 </addon>
 
-    <addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.21">
+    <addon id="plugin.video.stream-cinema" name="Stream Cinema CZ a SK" provider-name="bbaron" version="1.3.26">
     <requires>
         <import addon="xbmc.python" version="2.24.0" />
         <import addon="script.module.stream.resolver" version="1.6.60" />
@@ -929,9 +929,9 @@ v0.5.0(29.11.2018)
     </extension>
     <extension library="lib" point="xbmc.python.module" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">stream-cinema.online - play content from webshare.cz[CR]For proper functioning, it is necessary to [I]register at webshare.cz and have activated VIP[/I].</summary>
-        <summary lang="cs">stream-cinema.online - prehravani obsahu z webshare.cz[CR]Pro spravne fungovani je potreba se [I]registrovat na webshare.cz a mit aktivovane VIP[/I].</summary>
-        <summary lang="sk">stream-cinema.online - prehravanie obsahu z webshare.cz[CR]Pre spravne fungovanie je potrebne sa [I]registrovat na webshare.cz a mat aktivovane VIP[/I].</summary>
+        <summary lang="en">stream-cinema.online - play content from web storage[CR]For proper functioning, it is necessary to [I]register at webshare.cz or kra.sk and have payed account[/I].</summary>
+        <summary lang="cs">stream-cinema.online - prehravani obsahu z web ulozisk[CR]Pro spravne fungovani je potreba se [I]registrovat na webshare.cz anebo kra.sk a mit aktivovane predplatne[/I].</summary>
+        <summary lang="sk">stream-cinema.online - prehravanie obsahu z webovych ulozisk[CR]Pre spravne fungovanie je potrebne sa [I]registrovat na webshare.cz alebo kra.sk a mat aktivovane predplatne[/I].</summary>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
         <source>https://github.com/bbaronSVK/plugin.video.stream-cinema.git</source>
@@ -942,10 +942,10 @@ v0.5.0(29.11.2018)
             <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
             <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
         </assets>
-        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with of the content providers. This addon simply search on webshare.cz for content. Use at your own risk!</disclaimer>
-        <disclaimer lang="sk">Autor tohto addonu nemá žiaden obsah, ktorý sa v ňom nachádza a nemá žiadnu príslušnosť k poskytovateľovi obsahu. Tento addon iba vyhľadá obsah na webshare.cz. Používajte na vlastné riziko!</disclaimer>
-        <disclaimer lang="cs">Autor tohto addonu nemá žáden obsah, který se v ňem nachází a nemá žádnou příslušnost k poskytovateli obsahu. Tento addon jen vyhledává obsah na webshare.cz. Používejte na vlastní riziko!</disclaimer>
-        <news>Opravene prihlasenie ak z API pride prazdny salt.</news>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with of the content providers. This addon simply search on web storages for content. Use at your own risk!</disclaimer>
+        <disclaimer lang="sk">Autor tohto addonu nemá žiaden obsah, ktorý sa v ňom nachádza a nemá žiadnu príslušnosť k poskytovateľovi obsahu. Tento addon iba vyhľadá obsah na web uloziskach. Používajte na vlastné riziko!</disclaimer>
+        <disclaimer lang="cs">Autor tohto addonu nemá žáden obsah, který se v ňem nachází a nemá žádnou příslušnost k poskytovateli obsahu. Tento addon jen vyhledává obsah na webovych uloziskach. Používejte na vlastní riziko!</disclaimer>
+        <news>uloziska webshare.cz a kra.sk</news>
     </extension>
     <extension library="lib" point="xbmc.python.module" />
 </addon>
@@ -1190,7 +1190,7 @@ v 2.2 (27.11.2017)
 
 <addon 	id="weather.shmu.pocasie"
 		name="SHMU.sk počasie"
-		version="0.0.5"
+		version="0.0.8"
 		provider-name="Jose Riha">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -1212,79 +1212,6 @@ v 2.2 (27.11.2017)
 		<language></language>
 		<platform>all</platform>
 		<source>https://github.com/jose1711/weather.shmu.pocasie.git</source>
-	</extension>
-</addon>
-
-<addon id="skin.estuary.stream-cinema" version="1.9.16.f" name="Estuary Stream-Cinema" provider-name="phil65, Ichabod Fletchman + Stream-Cinema MOD by JiRo">
-	<requires>
-		<import addon="xbmc.gui" version="5.12.0"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
-		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
-		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
-		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<news>
-[B]Verze 1.9.16.f[/B]
-- označování MOD subverzí přesunuto do čísla verze => 1.9.16.f
-- opuštěno řešení využívající, dále jsou používány už jen přímé odkazy na addon Stream-Cinema
-- doplnění funkce widget info ve stručné (název, rok a žánry) a rozšířené verzi (+ obrázek a popis)
-- do [B]Power menu[/B] doplněna možnost provést [B]Reboot z vnitřní paměti[/B] - možno povolit/zakázat v nastavení
-- rozšířeny a upraveny všechny widgety, změna třídění na "random" u seznamů, ke kterým Streamm-Cinema neposílá datum přidání
-- možnost zadání maximálního limitu počtu položek widgetu (5 - 50) - vyžaduje reload skinu
-- přepracována funkce nastavení skinu - společné nastavení všech položek a parametrů hlavní nabídky na jedné stránce, stránka specifikých nastavení
-- přidána podpora pro addon iVysílání v podobném funkčním rozsahu jako pro Stream-Cinema
-[B]Verze 1.9.16.e[/B]
-- do Power menu doplněna možnost provést Reload skinu
-- doplněna funkce Zobrazit widgety na celé obrazovce - credit @safonov_ivan
-[B]Verze 1.9.16.d[/B]
-- blokování widgetů SC je nyní odvozené i od blokování SC v hlavní nabídce i jednotlivých položek SC v hlavním menu - díky za inspiraci @Karel1981
-[B]Verze 1.9.16.c[/B]
-- opravena chyba řazení widgetu Poslední sledované seriály - díky @beepee
-- do hlavního panelu doplněno zobrazení místa s předpovědí počasí a zatížení CPU a obsazení paměti
-[B]Verze 1.9.16.b[/B]
-- opraveny drobné chyby ve widgetech Stream-Cinema a Moje seznamy
-[B]Verze 1.9.16.a[/B]
-- odvozeno od Estuary 1.9.16 - Kodi 17.6. - Krypton
-- základní verze modifikace skinu
-- menu a widgets - Hlavní, Filmy, Seriály, Pohádky, Koncerty, Anime, Televize, Moje seznamy
-- doplňkový text v menu
-- ropzšíření parametrizace skinu
-- rozšíření infromací v hlavním panelu - datum a den v týdnu, indikace rozdílu verzí Estuary a Estuary Stream-Cinema
-- zobrazení Rating a UserRating v obrázcích posterů
-[B]Verze 1.9.16[/B]
-- odvozeno od Estuary 1.9.16 - Kodi 17.6. - Krypton
-		</news>
-		<summary lang="cs_CZ">Vzhled Estuary Stream-Cinema od autora phil65 s modifikací pro addon Stream-Cinema od JiRo</summary>
-		<summary lang="sk_SK">Vzhľad Estuary Stream-Cinema od autora phil65 s modifikáciou pre addon Stream-Cinema od Jiro</summary>
-		<description lang="cs_CZ">Estuary Stream-Cinema je odvozený od výchozího vzhledu pro Kodi 17.0 a vyšší. Snaží se být jednoduše pochopitelný a použitelný pro nové uživatele Kodi. Modifikace pro Stream-Cinema přidává do vzhledu funkce pro přímé využívání tohoto populárního českého a slovenského addon.</description>
-		<description lang="sk_SK">Estuary Stream-Cinema je odvodený od východiskového vzhľadu pre Kodi 17.0 a vyššie. Pokúša sa byť pre prvotných používateľov Kodi jednoduchým na pochopenie a používanie. Modifikácia pre Stream-Cienema pridáva do vzhľadu funkcie pre priame využívanie tohto populárneho českého a slovenského addon.</description>
-		<disclaimer lang="cs_CZ">Estuary Stream-Cinema je amatérskou úpravou skinu Estuary. Používáte ho na vlastní nebezpečí.[CR]Případnou podporu najdete na http://www.xbmc-kodi.cz/prispevek-estuary-stream-cinema</disclaimer>
-		<disclaimer lang="sk_SK">Estuary Stream-Cinema je amatérskou úpravou skinu Estuary. Používate ho na vlastné nebezpečenstvo. Prípadnú podporu nájdete na http://www.xbmc-kodi.cz/prispevek-estuary-stream-cinema</disclaimer>
-		<platform>all</platform>
-		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-		<forum></forum>
-		<source></source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot000.jpg</screenshot>
-			<screenshot>resources/screenshot001.jpg</screenshot>
-			<screenshot>resources/screenshot002.jpg</screenshot>
-			<screenshot>resources/screenshot003.jpg</screenshot>
-			<screenshot>resources/screenshot004.jpg</screenshot>
-			<screenshot>resources/screenshot005.jpg</screenshot>
-			<screenshot>resources/screenshot006.jpg</screenshot>
-			<screenshot>resources/screenshot007.jpg</screenshot>
-			<screenshot>resources/screenshot008.jpg</screenshot>
-			<screenshot>resources/screenshot009.jpg</screenshot>
-			<screenshot>resources/screenshot010.jpg</screenshot>
-		</assets>
-		<news>
-		</news>
 	</extension>
 </addon>
 
