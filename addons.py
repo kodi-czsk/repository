@@ -52,7 +52,6 @@ __ADDONS__ = [
     "plugin.video.mojevideo.sk",
     "plugin.video.titulkomet.cz",
     "weather.shmu.pocasie",
-    "skin.estuary.stream-cinema",
     "plugin.video.sl",
     "plugin.video.mall.tv",
     "plugin.video.bombuj.filmyserialy"
