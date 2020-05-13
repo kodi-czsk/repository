@@ -1,0 +1,23 @@
+[B]0.1.0:[/B]
+Switch to cache02
+[B]0.0.9:[/B]
+Show plot + improve compatibility with Confluence skin
+[B]0.0.8:[/B]
+Add missing l10n strings
+[B]0.0.7:[/B]
+Fix parsing of durations > 60 minutes 
+[B]0.0.6:[/B]
+Enable comments display (top level only)
+[B]0.0.5:[/B]
+Enable 1080p
+[B]0.0.4:[/B]
+Respect quality setting
+Do not display 18+ videos by default
+[B]0.0.3:[/B]
+Show plot where present (not all skins support this)
+[B]0.0.2:[/B]
+Code cleanup
+Show video durations
+Add prev/next buttons for the latest videos list
+[B]0.0.1:[/B]
+Initial version
