@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.barrandov.tv" name="barrandov.tv" provider-name="Maros Ondrasek" version="1.0.3">
+<addon id="plugin.video.barrandov.tv" name="barrandov.tv" provider-name="Maros Ondrasek" version="1.0.5">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.13" />
@@ -36,7 +36,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně TV" version="2.0.0" provider-name="Petr Čermák, Štěpán Ort">
+<addon id="plugin.video.dmd-czech.aktualne" name="Aktuálně TV" version="2.0.6" provider-name="Petr Čermák, Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.dmd-czech.common" version="1.5.5"/>
@@ -54,7 +54,7 @@
 
 <addon id="plugin.video.dmd-czech.novaplus"
        name="Nova Plus TV Archiv"
-       version="1.0.7"
+       version="1.0.19"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -67,11 +67,15 @@
     <platform>all</platform>
     <summary>Nova Plus TV video-archive plugin</summary>
     <summary lang="cs">Nova Plus TV - archiv</summary>
+    <summary lang="sk">Nova Plus TV - archív</summary>
     <description>
         Plugin to play TV video archive Novaplus.nova.cz
     </description>
     <description lang="cs">
         Plugin pro přehrávání videí z archivu Novaplus.nova.cz
+    </description>
+    <description lang="sk">
+        Plugin na prehrávanie videí z archívu Novaplus.nova.cz
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.novaplus</source>
   </extension>
@@ -101,7 +105,7 @@
 
 <addon id="plugin.video.dmd-czech.playtvak"
        name="[COLOR red]Play[/COLOR]tvak.cz"
-       version="1.0.0"
+       version="1.0.6"
        provider-name="Jan Heřman (72ka)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -127,7 +131,7 @@
 
 <addon id="plugin.video.dmd-czech.stream"
        name="Stream TV Archiv"
-       version="1.2.5"
+       version="1.2.8"
        provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -141,17 +145,21 @@
     <platform>all</platform>
     <summary>Stream TV video-archive plugin</summary>
     <summary lang="cs">Stream TV - archiv</summary>
+    <summary lang="sk">Stream TV - archív</summary>
     <description>
         Plugin to play TV video archive stream.cz
     </description>
     <description lang="cs">
         Plugin pro přehrávání videí z archivu stream.cz
     </description>
+    <description lang="sk">
+        Plugin pre prehrávenie videí z archívu stream.cz
+    </description>
     <source>https://github.com/kodi-czsk/plugin.video.dmd-czech.stream</source>
   </extension>
 </addon>
 
-<addon id="plugin.video.gordon.ura.cz" name="Gordon Ramsay CZ" provider-name="Maros Ondrasek" version="1.0.6">
+<addon id="plugin.video.gordon.ura.cz" name="Gordon Ramsay CZ" provider-name="Maros Ondrasek" version="1.0.8">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.31" />
@@ -171,7 +179,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.hejbejse.tv" name="Hejbejse.tv" provider-name="Ivo Brhel (refactoring: Jose Riha)" version="1.0.5">
+<addon id="plugin.video.hejbejse.tv" name="Hejbejse.tv" provider-name="Ivo Brhel (refactoring: Jose Riha)" version="1.0.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.13" />
@@ -192,43 +200,46 @@
 
 <addon id="plugin.video.idnestv"
        name="iDNES[COLOR blue]>[/COLOR]tv"
-       version="1.0.0"
+       version="2.0.1"
        provider-name="Jan Heřman (72ka)">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
     <import addon="script.module.requests" version="2.4.3"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>Watch videos from czech server video.idnes.cz</summary>
-    <summary lang="cs">Sledujte videa ze serveru video.idnes.cz</summary>
+    <summary>Watch czech internet TV tv.idnes.cz</summary>
+    <summary lang="cs">Sledujte internetovou televizi tv.idnes.cz</summary>
     <description>
-        Plugin to play TV video from video.idnes.cz
+        Plugin to play TV video from tv.idnes.cz
     </description>
     <description lang="cs">
-        Plugin pro přehrávání videí z video.idnes.cz
+        iDNES spustil novou internetovou televizi. Tento zcela přepracovaný plugin umožňuje přehrávání kompletního obsahu.
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.idnestv</source>
   </extension>
 </addon>
 
-<addon id="plugin.video.ivysilani" name="iVysílání — Česká televize" version="1.3.3" provider-name="Štěpán Ort">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>iVysílání — Česká televize</summary>
-	<description>Plugin to play videos and live TV from Czech Television's iVysilani</description>
-    <description lang="cs">Plugin nabízí přístup do archivu České televize iVysílání i přehrávání kanálů živě.</description>
-    <platform>all</platform>
-  </extension>
+<addon id="plugin.video.ivysilani" name="iVysílání — Česká televize" version="1.3.8" provider-name="Štěpán Ort">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.stream.resolver" version="1.6.13"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>iVysílání — Česká televize</summary>
+        <description>Plugin to play videos and live TV from Czech Television's iVysilani</description>
+        <description lang="cs">Plugin nabízí přístup do archivu České televize iVysílání i přehrávání kanálů živě.
+        </description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="plugin.video.jaksetodela.cz" name="Jak se to dela" provider-name="Ivo Brhel (Jose Riha - refactoring)" version="1.0.3">
@@ -250,7 +261,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.joj.sk" name="joj.sk" provider-name="Maros Ondrasek" version="1.2.9">
+<addon id="plugin.video.joj.sk" name="joj.sk" provider-name="Maros Ondrasek" version="1.3.10">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.24" />
@@ -263,17 +274,19 @@
     <summary lang="cs">joj.sk</summary>
     <summary lang="sk">joj.sk</summary>
     <description lang="en">Watch online TV archive from joj.sk</description>
-    <description lang="cs">Sledujte online TV archiv zo serveru joj.sk</description>
+    <description lang="cs">Sledujte online TV archiv ze serveru joj.sk</description>
     <description lang="sk">Sledujte online TV archív zo serveru joj.sk</description>
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.joj.sk</source>
   </extension>
 </addon>
 
-<addon id="plugin.video.markiza.sk" name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral" version="1.1.2">
+<addon id="plugin.video.markiza.sk"
+name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral"
+version="1.3.13">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.24" />
+    <import addon="script.module.dmd-czech.common" version="1.5.5"/>
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -283,7 +296,7 @@
     <summary lang="cs">markiza.sk</summary>
     <summary lang="sk">markiza.sk</summary>
     <description lang="en">Watch online TV archive from videoarchiv.markiza.sk</description>
-    <description lang="cs">Sledujte online TV archiv zo serveru videoarchiv.markiza.sk</description>
+    <description lang="cs">Sledujte online TV archiv ze serveru videoarchiv.markiza.sk</description>
     <description lang="sk">Sledujte online TV archív zo serveru videoarchiv.markiza.sk</description>
     <platform>all</platform>
     <source>https://github.com/kodi-czsk/plugin.video.markiza.sk</source>
@@ -309,7 +322,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.6" provider-name="Štěpán Ort">
+<addon id="plugin.video.o2tvgo" name="O2TV Go" version="1.1.8" provider-name="Štěpán Ort">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.7.0"/>
@@ -325,10 +338,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.4">
+<addon id="plugin.video.online-files" name="Soubory Online" provider-name="Libor Zoubek" version="1.3.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.36" />
+    <import addon="script.module.stream.resolver" version="1.6.51" />
     <import addon="script.module.elementtree" version="1.2.7" />
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -364,23 +377,24 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.primaplay" name="Prima Play" version="0.3.5" provider-name="Ladislav Dokulil">
+<addon id="plugin.video.primaplay" name="iPrima" version="0.4.3" provider-name="Ladislav Dokulil, Roman Smolka">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.youtube.dl" version="14.810.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Prima Play</summary>
-	<description>Plugin to play videos from Prima Play archive</description>
-    <description lang="cs">Plugin nabízí přístup do archivu Prima Play.</description>
+    <summary>iPrima</summary>
+	<description>Plugin to play videos from iPrima archive</description>
+    <description lang="cs">Plugin nabízí přístup do archivu iPrima.</description>
     <platform>all</platform>
     <source>https://github.com/alladdin/plugin.video.primaplay</source>
   </extension>
 </addon>
 
-<addon id="plugin.video.rtvs.sk" name="rtvs.sk" provider-name="Maros Ondrasek" version="1.0.8">
+<addon id="plugin.video.rtvs.sk" name="rtvs.sk" provider-name="Maros Ondrasek" version="1.8.6">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.13" />
@@ -400,10 +414,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.10">
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.3.9">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.stream.resolver" version="1.6.40" />
+        <import addon="script.module.stream.resolver" version="1.6.52" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -411,10 +425,10 @@
     </extension>
     <extension library="service.py" point="xbmc.service"  start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">sosac.ph</summary>
-        <summary lang="cs">sosac.ph</summary>
-        <description lang="en">Watch online movies and tv shows from www.sosac.ph.</description>
-        <description lang="cs">Sledujte online videa a serialy z www.sosac.ph.</description>
+        <summary lang="en">sosac.tv</summary>
+        <summary lang="cs">sosac.tv</summary>
+        <description lang="en">Watch online movies and tv shows from www.sosac.tv.</description>
+        <description lang="cs">Sledujte online filmy a serialy z www.sosac.tv.</description>
         <platform>all</platform>
         <source>https://github.com/kodi-czsk/plugin.video.sosac.ph</source>
     </extension>
@@ -458,7 +472,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.sport5" name="Sport5" provider-name="Brytro" version="1.0.1">
+<addon id="plugin.video.sport5" name="Sport5" provider-name="tomkuba" version="1.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -802,7 +816,7 @@ v0.0.5 (13.9.2017)
 
 <addon id="plugin.video.dmd-czech.huste"
        name="Huste TV Archiv"
-       version="0.6.0"
+       version="0.7.3"
        provider-name="Jose Riha/Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -883,24 +897,24 @@ v0.0.5 (13.9.2017)
     </extension>
 </addon>
 
-<addon id="plugin.video.serialhd.cz" name="SerialHD.cz" provider-name="Martin Podkrivacky" version="0.9.7">
-	<requires>
+<addon id="plugin.video.serialhd.cz" name="SerialHD - HDFilm" provider-name="Martin Podkrivacky" version="1.1.0">
+  <requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.stream.resolver" version="2.6.54" />
-	</requires>
-	<extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
 		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">SerialHD.cz</summary>
-		<summary lang="cs">SerialHD.cz</summary>
-		<description lang="en">Watch online HD and 4K tv shows through portal SerialHD.cz</description>
-		<description lang="sk">Sledujte online HD a 4K seriály pomocou portálu SerialHD.cz</description>
-		<description lang="cs">Sledujte online HD a 4K seriály pomocí portálu SerialHD.cz</description>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">SerialHD HDFilm</summary>
+		<summary lang="cs">SerialHD HDFilm</summary>
+		<description lang="en">Watch online HD and 4K tv shows and films through portal SerialHD.cz and HDFilm.cz</description>
+		<description lang="sk">Sledujte online HD a 4K seriály a filmy pomocou portálu SerialHD.cz a HDFilm.cz</description>
+		<description lang="cs">Sledujte online HD a 4K seriály a filmy pomocí portálu SerialHD.cz a HDFilm.cz</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<assets>
-			<icon>icon.png</icon>
+			<icon>icon_ac.png</icon>
 			<fanart>fanart.jpg</fanart>
 			<screenshot>resources/screenshots/a1.jpg</screenshot>
 			<screenshot>resources/screenshots/a2.jpg</screenshot>
@@ -909,8 +923,8 @@ v0.0.5 (13.9.2017)
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with of the content providers. This addon simply search on playbe.cz for content. Use at your own risk!</disclaimer>
 		<disclaimer lang="sk">Autor tohto addonu nemá žiaden obsah, ktorý sa v ňom nachádza a nemá žiadnu príslušnosť k poskytovateľovi obsahu. Tento addon iba vyhľadá obsah na playbe.cz. Používajte na vlastné riziko!</disclaimer>
 		<disclaimer lang="cs">Autor tohto addonu nemá žáden obsah, který se v ňem nachází a nemá žádnou příslušnost k poskytovateli obsahu. Tento addon jen vyhledává obsah na playbe.cz. Používejte na vlastní riziko!</disclaimer>
-		<news>[B]0.9.6[/B][CR]- Prehliadnejšie menu[CR]- Vylepšena kontabilita</news>
-	</extension>
+		<news>[B]0.9.8[/B][CR]- Prihlasovanie k účtu</news>
+  </extension>
 </addon>
 
 <addon id="metadata.csfd.cz" name="ČSFD.cz" version="3.15" provider-name="ekarorgit">
@@ -999,7 +1013,7 @@ v 3.5 (23.11.2017)
    </extension>
 </addon>
 
-<addon id="plugin.image.rouming" name="Rouming" version="0.9" provider-name="jose1711">
+<addon id="plugin.image.rouming" name="Rouming" version="1.2" provider-name="jose1711">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
 	<import addon="script.module.stream.resolver" version="1.6.17" />
@@ -1023,7 +1037,7 @@ v 3.5 (23.11.2017)
 
 <addon id="metadata.serialzone.cz"
        name="SerialZone.cz"
-       version="2.3"
+       version="2.7"
        provider-name="ekarorgit">
     <requires>
         <import addon="xbmc.metadata" version="2.1.0"/>
@@ -1032,18 +1046,35 @@ v 3.5 (23.11.2017)
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Serialzone Scraper</summary>
         <summary lang="cs">Serialzone Stahovac</summary>
+        <summary lang="sk">Sťahovač metadát zo serialzone.cz</summary>
         <description lang="en">Download series information from www.serialzone.cz</description>
         <description lang="cs">Stahuje informace o filmech z webu serialzone.cz.</description>
+        <description lang="sk">Sťahuje informácie o seriáloch z webu serialzone.cz.</description>
         <disclaimer lang="cs">Pro nahlášení bugu navštivte www.github.com/ekarorgit/metadata.serialzone.cz</disclaimer>
         <disclaimer lang="en">For bugs visit www.github.com/ekarorgit/metadata.serialzone.cz</disclaimer>
-        <language>cs en</language>
+        <disclaimer lang="sk">Pre nahlásenie chyby navštívte www.github.com/ekarorgit/metadata.serialzone.cz</disclaimer>
+        <language>cs en sk</language>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007</license>
         <forum/>
         <website>www.github.com/ekarorgit/metadata.serialzone.cz</website>
         <email/>
         <source>www.github.com/ekarorgit/metadata.serialzone.cz</source>
-        <news>v 2.3 (2.1.2018)
+        <news>v 2.7 (15.11.2019)
+  [fix] TVDBart parsing - added language
+
+v 2.6
+  [added] pridana slovenstina (mvalec)
+
+v 2.5 (6.7.2018)
+  [fixed] stahovani TVDB art - lepsi parsovani
+
+v 2.4 (22.1.2018)
+  [fixed] element id nyni obsahuje TVDBid pro trakt.tv
+  [fixed] normalizace mezer v nazvech
+  [added] moznost pouze anglickych/puvodnich nazvu
+
+v 2.3 (2.1.2018)
   [changed] XSLT pro parsovani serialzone API
   [changed] TheTVDB API 2.0 pro media
   [changed] Pokud je nazev v cz a en stejny, tak se nezobrazuje v zavorce
@@ -1065,7 +1096,7 @@ v 2.2 (27.11.2017)
     </extension>
 </addon>
 
-<addon id="plugin.video.mojevideo.sk" name="mojevideo.sk" provider-name="jose1711" version="0.0.3">
+<addon id="plugin.video.mojevideo.sk" name="mojevideo.sk" provider-name="jose1711" version="0.1.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.55" />
@@ -1128,25 +1159,75 @@ v 2.2 (27.11.2017)
 	</extension>
 </addon>
 
-<addon id="plugin.video.sl" version="0.0.3" name="Skylink LiveTV" provider-name="Sorien">
+<addon id="plugin.video.sl" version="1.6.6" name="Skylink Live TV" provider-name="Sorien, cache-sk">
 <requires>
-  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.requests" version="2.18.4"/>
   <import addon="script.module.inputstreamhelper" version="0.3.3"/>
 </requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
 <extension point="xbmc.service" library="service.py"/>
-<extension point="xbmc.python.pluginsource" library="main.py"/>
 <extension point="xbmc.addon.metadata">
-  <reuselanguageinvoker>false</reuselanguageinvoker>
-  <summary lang="en">Skylink LiveTV Addon</summary>
-  <description lang="en">PVR playlist and EPG generator for Skylink LiveTV Service[CR][CR]Special thanks go to: koperfield</description>
-  <description lang="sk_SK">PVR playlist a EPG generátor pre službu Skylink LiveTV[CR][CR]Špeciálne poďakovanie pre: koperfield</description>
-  <description lang="cs_CZ">Plugin vytváří PVR playlist a EPG pro službu Skylink LiveTV.[CR][CR]Zvláštní poděkování: koperfield</description>
-  <disclaimer lang="cs_CZ">Vygenerovaný playlist funguje pouze v Kodi 18 Alpha2+/Nightly!</disclaimer>
-  <disclaimer lang="en">Playlist generated by this plugin works with Kodi 18 Alpha2+/Nightly only!</disclaimer>
-  <disclaimer lang="sk_SK">Vygenerovaný playlist funguje len v Kodi 18 Alpha2+/Nightly!</disclaimer>
+  <reuselanguageinvoker>true</reuselanguageinvoker>
+  <summary lang="en">Skylink Live TV Addon</summary>
+  <description lang="en">PVR playlist and EPG generator for Skylink Live TV Service</description>
+  <description lang="sk_SK">PVR playlist a EPG generátor pre službu Skylink Live TV</description>
+  <description lang="cs_CZ">Plugin vytváří PVR playlist a EPG pro službu Skylink Live TV</description>
+  <license>MIT</license>
+  <forum>https://www.xbmc-kodi.cz/prispevek-skylink-livetv-addon-beta</forum>
+  <source>https://github.com/Sorien/plugin.video.sl</source>
+  <news>
+[B]1.6.6[/B]
+- pridanie seriesNo/episodeNo do xmltv
+[B]1.6.5[/B]
+- kolmpatibilita s Kodi Matrix a Python 3.x
+[B]1.6.3[/B]
+- moznost automatickeho nastavenia PVR IPTV Simple Client-a z nastaveni pluinu
+[B]1.6.2[/B]
+- fix chyby pri expirovanom predplatnom
+- optimalizovany archiv (predlzenie o posledne programy)
+[B]1.6.1[/B]
+- alfa verzia kniznice
+[B]1.6.0[/B]
+- zmena api nazad na sl domenu
+- drobne fixy s nahladmi
+- pridanie prototypu kniznice
+[B]1.5.0[/B]
+- pridanie actor/writer/producer/director do xmltv
+[B]1.4.1[/B]
+- upravy pre novu verziu Solocoo API
+[B]1.3.0[/B]
+- pridana funkcionalita na skopirovanie a upravu skinu Estuary a Confluence v nastaveniach
+- pridanie kratkeho epg aj do listu live vo video doplnku
+- presunutie video doplnku, aby sa zobrazoval nie v sluzbach ale vo video doplnkoch
+[B]1.2.4[/B]
+- pridane zanre
+- oprava casu v EPG
+[B]1.2.2[/B]
+- Live TV aj ako sucast video doplnku (pre ludi, ktorym blbne/nejde/nechce cez m3u a iptv simple), treba zapnut cez nastavenia, improvizovane EPG cez "plot"
+- moznost vypnut generovanie M3U - nezastavi service ako taky, len nebude nic generovat
+[B]1.2.1[/B]
+- Tuning loga stanic - moznosti nastavenia pre archiv, moznost pouzit loga zo stranky live, aj pre live playlist
+- Moznost obmedzenia vyberu zariadeni len na prehliadace (aby to neodhlasovalo z telefonu ci TV)
+- Moznost nastavenia aby negenerovalo / nezobrazovalo stanice ktore su pin protected
+- Pytanie PIN kodu na staniciach, ktore su pin protected
+- Fix vyberu zariadeni v archive
+- Fix lokalizacnych unicode chyb pri hlaskach
+- Fix neulozenia nastaveni, ked je service v prevadzke
+
+[B]1.2.0[/B]
+- Pridanie archivu vo video doplnkoch
+
+[B]1.0.1[/B]
+- Pridanie moznosti pouzit najstarsie zariadenie ak ziadne zariadenie nie je dostupne
+
+[B]1.0.0[/B]
+- Opravy
+  </news>
   <assets>
-    <icon>icon.jpg</icon>
+    <icon>icon.png</icon>
     <screenshot>resources\screenshots\1.jpg</screenshot>
     <screenshot>resources\screenshots\2.jpg</screenshot>
     <screenshot>resources\screenshots\3.jpg</screenshot>
@@ -1156,7 +1237,7 @@ v 2.2 (27.11.2017)
 
 <addon id="plugin.video.mall.tv"
        name="Mall.TV"
-       version="0.0.3"
+       version="0.0.11"
        provider-name="koudi">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1174,11 +1255,15 @@ v 2.2 (27.11.2017)
     <summary>Mall.TV</summary>
     <summary lang="cs">Mall.TV</summary>
     <summary lang="en">Mall.TV</summary>
+    <summary lang="sk">Mall.TV</summary>
     <description>
         Plugin to play Mall.TV
     </description>
     <description lang="cs">
         Plugin pro přehrávání Mall.TV
+    </description>
+    <description lang="sk">
+        Plugin na prehrávanie Mall.TV
     </description>
     <source>https://github.com/koudi/plugin.video.mall.tv</source>
   </extension>
