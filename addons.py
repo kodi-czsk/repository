@@ -1,5 +1,5 @@
 
-_BEAM_ = ["service.subtitles.titulky.com","service.subtitles.serialzone.cz"]
+_BEAM_ = ["service.subtitles.titulky.com", "service.subtitles.serialzone.cz"]
 # list of addons that we are releasing
 
 __ADDONS__ = [
@@ -43,8 +43,6 @@ __ADDONS__ = [
     "repository.kodi-czsk",
     "weather.dmd-xbmc.in-pocasi",
     "plugin.video.dmd-czech.huste",
-    "metadata.bbaron",
-    "plugin.video.stream-cinema",
     "plugin.video.serialhd.cz",
     "metadata.csfd.cz",
     "plugin.image.rouming",
@@ -55,7 +53,7 @@ __ADDONS__ = [
     "plugin.video.sl",
     "plugin.video.mall.tv",
     "plugin.video.bombuj.filmyserialy"
-    ] + _BEAM_
+] + _BEAM_
 
 import os
 import requests
@@ -64,11 +62,13 @@ from addons import __ADDONS__
 
 # this function asks our repository and returns addons with different versions than in our local repo = candidates to be
 # released
+
+
 def find():
     released_addons = requests.get('http://kodi-czsk.github.io/repository/repo/addons.xml').text
     try:
-        root = ET.XML( released_addons.encode('utf-8') )
-    except: # initially there are no addons.xml
+        root = ET.XML(released_addons.encode('utf-8'))
+    except:  # initially there are no addons.xml
         print 'Failed to parse remove addons.xml - releasing everything'
         return __ADDONS__
     to_release = []
@@ -78,8 +78,8 @@ def find():
             to_release.append(id)
             continue
         released_version = released.get('version')
-        xmldoc = ET.parse(os.path.join(id,'addon.xml'))
-        new_version =xmldoc.getroot().get('version')
+        xmldoc = ET.parse(os.path.join(id, 'addon.xml'))
+        new_version = xmldoc.getroot().get('version')
         if not released_version == new_version:
             to_release.append(id)
     return to_release

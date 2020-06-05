@@ -124,15 +124,9 @@
 [submodule "plugin.video.dmd-czech.huste"]
 	path = plugin.video.dmd-czech.huste
 	url = https://github.com/jose1711/plugin.video.huste.tv.git
-[submodule "plugin.video.stream-cinema"]
-	path = plugin.video.stream-cinema
-	url = https://github.com/bbaronSVK/plugin.video.stream-cinema
 [submodule "plugin.video.tv.lux.sk"]
 	path = plugin.video.tv.lux.sk
 	url = https://github.com/janciga/plugin.video.tv.lux.sk.git
-[submodule "metadata.bbaron"]
-	path = metadata.bbaron
-	url = https://github.com/bbaronSVK/metadata.bbaron.git
 [submodule "plugin.video.idnestv"]
 	path = plugin.video.idnestv
 	url = https://github.com/72ka/plugin.video.idnestv
@@ -169,5 +163,5 @@
 [submodule "plugin.video.bombuj.filmyserialy"]
 	path = plugin.video.bombuj.filmyserialy
 	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
-	
-	
+
+
