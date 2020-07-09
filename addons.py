@@ -52,7 +52,8 @@ __ADDONS__ = [
     "weather.shmu.pocasie",
     "plugin.video.sl",
     "plugin.video.mall.tv",
-    "plugin.video.bombuj.filmyserialy"
+    "plugin.video.bombuj.filmyserialy",
+    "plugin.video.tazkytyzden.sk"
 ] + _BEAM_
 
 import os
