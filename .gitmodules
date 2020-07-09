@@ -165,3 +165,6 @@
 	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
 
 
+[submodule "plugin.video.tazkytyzden.sk"]
+	path = plugin.video.tazkytyzden.sk
+	url = https://github.com/jose1711/plugin.video.tazkytyzden.sk
