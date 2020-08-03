@@ -165,3 +165,6 @@
 	url = https://github.com/KubiszDeny/plugin.video.bombuj.filmyserialy.git
 
 
+[submodule "plugin.video.stream-cinema"]
+	path = plugin.video.stream-cinema
+	url = https://github.com/bbaronSVK/plugin.video.stream-cinema.git
