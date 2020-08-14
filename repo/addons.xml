@@ -394,7 +394,7 @@ version="1.3.16">
   </extension>
 </addon>
 
-<addon id="plugin.video.rtvs.sk" name="rtvs.sk" provider-name="Maros Ondrasek" version="1.0.8">
+<addon id="plugin.video.rtvs.sk" name="rtvs.sk" provider-name="Maros Ondrasek" version="1.8.7">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.13" />
@@ -414,10 +414,10 @@ version="1.3.16">
   </extension>
 </addon>
 
-<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.2.10">
+<addon id="plugin.video.sosac.ph" name="Sosáč" provider-name="L. Zoubek + jondas" version="1.3.9">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.stream.resolver" version="1.6.40" />
+        <import addon="script.module.stream.resolver" version="1.6.52" />
         <import addon="script.common.plugin.cache" version="2.5.0" />
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
@@ -425,10 +425,10 @@ version="1.3.16">
     </extension>
     <extension library="service.py" point="xbmc.service"  start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">sosac.ph</summary>
-        <summary lang="cs">sosac.ph</summary>
-        <description lang="en">Watch online movies and tv shows from www.sosac.ph.</description>
-        <description lang="cs">Sledujte online videa a serialy z www.sosac.ph.</description>
+        <summary lang="en">sosac.tv</summary>
+        <summary lang="cs">sosac.tv</summary>
+        <description lang="en">Watch online movies and tv shows from www.sosac.tv.</description>
+        <description lang="cs">Sledujte online filmy a serialy z www.sosac.tv.</description>
         <platform>all</platform>
         <source>https://github.com/kodi-czsk/plugin.video.sosac.ph</source>
     </extension>
@@ -472,7 +472,7 @@ version="1.3.16">
   </extension>
 </addon>
 
-<addon id="plugin.video.sport5" name="Sport5" provider-name="Brytro" version="1.0.1">
+<addon id="plugin.video.sport5" name="Sport5" provider-name="tomkuba" version="1.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -489,7 +489,7 @@ version="1.3.16">
   </extension>
 </addon>
 
-<addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.1.1">
+<addon id="plugin.video.ta3.com" name="ta3.com" provider-name="Maros Ondrasek" version="1.1.8">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.22" />
@@ -529,10 +529,11 @@ version="1.3.16">
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.1.0">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.6.8">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.pil" version="1.1.7" optional="true"/>
         <import addon="inputstream.adaptive" version="0.0.1" optional="true"/>
         <import addon="inputstream.rtmp" version="0.0.1" optional="true"/>
     </requires>
@@ -543,10 +544,13 @@ version="1.3.16">
         <platform>all</platform>
         <summary lang="en">Tipsport ELH</summary>
         <summary lang="cs">Tipsport ELH</summary>
-        <description lang="en">Watch ELH streams from Tipsport.cz. It is necessary to fill account in setting.</description>
-        <description lang="cs">Sledujte ELH zápasy ze stránky Tipsport.cz. Pro správné fungování je třeba přidat účet v nastavení.</description>
-        <disclaimer lang="en">Addon were made for study purposes only and author does not guide anyone to disrespect Tipsport.cz site rules</disclaimer>
-        <disclaimer lang="cs">Addon byl vytvořen pro studijní účely a autor nenabáda nikoho k nerespektování pravidel stránky Tipsport.cz</disclaimer>
+        <summary lang="sk">Tipsport ELH</summary>
+        <description lang="en">Watch ELH streams from Tipsport site. It is necessary to fill account in setting. If you like this addon and want to thank me, you can donate on paypal.me/JanKubovy</description>
+        <description lang="cs">Sledujte ELH zápasy ze stránky Tipsport. Pro správné fungování je třeba přidat účet v nastavení. V případě, že se vám addon líbí a chcete mi nějak poděkovat, můžete mi poslat libovolnou částku na paypal.me/JanKubovy</description>
+        <description lang="sk">Sledujte ELH zápasy zo stránky Tipsport. Pre správne fungovanie je potrebné pridať konto v nastavení. V prípade, že sa vám addon páči a chcete mi nejako poďakovať, môžete mi poslať ľubovoľnú čiastku na paypal.me/JanKubovy</description>
+        <disclaimer lang="en">Addon were made for study purposes only and author does not guide anyone to disrespect Tipsport site rules</disclaimer>
+        <disclaimer lang="cs">Addon byl vytvořen pro studijní účely a autor nenabáda nikoho k nerespektování pravidel stránky Tipsport</disclaimer>
+        <disclaimer lang="sk">Addon bol vytvorený pre študijné účely a autor nenabáda nikoho k nerešpektovaniu pravidiel stránky Tipsport</disclaimer>
         <assets>
             <icon>icon.png</icon>
             <screenshot>resources\screenshot-01.jpg</screenshot>
@@ -554,15 +558,52 @@ version="1.3.16">
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
-v0.1.0 (14.9.2017)
-  - First public release
-v0.0.5 (13.9.2017)
-  - Add no stream notification
+v0.6.8(11.3.2020)
+  - Fix New login system (again)
+v0.6.7(16.1.2020)
+  - Fix New login system
+v0.6.6(20.10.2019)
+  - Fix tipsport.sk streams [experimental]
+  - Add Slovan and Michalovce logo
+v0.6.5(16.10.2019)
+  - Add tipsport.sk support [experimental]
+v0.6.4(28.9.2019)
+  - Add Slovak language
+v0.6.3(10.4.2019)
+  - Fix New login system
+v0.6.2(3.4.2019)
+  - Remove Inputstream addon version restriction
+v0.6.1(8.3.2019)
+  - Disable match logo generating when path has non-ASCII characters
+v0.6.0(24.2.2019)
+  - New version with Memory Storage and Generating match logos
+v0.5.8(17.2.2019)
+  - Add Generating match icon
+v0.5.7(16.2.2019)
+  - Add Memory Storage for session
+v0.5.6(27.1.2019)
+  - Revert Using Persistant Storage
+v0.5.5(23.1.2019)
+  - Fix Crash on Android devices
+  - Fix Unable get streams
+v0.5.4(23.1.2019)
+  - Add Persistant Storage (reuse session)
+  - Add logger
+  - Improve loading speed
+v0.5.3(16.1.2019)
+  - Add CZ Chance League
+v0.5.2(2.12.2018)
+  - Improve No internet connection exception catching
+v0.5.1(1.12.2018)
+  - Change login to mobile web version
+  - Add full name for K.Vary
+v0.5.0(29.11.2018)
+  - Fix new login system
         </news>
     </extension>
 </addon>
 
-<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.0.1" provider-name="Tomas Janciga">
+<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.1.1" provider-name="Tomas Janciga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.stream.resolver" version="1.6.22" />
@@ -584,28 +625,30 @@ v0.0.5 (13.9.2017)
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.3"
+       version="1.0.9"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+    <import addon="plugin.video.youtube" version="6.0.0"/>
+    <import addon="script.module.elementtree" version="1.2.7" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>TV SME.sk video-archive plugin</summary>
-    <summary lang="sk">Internetová televízia SME.sk</summary>
-    <summary lang="cs">Internetová televize SME.sk</summary>
+    <summary>Video archive SME.sk</summary>
+    <summary lang="sk">Video archív SME.sk</summary>
+    <summary lang="cs">Video archiv SME.sk</summary>
     <description>
-        Plugin to play TV video archive tv.sme.sk
+        Plugin to play video archive video.sme.sk
     </description>
     <description lang="cs">
-        Plugin pro přehrávání videí z archivu tv.sme.sk
+        Plugin pro přehrávání videí z archivu video.sme.sk
     </description>
     <description lang="sk">
-        Plugin pre prehrávenie videí z archívu tv.sme.sk
+        Plugin pre prehrávenie videí z archívu video.sme.sk
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.tv.sme.sk</source>
   </extension>
@@ -630,10 +673,11 @@ v0.0.5 (13.9.2017)
   </extension>
 </addon>
 
-<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.14">
+<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.25">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.17" />
+    <import addon="script.module.youtube.dl" version="19.912.0"/>
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -666,7 +710,7 @@ v0.0.5 (13.9.2017)
   </extension>
 </addon>
 
-<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.8" provider-name="Jiri Vyhnalek">
+<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.9" provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -679,10 +723,9 @@ v0.0.5 (13.9.2017)
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.43">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.62">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" version="2.0.10" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
     <import addon="script.module.demjson" version="2.2.3" />
     <import addon="script.module.beautifulsoup4" version="4.3.1"/>
@@ -842,24 +885,24 @@ v0.0.5 (13.9.2017)
   </extension>
 </addon>
 
-<addon id="plugin.video.serialhd.cz" name="SerialHD.cz" provider-name="Martin Podkrivacky" version="0.9.7">
-	<requires>
+<addon id="plugin.video.serialhd.cz" name="SerialHD - HDFilm" provider-name="Martin Podkrivacky" version="1.1.0">
+  <requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.stream.resolver" version="2.6.54" />
-	</requires>
-	<extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
 		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">SerialHD.cz</summary>
-		<summary lang="cs">SerialHD.cz</summary>
-		<description lang="en">Watch online HD and 4K tv shows through portal SerialHD.cz</description>
-		<description lang="sk">Sledujte online HD a 4K seriály pomocou portálu SerialHD.cz</description>
-		<description lang="cs">Sledujte online HD a 4K seriály pomocí portálu SerialHD.cz</description>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">SerialHD HDFilm</summary>
+		<summary lang="cs">SerialHD HDFilm</summary>
+		<description lang="en">Watch online HD and 4K tv shows and films through portal SerialHD.cz and HDFilm.cz</description>
+		<description lang="sk">Sledujte online HD a 4K seriály a filmy pomocou portálu SerialHD.cz a HDFilm.cz</description>
+		<description lang="cs">Sledujte online HD a 4K seriály a filmy pomocí portálu SerialHD.cz a HDFilm.cz</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<assets>
-			<icon>icon.png</icon>
+			<icon>icon_ac.png</icon>
 			<fanart>fanart.jpg</fanart>
 			<screenshot>resources/screenshots/a1.jpg</screenshot>
 			<screenshot>resources/screenshots/a2.jpg</screenshot>
@@ -868,8 +911,8 @@ v0.0.5 (13.9.2017)
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with of the content providers. This addon simply search on playbe.cz for content. Use at your own risk!</disclaimer>
 		<disclaimer lang="sk">Autor tohto addonu nemá žiaden obsah, ktorý sa v ňom nachádza a nemá žiadnu príslušnosť k poskytovateľovi obsahu. Tento addon iba vyhľadá obsah na playbe.cz. Používajte na vlastné riziko!</disclaimer>
 		<disclaimer lang="cs">Autor tohto addonu nemá žáden obsah, který se v ňem nachází a nemá žádnou příslušnost k poskytovateli obsahu. Tento addon jen vyhledává obsah na playbe.cz. Používejte na vlastní riziko!</disclaimer>
-		<news>[B]0.9.6[/B][CR]- Prehliadnejšie menu[CR]- Vylepšena kontabilita</news>
-	</extension>
+		<news>[B]0.9.8[/B][CR]- Prihlasovanie k účtu</news>
+  </extension>
 </addon>
 
 <addon id="metadata.csfd.cz" name="ČSFD.cz" version="3.15" provider-name="ekarorgit">
@@ -1060,10 +1103,11 @@ v 2.2 (27.11.2017)
   </extension>
 </addon>
 
-<addon id="plugin.video.titulkomet.cz" name="titulkomet.cz" provider-name="BrozikCZ" version="0.0.1">
+<addon id="plugin.video.titulkomet.cz" name="titulkomet.cz" provider-name="BrozikCZ" version="0.0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.54" />
+    <import addon="script.module.stream.resolver" version="1.6.55" />
+    <import addon="script.module.youtube.dl" version="19.912.0"/>
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -1071,15 +1115,17 @@ v 2.2 (27.11.2017)
   <extension point="xbmc.addon.metadata">
     <summary lang="en">titulkomet.cz</summary>
     <summary lang="cs">titulkomet.cz</summary>
+    <summary lang="sk">titulkomet.cz</summary>
     <description lang="en">Watch content from titulkomet.cz</description>
     <description lang="cs">Videa s českými titulky. Vtipná, šokující, virální, smutná, pěkná prostě všelijaká, ale jedno mají společné - budete jim rozumět.</description>
+    <description lang="sk">Videá s českými titulkami. Vtipné, šokujúce, virálne, smutné, pekné, jednoducho všelijaké, ale jedno majú spoločné - budete im rozumieť.</description>
     <platform>all</platform>
   </extension>
 </addon>
 
 <addon 	id="weather.shmu.pocasie"
 		name="SHMU.sk počasie"
-		version="0.0.5"
+		version="0.0.8"
 		provider-name="Jose Riha">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -1104,25 +1150,78 @@ v 2.2 (27.11.2017)
 	</extension>
 </addon>
 
-<addon id="plugin.video.sl" version="0.0.3" name="Skylink LiveTV" provider-name="Sorien">
+<addon id="plugin.video.sl" version="1.6.7" name="Skylink Live TV" provider-name="Sorien, cache-sk">
 <requires>
-  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="xbmc.python" version="2.26.0"/>
   <import addon="script.module.requests" version="2.18.4"/>
   <import addon="script.module.inputstreamhelper" version="0.3.3"/>
 </requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
 <extension point="xbmc.service" library="service.py"/>
-<extension point="xbmc.python.pluginsource" library="main.py"/>
 <extension point="xbmc.addon.metadata">
-  <reuselanguageinvoker>false</reuselanguageinvoker>
-  <summary lang="en">Skylink LiveTV Addon</summary>
-  <description lang="en">PVR playlist and EPG generator for Skylink LiveTV Service[CR][CR]Special thanks go to: koperfield</description>
-  <description lang="sk_SK">PVR playlist a EPG generátor pre službu Skylink LiveTV[CR][CR]Špeciálne poďakovanie pre: koperfield</description>
-  <description lang="cs_CZ">Plugin vytváří PVR playlist a EPG pro službu Skylink LiveTV.[CR][CR]Zvláštní poděkování: koperfield</description>
-  <disclaimer lang="cs_CZ">Vygenerovaný playlist funguje pouze v Kodi 18 Alpha2+/Nightly!</disclaimer>
-  <disclaimer lang="en">Playlist generated by this plugin works with Kodi 18 Alpha2+/Nightly only!</disclaimer>
-  <disclaimer lang="sk_SK">Vygenerovaný playlist funguje len v Kodi 18 Alpha2+/Nightly!</disclaimer>
+  <reuselanguageinvoker>true</reuselanguageinvoker>
+  <summary lang="en">Skylink Live TV Addon</summary>
+  <description lang="en">PVR playlist and EPG generator for Skylink Live TV Service</description>
+  <description lang="sk_SK">PVR playlist a EPG generátor pre službu Skylink Live TV</description>
+  <description lang="cs_CZ">Plugin vytváří PVR playlist a EPG pro službu Skylink Live TV</description>
+  <license>MIT</license>
+  <forum>https://www.xbmc-kodi.cz/prispevek-skylink-livetv-addon-beta</forum>
+  <source>https://github.com/Sorien/plugin.video.sl</source>
+  <news>
+[B]1.6.7[/B]
+- fix generovania kategorie v EPG
+- fix url na nahlady relacii
+[B]1.6.6[/B]
+- pridanie seriesNo/episodeNo do xmltv
+[B]1.6.5[/B]
+- kolmpatibilita s Kodi Matrix a Python 3.x
+[B]1.6.3[/B]
+- moznost automatickeho nastavenia PVR IPTV Simple Client-a z nastaveni pluinu
+[B]1.6.2[/B]
+- fix chyby pri expirovanom predplatnom
+- optimalizovany archiv (predlzenie o posledne programy)
+[B]1.6.1[/B]
+- alfa verzia kniznice
+[B]1.6.0[/B]
+- zmena api nazad na sl domenu
+- drobne fixy s nahladmi
+- pridanie prototypu kniznice
+[B]1.5.0[/B]
+- pridanie actor/writer/producer/director do xmltv
+[B]1.4.1[/B]
+- upravy pre novu verziu Solocoo API
+[B]1.3.0[/B]
+- pridana funkcionalita na skopirovanie a upravu skinu Estuary a Confluence v nastaveniach
+- pridanie kratkeho epg aj do listu live vo video doplnku
+- presunutie video doplnku, aby sa zobrazoval nie v sluzbach ale vo video doplnkoch
+[B]1.2.4[/B]
+- pridane zanre
+- oprava casu v EPG
+[B]1.2.2[/B]
+- Live TV aj ako sucast video doplnku (pre ludi, ktorym blbne/nejde/nechce cez m3u a iptv simple), treba zapnut cez nastavenia, improvizovane EPG cez "plot"
+- moznost vypnut generovanie M3U - nezastavi service ako taky, len nebude nic generovat
+[B]1.2.1[/B]
+- Tuning loga stanic - moznosti nastavenia pre archiv, moznost pouzit loga zo stranky live, aj pre live playlist
+- Moznost obmedzenia vyberu zariadeni len na prehliadace (aby to neodhlasovalo z telefonu ci TV)
+- Moznost nastavenia aby negenerovalo / nezobrazovalo stanice ktore su pin protected
+- Pytanie PIN kodu na staniciach, ktore su pin protected
+- Fix vyberu zariadeni v archive
+- Fix lokalizacnych unicode chyb pri hlaskach
+- Fix neulozenia nastaveni, ked je service v prevadzke
+
+[B]1.2.0[/B]
+- Pridanie archivu vo video doplnkoch
+
+[B]1.0.1[/B]
+- Pridanie moznosti pouzit najstarsie zariadenie ak ziadne zariadenie nie je dostupne
+
+[B]1.0.0[/B]
+- Opravy
+  </news>
   <assets>
-    <icon>icon.jpg</icon>
+    <icon>icon.png</icon>
     <screenshot>resources\screenshots\1.jpg</screenshot>
     <screenshot>resources\screenshots\2.jpg</screenshot>
     <screenshot>resources\screenshots\3.jpg</screenshot>
@@ -1200,7 +1299,7 @@ v 2.2 (27.11.2017)
     <extension library="lib" point="xbmc.python.module" />
 </addon>
 
-<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.2.2" provider-name="Beam">
+<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.5.0" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="2.0.10" />
@@ -1209,14 +1308,14 @@ v 2.2 (27.11.2017)
 	<extension point="xbmc.addon.metadata">
 		<summary>Titulky.com</summary>
 		<description lang="en">Search and download subtitles from titulky.com (Czech/Slovak only)</description>
-		<description lang="cs">Vyhledavani a stahovani titulku z titulky.com</description>
-		<description lang="sk">Vyhladavanie a stahovanie titulkov z titulky.com</description>
+		<description lang="cs">Vyhledávání a stahování titulků z titulky.com</description>
+		<description lang="sk">Vyhľadávanie a sťahovanie titulkov z titulky.com</description>
 		<source>https://github.com/beam/service.subtitles.titulky.com</source>
 		<email>ondra@bimovi.cz</email>
 	</extension>
 </addon>
 
-<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.2.2" provider-name="Beam">
+<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.4.0" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
