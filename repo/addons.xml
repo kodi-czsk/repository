@@ -283,7 +283,7 @@
 
 <addon id="plugin.video.markiza.sk"
 name="markiza.sk" provider-name="Maros Ondrasek, refactoring: Peter Zaoral"
-version="1.3.17">
+version="1.3.18">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
