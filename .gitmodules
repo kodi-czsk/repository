@@ -168,3 +168,6 @@
 [submodule "plugin.video.stream-cinema"]
 	path = plugin.video.stream-cinema
 	url = https://github.com/bbaronSVK/plugin.video.stream-cinema.git
+[submodule "plugin.video.dvtv"]
+	path = plugin.video.dvtv
+	url = https://github.com/lipelix/plugin.video.dvtv
