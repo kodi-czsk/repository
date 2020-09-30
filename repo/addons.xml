@@ -242,6 +242,36 @@
     </extension>
 </addon>
 
+<addon id="plugin.video.dvtv"
+	version="0.0.1"
+	name="DVTV"
+	provider-name="Libor_Vachal">
+<requires>
+	<import addon="xbmc.python" version="2.25.0"/>
+  	<import addon="script.module.feedparser" version="5.2.1"/>
+  	<import addon="script.module.youtube.dl" version="19.912.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="addon.py">
+  	<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary lang="en_GB">DVTV.cz video plugin</summary>
+	<description lang="en_GB">Rozhovory, analýzy, komentáře, reportáže. Zpravodajsko - publicistický videoobsah zaměřený na aktuální politické, ekonomické, kulturní i společenské dění. Hlavními tvářemi DVTV jsou Daniela Drtinová, Emma Smetana a Martin Veselovský. Divácký zásah internetové televize DVTV je srovnatelný se zásahem zpravodajské veřejnoprávní TV.</description>
+	<assets>
+		<icon>resources/icon.jpg</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<screenshot>resources/martin.jpg</screenshot>
+		<screenshot>resources/daniela.jpg</screenshot>
+		<screenshot>resources/emma.jpg</screenshot>
+	</assets>
+	<license>GPL-2.0-or-later</license>
+	<source>https://github.com/lipelix/plugin.video.dvtv</source>
+	<news>v0.0.1 - 2020-09-30
+		- Initial release
+	</news>
+</extension>
+</addon>
+
 <addon id="plugin.video.jaksetodela.cz" name="Jak se to dela" provider-name="Ivo Brhel (Jose Riha - refactoring)" version="1.0.3">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
