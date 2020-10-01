@@ -5,17 +5,17 @@
   provider-name="Kodi CZSK">
   <extension point="xbmc.addon.repository"
     name="repozitář českých a slovenských doplňků">
-    <info compressed="false">http://kodi-czsk.github.io/repository/repo/addons.xml</info>
-    <checksum>http://kodi-czsk.github.io/repository/repo/addons.xml.md5</checksum>
-    <datadir zip="true">http://kodi-czsk.github.io/repository/repo/</datadir>
+    <info compressed="false">https://kodi-czsk.github.io/repository/repo/addons.xml</info>
+    <checksum>https://kodi-czsk.github.io/repository/repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://kodi-czsk.github.io/repository/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Kodi CZ &amp; SK Doplňky</summary>
     <description>
-      This repository contains mostly video addons for czech users. [CR] Please send feedback, patches or fire any issues on http://xbmc-doplnky.googlecode.com
+      This repository contains mostly video addons for czech users. [CR] Please send feedback, patches or fire any issues on https://xbmc-doplnky.googlecode.com
     </description>
     <description lang="cs">
-      Tento repozitář obsahuje video doplňky pro česky a slovensky mluvící uživatele.[CR] Máte-li jakékoliv poznámky, náměty, doplňky k začlenění nebo chcete nahlásit chybu, navštivte http://xbmc-doplnky.googlecode.com.
+      Tento repozitář obsahuje video doplňky pro česky a slovensky mluvící uživatele.[CR] Máte-li jakékoliv poznámky, náměty, doplňky k začlenění nebo chcete nahlásit chybu, navštivte https://xbmc-doplnky.googlecode.com.
     </description>
     <platform>all</platform>
     <language>cs sk</language>
