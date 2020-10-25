@@ -619,7 +619,7 @@ v0.6.0(24.2.2019)
     </extension>
 </addon>
 
-<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.1.1" provider-name="Tomas Janciga">
+<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.1.2" provider-name="Tomas Janciga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.stream.resolver" version="1.6.22" />
