@@ -313,7 +313,7 @@
 
 <addon id="plugin.video.markiza.sk"
 name="markiza.sk" provider-name="rywko"
-version="1.4.1">
+version="1.4.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
