@@ -1168,7 +1168,7 @@ v 2.2 (27.11.2017)
 
 <addon id="plugin.video.sl" version="1.7.1" name="Skylink Live TV" provider-name="Sorien, cache-sk">
 <requires>
-  <import addon="xbmc.python" version="2.26.0"/>
+  <import addon="xbmc.python" version="3.0.0"/>
   <import addon="script.module.requests" version="2.18.4"/>
   <import addon="script.module.inputstreamhelper" version="0.3.3"/>
 </requires>
