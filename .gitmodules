@@ -157,6 +157,7 @@
 [submodule "plugin.video.sl"]
 	path = plugin.video.sl
 	url = https://github.com/Sorien/plugin.video.sl.git
+	branch = Leia
 [submodule "plugin.video.mall.tv"]
 	path = plugin.video.mall.tv
 	url = https://github.com/koudi/plugin.video.mall.tv.git
