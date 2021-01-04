@@ -619,7 +619,7 @@ v0.6.0(24.2.2019)
     </extension>
 </addon>
 
-<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.0.1" provider-name="Tomas Janciga">
+<addon id="plugin.video.tv.lux.sk" name="TV Lux" version="0.1.2" provider-name="Tomas Janciga">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.stream.resolver" version="1.6.22" />
@@ -641,28 +641,30 @@ v0.6.0(24.2.2019)
 
 <addon id="plugin.video.tv.sme.sk"
        name="TV SME.sk"
-       version="1.0.3"
+       version="1.0.9"
        provider-name="Radim Stoklasa">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.dmd-czech.common" version="1.5.5"/>
+    <import addon="plugin.video.youtube" version="6.0.0"/>
+    <import addon="script.module.elementtree" version="1.2.7" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary>TV SME.sk video-archive plugin</summary>
-    <summary lang="sk">Internetová televízia SME.sk</summary>
-    <summary lang="cs">Internetová televize SME.sk</summary>
+    <summary>Video archive SME.sk</summary>
+    <summary lang="sk">Video archív SME.sk</summary>
+    <summary lang="cs">Video archiv SME.sk</summary>
     <description>
-        Plugin to play TV video archive tv.sme.sk
+        Plugin to play video archive video.sme.sk
     </description>
     <description lang="cs">
-        Plugin pro přehrávání videí z archivu tv.sme.sk
+        Plugin pro přehrávání videí z archivu video.sme.sk
     </description>
     <description lang="sk">
-        Plugin pre prehrávenie videí z archívu tv.sme.sk
+        Plugin pre prehrávenie videí z archívu video.sme.sk
     </description>
     <source>https://github.com/kodi-czsk/plugin.video.tv.sme.sk</source>
   </extension>
@@ -687,10 +689,11 @@ v0.6.0(24.2.2019)
   </extension>
 </addon>
 
-<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.14">
+<addon id="plugin.video.videacesky.cz" name="videacesky.cz" provider-name="Libor Zoubek" version="1.0.25">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.17" />
+    <import addon="script.module.youtube.dl" version="19.912.0"/>
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -723,7 +726,7 @@ v0.6.0(24.2.2019)
   </extension>
 </addon>
 
-<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.8" provider-name="Jiri Vyhnalek">
+<addon id="script.module.dmd-czech.common" name="dmd-czech common python modules" version="1.5.9" provider-name="Jiri Vyhnalek">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -736,10 +739,9 @@ v0.6.0(24.2.2019)
   </extension>
 </addon>
 
-<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.43">
+<addon id="script.module.stream.resolver" name="Stream Resolver" provider-name="Libor Zoubek" version="1.6.62">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" version="2.0.10" />
     <import addon="script.common.plugin.cache" version="2.5.5"/>
     <import addon="script.module.demjson" version="2.2.3" />
     <import addon="script.module.beautifulsoup4" version="4.3.1"/>
@@ -1117,10 +1119,11 @@ v 2.2 (27.11.2017)
   </extension>
 </addon>
 
-<addon id="plugin.video.titulkomet.cz" name="titulkomet.cz" provider-name="BrozikCZ" version="0.0.1">
+<addon id="plugin.video.titulkomet.cz" name="titulkomet.cz" provider-name="BrozikCZ" version="0.0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.stream.resolver" version="1.6.54" />
+    <import addon="script.module.stream.resolver" version="1.6.55" />
+    <import addon="script.module.youtube.dl" version="19.912.0"/>
   </requires>
   <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
     <provides>video</provides>
@@ -1128,15 +1131,17 @@ v 2.2 (27.11.2017)
   <extension point="xbmc.addon.metadata">
     <summary lang="en">titulkomet.cz</summary>
     <summary lang="cs">titulkomet.cz</summary>
+    <summary lang="sk">titulkomet.cz</summary>
     <description lang="en">Watch content from titulkomet.cz</description>
     <description lang="cs">Videa s českými titulky. Vtipná, šokující, virální, smutná, pěkná prostě všelijaká, ale jedno mají společné - budete jim rozumět.</description>
+    <description lang="sk">Videá s českými titulkami. Vtipné, šokujúce, virálne, smutné, pekné, jednoducho všelijaké, ale jedno majú spoločné - budete im rozumieť.</description>
     <platform>all</platform>
   </extension>
 </addon>
 
 <addon 	id="weather.shmu.pocasie"
 		name="SHMU.sk počasie"
-		version="0.0.5"
+		version="0.0.8"
 		provider-name="Jose Riha">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -1317,7 +1322,7 @@ v 2.2 (27.11.2017)
     <extension library="lib" point="xbmc.python.module" />
 </addon>
 
-<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.2.2" provider-name="Beam">
+<addon id="service.subtitles.titulky.com" name="Titulky.com" version="1.6.1" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="2.0.10" />
@@ -1326,14 +1331,14 @@ v 2.2 (27.11.2017)
 	<extension point="xbmc.addon.metadata">
 		<summary>Titulky.com</summary>
 		<description lang="en">Search and download subtitles from titulky.com (Czech/Slovak only)</description>
-		<description lang="cs">Vyhledavani a stahovani titulku z titulky.com</description>
-		<description lang="sk">Vyhladavanie a stahovanie titulkov z titulky.com</description>
+		<description lang="cs">Vyhledávání a stahování titulků z titulky.com</description>
+		<description lang="sk">Vyhľadávanie a sťahovanie titulkov z titulky.com</description>
 		<source>https://github.com/beam/service.subtitles.titulky.com</source>
 		<email>ondra@bimovi.cz</email>
 	</extension>
 </addon>
 
-<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.2.2" provider-name="Beam">
+<addon id="service.subtitles.serialzone.cz" name="SerialZone.cz" version="1.4.0" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
