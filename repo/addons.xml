@@ -560,13 +560,13 @@ version="1.4.2">
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.7.1">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.8.0">
     <requires>
-        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
         <import addon="script.module.pil" version="1.1.7" optional="true"/>
-        <import addon="inputstream.adaptive" version="0.0.1" optional="true"/>
-        <import addon="inputstream.rtmp" version="0.0.1" optional="true"/>
+        <import addon="inputstream.adaptive" version="2.4.5"/>
+        <import addon="inputstream.rtmp" version="2.0.9"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
         <provides>video</provides>
@@ -589,6 +589,11 @@ version="1.4.2">
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.8.0(6.1.2021)
+  - Change support to Kodi v19
+  - Won't work for older Kodi
+v0.7.2(6.1.2021)
+  - Change Pardubice team logo
 v0.7.1(2.10.2020)
   - Fix Slovak league name
 v0.7.0(11.9.2020)
