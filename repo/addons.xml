@@ -560,7 +560,7 @@ version="1.4.2">
     </extension>
 </addon>
 
-<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.8.1">
+<addon id="plugin.video.tipsport.elh" name="Tipsport ELH" provider-name="Jan Kubový" version="0.8.2">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
@@ -589,6 +589,8 @@ version="1.4.2">
             <screenshot>resources\screenshot-03.jpg</screenshot>
         </assets>
         <news>
+v0.8.2(35.1.2021)
+  - Fix Playing stream
 v0.8.1(24.1.2021)
   - Remove Quality selector
   - Add Handle some unexpected addon errors
