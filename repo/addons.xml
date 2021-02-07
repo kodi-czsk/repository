@@ -425,7 +425,7 @@ version="1.4.2">
   </extension>
 </addon>
 
-<addon id="plugin.video.rtvs.sk" name="rtvs.sk" provider-name="Maros Ondrasek" version="1.8.8">
+<addon id="plugin.video.rtvs.sk" name="rtvs.sk" provider-name="Maros Ondrasek" version="1.8.9">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.stream.resolver" version="1.6.13" />
