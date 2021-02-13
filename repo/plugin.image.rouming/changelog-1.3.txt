@@ -1,0 +1,15 @@
+[B]1.3:[/B]
+* Prechod na HTTPS
+
+[B]1.2:[/B]
+* Upravou zdrojoveho kodu je mozne zapnut Maso
+
+[B]1.1:[/B]
+* Pridanie zobrazovania .gif suborov v GIFniku
+  (vyzaduje upravu advancedsettings.xml)
+
+[B]1.0:[/B]
+* Pridany GIFnik (podpora iba pre HTML5 videa)
+
+[B]0.9:[/B]
+* Prva verejna verzia
