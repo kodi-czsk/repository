@@ -1337,7 +1337,7 @@ v 2.2 (27.11.2017)
     <extension library="lib" point="xbmc.python.module" />
 </addon>
 
-<addon id="service.subtitles.titulky.com" name="Titulky.com" version="2.0.0" provider-name="Beam">
+<addon id="service.subtitles.titulky.com" name="Titulky.com" version="2.0.1" provider-name="Beam">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.simplejson" version="3.17.0" />
