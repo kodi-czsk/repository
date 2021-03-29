@@ -1348,7 +1348,7 @@ v 2.2 (27.11.2017)
 		<description lang="en_GB">Search and download subtitles from titulky.com (Czech/Slovak only)</description>
 		<description lang="cs_CZ">Vyhledávání a stahování titulků z titulky.com</description>
 		<description lang="sk_SK">Vyhľadávanie a sťahovanie titulkov z titulky.com</description>
-		<source>https://github.com/beam/service.subtitles.titulky.com</source>
+		<source>https://github.com/beam-kodi-addons-repository/service.subtitles.titulky.com</source>
 		<email>ondra@bimovi.cz</email>
 	</extension>
 </addon>
