@@ -5,6 +5,5 @@ import xml.dom.minidom
 
 (fileName, attrName) = sys.argv[1:]
 
-xmldoc = xml.dom.minidom.parse( fileName )
-print xmldoc.childNodes[0].getAttribute( attrName )
-
+xmldoc = xml.dom.minidom.parse(fileName)
+print(xmldoc.childNodes[0].getAttribute(attrName))

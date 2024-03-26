@@ -1,4 +1,3 @@
-
 _BEAM_ = ["service.subtitles.titulky.com", "service.subtitles.serialzone.cz"]
 # list of addons that we are releasing
 
@@ -54,7 +53,7 @@ __ADDONS__ = [
     "plugin.video.sl",
     "plugin.video.mall.tv",
     "plugin.video.bombuj.filmyserialy",
-    "plugin.video.stream-cinema"
+    "plugin.video.stream-cinema",
 ] + _BEAM_
 
 import os
@@ -67,25 +66,26 @@ from addons import __ADDONS__
 
 
 def find():
-    released_addons = requests.get('http://kodi-czsk.github.io/repository/repo/addons.xml').text
+    released_addons = requests.get("http://kodi-czsk.github.io/repository/repo/addons.xml").text
     try:
-        root = ET.XML(released_addons.encode('utf-8'))
+        root = ET.XML(released_addons.encode("utf-8"))
     except:  # initially there are no addons.xml
-        print 'Failed to parse remove addons.xml - releasing everything'
+        print("Failed to parse remove addons.xml - releasing everything")
         return __ADDONS__
     to_release = []
     for id in __ADDONS__:
-        released = root.find('addon[@id=\"%s\"]' % id)
+        released = root.find('addon[@id="%s"]' % id)
         if released == None:
             to_release.append(id)
             continue
-        released_version = released.get('version')
-        xmldoc = ET.parse(os.path.join(id, 'addon.xml'))
-        new_version = xmldoc.getroot().get('version')
+        released_version = released.get("version")
+        xmldoc = ET.parse(os.path.join(id, "addon.xml"))
+        new_version = xmldoc.getroot().get("version")
         if not released_version == new_version:
             to_release.append(id)
     return to_release
 
+
 if __name__ == "__main__":
     for id in find():
-        print "Addon %s " % id
+        print(f"Addon {id}")
