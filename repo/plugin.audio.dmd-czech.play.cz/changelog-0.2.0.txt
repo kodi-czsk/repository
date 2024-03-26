@@ -1,0 +1,10 @@
+2014-10-25
+ * Pridani statistik
+ v0.1.2
+[2014-02-14] - Vydani do repozitare / Release
+
+v0.1.1
+[2014-02-14] - Prvni verze / Initial version
+
+v0.2.0
+[2023-10-10] - Port na Python 3 a Kodi 19 Matrix. Zjednodušení interfacu, automaticky přehraje stream s nejvyšším bitratem.
